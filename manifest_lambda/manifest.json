@@ -1,0 +1,313 @@
+{
+  "type": "Manifest",
+  "id": "presentation-iiif.library.nd.edu/manifest/1934.007.001",
+  "label": {
+    "en": [
+      "Coronation of the Virgin"
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://image-iiif.library.nd.edu/iiif/2/1934.007.001%2F1934_007_001-v0003/full/250,/0/default.jpg",
+      "type": "Image",
+      "service": [
+        {
+          "id": "https://image-iiif.library.nd.edu/iiif/2/1934.007.001%2F1934_007_001-v0003",
+          "type": "ImageService2",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "type": "Canvas",
+      "id": "presentation-iiif.library.nd.edu/canvas/1934.007.001/1934_007_001-v0003.tif",
+      "label": {
+        "en": [
+          "1934.007.001/1934_007_001-v0003.tif"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://image-iiif.library.nd.edu/iiif/2/1934.007.001%2F1934_007_001-v0003/full/250,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "id": "https://image-iiif.library.nd.edu/iiif/2/1934.007.001%2F1934_007_001-v0003",
+              "type": "ImageService2",
+              "profile": "http://iiif.io/api/image/2/level2.json"
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "id": "presentation-iiif.library.nd.edu/annotation_page/1934.007.001/1934_007_001-v0003.tif",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "presentation-iiif.library.nd.edu/annotation/1934.007.001/1934_007_001-v0003.tif",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "presentation-iiif.library.nd.edu/canvas/1934.007.001/1934_007_001-v0003.tif",
+              "body": {
+                "id": "https://image-iiif.library.nd.edu/iiif/2/1934.007.001%2F1934_007_001-v0003/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "service": [
+                  {
+                    "id": "https://image-iiif.library.nd.edu/iiif/2/1934.007.001%2F1934_007_001-v0003",
+                    "type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Canvas",
+      "id": "presentation-iiif.library.nd.edu/canvas/1934.007.001/1934_007_001-v0001.tif",
+      "label": {
+        "en": [
+          "1934.007.001/1934_007_001-v0001.tif"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://image-iiif.library.nd.edu/iiif/2/1934.007.001%2F1934_007_001-v0001/full/250,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "id": "https://image-iiif.library.nd.edu/iiif/2/1934.007.001%2F1934_007_001-v0001",
+              "type": "ImageService2",
+              "profile": "http://iiif.io/api/image/2/level2.json"
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "id": "presentation-iiif.library.nd.edu/annotation_page/1934.007.001/1934_007_001-v0001.tif",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "presentation-iiif.library.nd.edu/annotation/1934.007.001/1934_007_001-v0001.tif",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "presentation-iiif.library.nd.edu/canvas/1934.007.001/1934_007_001-v0001.tif",
+              "body": {
+                "id": "https://image-iiif.library.nd.edu/iiif/2/1934.007.001%2F1934_007_001-v0001/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "service": [
+                  {
+                    "id": "https://image-iiif.library.nd.edu/iiif/2/1934.007.001%2F1934_007_001-v0001",
+                    "type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Canvas",
+      "id": "presentation-iiif.library.nd.edu/canvas/1934.007.001/1934_007_001-v0002.tif",
+      "label": {
+        "en": [
+          "1934.007.001/1934_007_001-v0002.tif"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://image-iiif.library.nd.edu/iiif/2/1934.007.001%2F1934_007_001-v0002/full/250,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "id": "https://image-iiif.library.nd.edu/iiif/2/1934.007.001%2F1934_007_001-v0002",
+              "type": "ImageService2",
+              "profile": "http://iiif.io/api/image/2/level2.json"
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "id": "presentation-iiif.library.nd.edu/annotation_page/1934.007.001/1934_007_001-v0002.tif",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "presentation-iiif.library.nd.edu/annotation/1934.007.001/1934_007_001-v0002.tif",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "presentation-iiif.library.nd.edu/canvas/1934.007.001/1934_007_001-v0002.tif",
+              "body": {
+                "id": "https://image-iiif.library.nd.edu/iiif/2/1934.007.001%2F1934_007_001-v0002/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "service": [
+                  {
+                    "id": "https://image-iiif.library.nd.edu/iiif/2/1934.007.001%2F1934_007_001-v0002",
+                    "type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "viewingDirection": "left-to-right"
+    }
+  ],
+  "viewingDirection": "left-to-right",
+  "@context": [
+    "http://www.w3.org/ns/anno.jsonld",
+    "https://presentation-iiif.library.nd.edu/extensions/partiallyDigitized",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "provider": [
+    {
+      "id": "https://sniteartmuseum.nd.edu/about-us/contact-us/",
+      "type": "Agent",
+      "label": {
+        "en": [
+          "Snite Museum of Art"
+        ]
+      },
+      "homepage": [
+        {
+          "id": "https://sniteartmuseum.nd.edu",
+          "type": "Text",
+          "label": {
+            "en": [
+              "Snite Museum of Art"
+            ]
+          },
+          "format": "text/html"
+        }
+      ],
+      "logo": [
+        {
+          "id": "https://sniteartmuseum.nd.edu/stylesheets/images/snite_logo@2x.png",
+          "type": "Image",
+          "format": "image/png",
+          "height": 100,
+          "width": 120
+        }
+      ]
+    }
+  ],
+  "requiredStatement": {
+    "label": {
+      "en": [
+        "Copyright"
+      ]
+    },
+    "value": {
+      "en": [
+        "Public domain"
+      ]
+    }
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Creator"
+        ]
+      },
+      "value": {
+        "en": [
+          "Unknown German artist"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Date"
+        ]
+      },
+      "value": {
+        "en": [
+          "ca. 1460"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Classification"
+        ]
+      },
+      "value": {
+        "en": [
+          "sculpture"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Accession number"
+        ]
+      },
+      "value": {
+        "en": [
+          "1934.007.001"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Subject"
+        ]
+      },
+      "value": {
+        "en": [
+          "Blessed Virgin Mary",
+          "crowns",
+          "God the Father",
+          "Jesus Christ",
+          "orbs",
+          "religion",
+          "scepters"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Dimensions"
+        ]
+      },
+      "value": {
+        "en": [
+          "42 x 35 1/4 x 12 3/4 in. (106.68 x 89.54 x 32.39 cm)"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Credit Line"
+        ]
+      },
+      "value": {
+        "en": [
+          "Gift of Mrs. F. H. Wickett"
+        ]
+      }
+    }
+  ]
+}
