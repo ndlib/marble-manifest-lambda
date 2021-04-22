@@ -4,7 +4,6 @@ import botocore
 import os
 from iiifManifest import iiifManifest
 from MetadataMappings import MetadataMappings
-from load_standard_json_into_item_class import load_standard_json_into_item_class
 import sentry_sdk
 from sentry_sdk.integrations.aws_lambda import AwsLambdaIntegration
 from graphql import query_appsync, build_manifest_query, build_file_query
@@ -22,8 +21,8 @@ def run(event, context):
     graphql_url = _get_ssm_parameter(os.environ.get('GRAPHQL_API_URL_KEY_PATH'))
     graphql_key = _get_ssm_parameter(os.environ.get('GRAPHQL_API_KEY_KEY_PATH'))
     iiif_base_url = os.environ.get('IIIF_API_BASE_URL', '')
-    resource = event.get('resource')
-    id = event.get("id")
+    resource = event.get('resource', "").replace("{id}", "").replace("/", "")
+    id = event.get("pathParameters", {}).get("id", "").replace("%2F", "/")
     manifest_json = {}
 
     if graphql_url and graphql_key and iiif_base_url and resource and id:
@@ -32,6 +31,8 @@ def run(event, context):
                 print("manifest_query = ", build_manifest_query(id))
                 standard_json = query_appsync(graphql_url, graphql_key, build_manifest_query(id)).get('data', {}).get('getItem')
                 print("standard_json =", standard_json)
+                with open(id + '.standard.json', 'w') as output_file:
+                    json.dump(standard_json, output_file, indent=2)
                 manifest_json = get_manifest(id, standard_json, iiif_base_url)
             elif resource in ('canvas', 'annotation_page', 'annotation'):  # This assumes the canvas is named with the full file id, including extension
                 standard_json = query_appsync(graphql_url, graphql_key, build_file_query(id)).get('data', {}).get('getFile')
@@ -69,9 +70,8 @@ def build_http_results(manifest_json: dict) -> dict:
 def get_manifest(id: str, standard_json: dict, iiif_base_url: str):
     manifest = {}
     if standard_json and iiif_base_url:
-        parent = load_standard_json_into_item_class(id, standard_json)
-        mapping = MetadataMappings(parent)
-        iiif = iiifManifest(iiif_base_url, parent, mapping)
+        mapping_template = MetadataMappings(standard_json.get('sourceSystem', 'aleph')).standard_json_mapping
+        iiif = iiifManifest(iiif_base_url, standard_json, mapping_template)
         manifest = iiif.manifest()
     return manifest
 
@@ -88,8 +88,13 @@ def _get_ssm_parameter(name: str) -> str:
         return None
 
 
-# aws-vault exec testlibnd-superAdmin
 # python -c 'from handler import *; test()'
+
+# export GRAPHQL_API_URL_KEY_PATH=/all/stacks/steve-maintain-metadata/graphql-api-url
+# export GRAPHQL_API_KEY_KEY_PATH=/all/stacks/steve-maintain-metadata/graphql-api-key
+# export IIIF_API_BASE_URL=presentation-iiif.library.nd.edu
+# aws-vault exec testlibnd-superAdmin
+
 
 # export GRAPHQL_API_URL_KEY_PATH=/all/stacks/marbleb-prod-maintain-metadata/graphql-api-url
 # export GRAPHQL_API_KEY_KEY_PATH=/all/stacks/marbleb-prod-maintain-metadata/graphql-api-key
@@ -101,10 +106,10 @@ def test():
     # import pprint
     # pp = pprint.PrettyPrinter(indent=4)
     event = {}
-    event['resource'] = 'manifest'
-    event['id'] = 'BPP1001_EAD'
-    event['id'] = 'MSNEa8006_EAD'
-    event['id'] = '1934.007.001'
+    event['resource'] = '/manifest/{id}'
+    event['pathParameters'] = {"id": "BPP1001_EAD"}
+    # event['id'] = 'MSNEa8006_EAD'
+    # event['id'] = '1934.007.001'
     # event['id'] = 'aspace_8177830828c061f66a16bb593fa13af1'
 
     # event['resource'] = 'canvas'

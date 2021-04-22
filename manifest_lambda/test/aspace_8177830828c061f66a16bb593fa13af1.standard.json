@@ -1,0 +1,32 @@
+{
+  "createdDate": "1860",
+  "defaultFilePath": "collections/ead_xml/images/BPP_1001/BPP_1001-001.jpg",
+  "id": "aspace_8177830828c061f66a16bb593fa13af1",
+  "level": "manifest",
+  "parentId": "BPP1001_EAD",
+  "parent": {
+    "level": "collection"
+  },
+  "repository": "RARE",
+  "sourceSystem": "ArchivesSpace",
+  "subjects": [],
+  "title": "\"The Aquital of Robert Kelly\"",
+  "uniqueIdentifier": "BPP 1001-001",
+  "children": {
+    "items": []
+  },
+  "files": {
+    "items": [
+      {
+        "id": "collections/ead_xml/images/BPP_1001/BPP_1001-001-F2.tif",
+        "mediaResourceId": "collections%2Fead_xml%2Fimages%2FBPP_1001%2FBPP_1001-001-F2",
+        "mediaServer": "https://image-iiif.library.nd.edu/iiif/2"
+      },
+      {
+        "id": "collections/ead_xml/images/BPP_1001/BPP_1001-001.tif",
+        "mediaResourceId": "collections%2Fead_xml%2Fimages%2FBPP_1001%2FBPP_1001-001",
+        "mediaServer": "https://image-iiif.library.nd.edu/iiif/2"
+      }
+    ]
+  }
+}

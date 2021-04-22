@@ -4,18 +4,18 @@ from pathlib import Path
 
 class MetadataMappings():
 
-    def __init__(self, data):
-        self.data = data
-        self.provider = data.repository()
+    def __init__(self, source_system: str):
+        # self.data = data
+        # self.provider = data.repository()
+        self.source_system = source_system
+        if not self.source_system:
+            source_system = 'aleph'
         self.lookup = self.loadMetadataRules()
+        self.standard_json_mapping = self.standard_json
 
     def loadMetadataRules(self):
-        # self.preferred = {}
-        # self.vracore = {}
-        # self.schema = {}
-        # self.element = {}
         self.standard_json = {}
-        field_definitions_json = self.load_json_file("marble", self.provider.lower())
+        field_definitions_json = self.load_json_file("marble", self.source_system.lower())
         for key, value in field_definitions_json.items():
             line = {
                 "preferred_name": value['preferred name'],
@@ -24,32 +24,10 @@ class MetadataMappings():
                 "marble_title": value['marble display name'],
                 "required": value['required']
             }
-            # if value.get('vra mapping', False):
-            #     line["vracore"] = value['vra mapping']
-            #     self.vracore[line['vracore'].lower()] = line
-
-            # self.preferred[line['preferred_name'].lower()] = line
-            # self.schema[line['schema.org'].lower()] = line
-            # self.element[line['element'].lower()] = line
             self.standard_json[key] = line
-
-    # def get_by_prefered(self, name, field):
-    #     return self.preferred.get(name.lower()).get(field, False)
-
-    # def get_by_vracore(self, name, field):
-    #     return self.vracore.get(name.lower()).get(field, False)
-
-    # def get_by_schema(self, name, field):
-    #     return self.schema.get(name.lower()).get(field, False)
-
-    # def get_by_element(self, name, field):
-    #     return self.element.get(name.lower()).get(field, False)
 
     def get_by_standard_json(self, name, field):
         return self.standard_json.get(name).get(field, False)
-
-    # def get_prefered_keys(self):
-    #     return self.preferred.keys()
 
     def get_standard_json_keys(self):
         return self.standard_json.keys()

@@ -2,13 +2,12 @@ import os
 
 
 class iiifImage():
-    def __init__(self, data, iiif_base_url: str):
-        self.data = data
+    def __init__(self, standard_json: dict, iiif_base_url: str):
         self.iiif_base_url = iiif_base_url
+        self.standard_json = standard_json
 
     def thumbnail(self, width="250", height=""):
         if (self.is_image()):
-            # print('data = ', self.data.object)
             return {
                 'id': self._image_url_id() + '/full/' + width + ',' + height + '/0/default.jpg',
                 'type': 'Image',
@@ -20,7 +19,13 @@ class iiifImage():
         return {}
 
     def is_image(self):
-        return self.data.get('mimeType') != 'application/pdf' and os.path.splitext(self.data.get('sourceFilePath', ''))[1] != '.pdf' and os.path.splitext(self.data.get('filePath', ''))[1] != '.pdf'
+        if self.standard_json.get('mimeType') == 'application/pdf':
+            return False
+        if self.standard_json.get('defaultFilePath', '').endswith('.pdf'):
+            return False
+        if self.standard_json.get('defaultFile', {}).get('id', '').endswith('.pdf'):
+            return False
+        return True
 
     def annotation(self, canvas_url_id):
         return {
@@ -47,7 +52,7 @@ class iiifImage():
         }
 
     def _image_url_id(self):
-        return os.path.join(self.data.get('mediaServer'), self.data.get('mediaResourceId'))
+        return os.path.join(self.standard_json.get('mediaServer', ''), self.standard_json.get('mediaResourceId', ''))
 
     def _annotation_id(self):
-        return os.path.join(self.iiif_base_url, 'annotation', self.data.get('id'))
+        return os.path.join(self.iiif_base_url, 'annotation', self.standard_json.get('id', '').replace("/", "%2F"))
