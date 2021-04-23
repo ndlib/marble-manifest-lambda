@@ -61,13 +61,26 @@ class iiifManifest():
             'items': self._items(),
             'viewingDirection': 'left-to-right'
         }
-        self.add_part_of()
+        part_of = _return_part_of(self.type, self.standard_json.get('parentId'), self.standard_json.get('parent', {}).get('level'), self.iiif_base_url)
+        if part_of:
+            self.manifest_hash["partOf"] = part_of
         self.add_context()
-        self.add_provider()
-        self.add_required_statement()
-        self.add_license()
-        self.add_description()
-        self.add_width_height()
+        provider = _return_provider(self.standard_json.get('repository'), self.standard_json.get('level', 'file'))
+        if provider:
+            self.manifest_hash['provider'] = [provider]
+        required_statement = _return_required_statement(self.lang, self.standard_json.get('copyrightStatus'))
+        if required_statement:
+            self.manifest_hash['requiredStatement'] = required_statement
+        rights = _return_rights(self.standard_json.get('copyrightStatement'))
+        if rights:
+            self.manifest_hash['rights'] = rights
+        summary = _return_summary(self.lang, self.standard_json.get('description'))
+        if summary:
+            self.manifest_hash['summary'] = summary
+        if self.type == 'Canvas':  # Unconditionally add height and width to Canvas for Mirador to work (we don't have height or width in standard json yet)
+            self.manifest_hash['height'] = self.standard_json.get('height', 2000)
+            self.manifest_hash['width'] = self.standard_json.get('width', 2000)
+
         self.add_pdf()
 
         metadata = self.metadata_array()
@@ -123,17 +136,6 @@ class iiifManifest():
                 "http://iiif.io/api/presentation/3/context.json"
             ]
 
-    def add_part_of(self):
-        if self.type == 'Manifest':
-            if self.standard_json.get('parentId') != 'root' and self.standard_json.get('parent', {}).get('level'):
-                type_of_manifest_piece = 'Manifest'
-                if self.standard_json.get('parent', {}).get('level') == 'collection':
-                    type_of_manifest_piece = 'Collection'
-                self.manifest_hash["partOf"] = {
-                    "id": os.path.join(self.iiif_base_url, 'manifest', self.standard_json.get('parentId')),
-                    "type": type_of_manifest_piece
-                }
-
     def add_pdf(self):
         # if we are a manifest and we have a child that is a pdf add them to a render section.
         if self.type == 'Manifest':
@@ -151,27 +153,40 @@ class iiifManifest():
             if len(pdfs) > 0:
                 self.manifest_hash['rendering'] = pdfs
 
-    def add_width_height(self):
-        if self.type == 'Canvas':  # Unconditionally add height and width to Canvas for Mirador to work
-            self.manifest_hash['height'] = self.standard_json.get('height', 2000)
-            self.manifest_hash['width'] = self.standard_json.get('width', 2000)
 
-    def add_description(self):
-        if self.standard_json.get('description'):
-            self.manifest_hash['summary'] = _lang_wrapper(self.lang, self.standard_json.get('description'))
+def _return_summary(lang: str, description: str) -> dict:
+    results = {}
+    if description:
+        results = _lang_wrapper(lang, description)
+    return results
 
-    def add_license(self):
-        if self.standard_json.get('copyrightStatement'):
-            self.manifest_hash['rights'] = self.standard_json.get('copyrightStatement')
 
-    def add_required_statement(self):
-        if self.standard_json.get('copyrightStatus'):
-            self.manifest_hash['requiredStatement'] = _convert_label_value(self.lang, 'Copyright', self.standard_json.get('copyrightStatus'))
+def _return_rights(copyright_statement: str) -> str:
+    rights = ''
+    if copyright_statement:
+        rights = copyright_statement
+    return rights
 
-    def add_provider(self):
-        provider = _return_provider(self.standard_json.get('repository'), self.standard_json.get('level', 'file'))
-        if provider:
-            self.manifest_hash['provider'] = [provider]
+
+def _return_required_statement(lang: str, copyright_status: str) -> dict:
+    results = {}
+    if copyright_status:
+        results = _convert_label_value(lang, 'Copyright', copyright_status)
+    return results
+
+
+def _return_part_of(manifest_type: str, parent_id: str, parent_level: str, iiif_base_url: str) -> dict:
+    part_of = {}
+    if manifest_type == 'Manifest':
+        if parent_id != 'root' and parent_level:
+            type_of_manifest_piece = 'Manifest'
+            if parent_level == 'collection':
+                type_of_manifest_piece = 'Collection'
+            part_of = {
+                "id": os.path.join(iiif_base_url, 'manifest', parent_id),
+                "type": type_of_manifest_piece
+            }
+    return part_of
 
 
 def _return_provider(repository: str, level: str) -> dict:
@@ -191,7 +206,7 @@ def _return_provider(repository: str, level: str) -> dict:
         return
 
 
-def _convert_label_value(lang: str, label, value):
+def _convert_label_value(lang: str, label: str, value) -> dict:
     if (label and value):
         return {
             'label': _lang_wrapper(lang, label),
@@ -200,7 +215,7 @@ def _convert_label_value(lang: str, label, value):
     return None
 
 
-def _lang_wrapper(lang: str, line):
+def _lang_wrapper(lang: str, line) -> dict:
     if type(line) != list:
         line = [line]
 
@@ -208,7 +223,7 @@ def _lang_wrapper(lang: str, line):
     return {lang: line}
 
 
-def _snite_proivider():
+def _snite_proivider() -> dict:
     return {
         "id": "https://sniteartmuseum.nd.edu/about-us/contact-us/",
         "type": "Agent",
@@ -233,7 +248,7 @@ def _snite_proivider():
     }
 
 
-def _rbsc_proivider():
+def _rbsc_proivider() -> dict:
     return {
         "id": "https://rarebooks.library.nd.edu/using",
         "type": "Agent",
@@ -258,7 +273,7 @@ def _rbsc_proivider():
     }
 
 
-def _archives_proivider():
+def _archives_proivider() -> dict:
     return {
         "id": "http://archives.nd.edu/about/",
         "type": "Agent",
@@ -283,7 +298,7 @@ def _archives_proivider():
     }
 
 
-def _hesb_proivider():
+def _hesb_proivider() -> dict:
     return {
         "id": "https://library.nd.edu",
         "type": "Agent",
@@ -308,16 +323,16 @@ def _hesb_proivider():
     }
 
 
-def _annotation_page_id(iiif_base_url: str, item_id: str):
+def _annotation_page_id(iiif_base_url: str, item_id: str) -> str:
     return os.path.join(iiif_base_url, 'annotation_page', item_id.replace("/", "%2F"))
 
 
-def _search_for_default_image(standard_json):
+def _search_for_default_image(standard_json) -> dict:
     for file_json in standard_json.get('files', {}).get('items', []):
         return file_json
 
 
-def _metadata_keys_that_have_top_level_values():
+def _metadata_keys_that_have_top_level_values() -> list:
     return [
         'title',
         'provider',

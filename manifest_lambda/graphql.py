@@ -78,6 +78,7 @@ def build_manifest_query(id):
                     id
                     mediaResourceId
                     mediaServer
+                    mimeType
                 }
             }
             }

@@ -5,8 +5,6 @@ from pathlib import Path
 class MetadataMappings():
 
     def __init__(self, source_system: str):
-        # self.data = data
-        # self.provider = data.repository()
         self.source_system = source_system
         if not self.source_system:
             source_system = 'aleph'
@@ -25,6 +23,7 @@ class MetadataMappings():
                 "required": value['required']
             }
             self.standard_json[key] = line
+        return self.standard_json
 
     def get_by_standard_json(self, name, field):
         return self.standard_json.get(name).get(field, False)

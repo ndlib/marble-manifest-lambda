@@ -21,6 +21,8 @@ class iiifImage():
     def is_image(self):
         if self.standard_json.get('mimeType') == 'application/pdf':
             return False
+        if self.standard_json.get('id', '').lower().endswith('.pdf'):
+            return False
         if self.standard_json.get('defaultFilePath', '').endswith('.pdf'):
             return False
         if self.standard_json.get('defaultFile', {}).get('id', '').endswith('.pdf'):
