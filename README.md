@@ -1,5 +1,5 @@
-# Hesburgh Libraries Python Template Repository
-## Description
+# Marble Manifest Lambda
+## This creates a lambda that will create pieces of a iiif Manifest on-the-fly from metadata stored in AppSync
 ## Installation
 1. Setup pyenv - https://github.com/pyenv/pyenv
 2. Setup aws-cdk - https://docs.aws.amazon.com/cdk/latest/guide/getting_started.html

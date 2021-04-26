@@ -1,0 +1,2057 @@
+{
+  "collections": null,
+  "contributors": null,
+  "copyrightStatement": "Copyright status for collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.",
+  "copyrightStatus": "",
+  "createdDate": "1790-1890",
+  "creators": null,
+  "dedication": "",
+  "defaultFilePath": null,
+  "defaultFile": null,
+  "description": "Collection consists of 559 broadsides, most measuring 28 x 11 1/2 cm. Broadsides were printed and sold in streets and at fairs and markets from the early days of printing, often by ballad singers. Many of the broadsides were printed in Dublin by P. Brereton, probably between 1860 and 1876.",
+  "dimensions": "2.7 Cubic Feet",
+  "format": "Broadsides (notices)",
+  "id": "BPP1001_EAD",
+  "languages": [
+    {
+      "display": "English"
+    }
+  ],
+  "level": "collection",
+  "linkToSource": "https://archivesspace.library.nd.edu/repositories/3/resources/1644",
+  "parentId": "root",
+  "parent": {
+    "level": null
+  },
+  "publishers": null,
+  "repository": "RARE",
+  "sourceSystem": "ArchivesSpace",
+  "subjects": [
+    {
+      "display": "Songs, Irish"
+    },
+    {
+      "display": "Ballads, Irish"
+    }
+  ],
+  "title": "Irish Broadside Ballads",
+  "uniqueIdentifier": "BPP 1001",
+  "workType": "Mixed Materials",
+  "children": {
+    "items": [
+      {
+        "id": "aspace_8177830828c061f66a16bb593fa13af1",
+        "level": "manifest",
+        "title": "\"The Aquital of Robert Kelly\"",
+        "description": null
+      },
+      {
+        "id": "aspace_0fe11eae066b0bb1d7a98b48d4b0fc14",
+        "level": "manifest",
+        "title": "\"The Admiral,\" \"I'm a Gent,\" and \"By the Sad Sea Waves\"",
+        "description": null
+      },
+      {
+        "id": "aspace_ded16ebf7e599898bfefc48a7baf732e",
+        "level": "manifest",
+        "title": "\"The Adventures of Jack O'Donohoe\"",
+        "description": null
+      },
+      {
+        "id": "aspace_3fb36a486c129211bbefd0d14c043ce7",
+        "level": "manifest",
+        "title": "\"The Adventures of Roger O'Hare\"",
+        "description": null
+      },
+      {
+        "id": "aspace_99d1477d4b1900153e697a31e3e28d86",
+        "level": "manifest",
+        "title": "\"A New Song on the American Beef and Austalian Mutton\"",
+        "description": null
+      },
+      {
+        "id": "aspace_e633627bb408d3ced026f485d0a3af66",
+        "level": "manifest",
+        "title": "\"A New Song on the Amesty Meeting in Tipperary Written by a Friend to the Cause\"",
+        "description": null
+      },
+      {
+        "id": "aspace_40b7644d14e191d1fa4d0dab4f7320ba",
+        "level": "manifest",
+        "title": "\"A New Song Called Annie Lisle\"",
+        "description": null
+      },
+      {
+        "id": "aspace_2c4ff7859de9b02f2c0fa6520360ac82",
+        "level": "manifest",
+        "title": "\"The Anniversary of the Death Of The Irish Patriots W.P. Allen Larkin, Michael O'Brien. Monday, November the 23, God Save Ireland By D. Sullivan\"",
+        "description": null
+      },
+      {
+        "id": "aspace_ff732622108e68a70330b38bc429da15",
+        "level": "manifest",
+        "title": "\"Answer to the Irish Emigrant,\" and \"Long Long Ago\"",
+        "description": null
+      },
+      {
+        "id": "aspace_320144d634829384eb81d8ab988f565a",
+        "level": "manifest",
+        "title": "\"The Artificial Flower Maker,\" and \"Plains of Waterloo\"",
+        "description": null
+      },
+      {
+        "id": "aspace_0fc1d0fb70407df56216319afc8f5a10",
+        "level": "manifest",
+        "title": "\"A New Song on the Attempt of the Life of the Very Rev. Father Ryan\"",
+        "description": null
+      },
+      {
+        "id": "aspace_37dc614a2e738cc798c31f4884c7c9be",
+        "level": "manifest",
+        "title": "\"Song from the Backwoods\"",
+        "description": null
+      },
+      {
+        "id": "aspace_8359f44e499fb858376e67e529cb32f4",
+        "level": "manifest",
+        "title": "\"The Banks of Doon,\" and \"The Bill Sticker\"",
+        "description": null
+      },
+      {
+        "id": "aspace_43cb29bf0d583bb7be41e9bd64cc5e28",
+        "level": "manifest",
+        "title": "\"Banks of the Dee\"",
+        "description": null
+      },
+      {
+        "id": "aspace_d3f4814cb0f00831043bbb0ff9ca65fb",
+        "level": "manifest",
+        "title": "\"A Much Admired Love Song Called the Banks of the Nile\"",
+        "description": null
+      },
+      {
+        "id": "aspace_bbe9459dea1c2a98fa9db144ea917a18",
+        "level": "manifest",
+        "title": "\"Lines Written on the Barley Corn\"",
+        "description": null
+      },
+      {
+        "id": "aspace_c384e35f5d5f35b00533e484f4777a32",
+        "level": "manifest",
+        "title": "\"Bill Jones,\" and \"I'm King of the Forest Glade\" (1 of 2)",
+        "description": null
+      },
+      {
+        "id": "aspace_e6811e7e2ccea1c0b96c4f75714ef38d",
+        "level": "manifest",
+        "title": "\"Bill Jones,\" and \"I'm King of the Forest Glade\" (2 of 2)",
+        "description": null
+      },
+      {
+        "id": "aspace_e95162e9cdc4af4bce8bb0b90efde96b",
+        "level": "manifest",
+        "title": "\"Billy Byrne of Ballymanus\"",
+        "description": null
+      },
+      {
+        "id": "aspace_e3345d8206f417457125a3d04292ed31",
+        "level": "manifest",
+        "title": "\"Billy O'Rorke\"",
+        "description": null
+      },
+      {
+        "id": "aspace_15e90c3d07d158151fb3681fa598cd6c",
+        "level": "manifest",
+        "title": "\"Billy Pattison\"",
+        "description": null
+      },
+      {
+        "id": "aspace_6f07838c5e2c5bb1e5940dedebe9447a",
+        "level": "manifest",
+        "title": "\"A New Song Billy Pitt and The Union\"",
+        "description": null
+      },
+      {
+        "id": "aspace_28cf8622613394d6b2d63aeac3733cb9",
+        "level": "manifest",
+        "title": "\"The Bird Alone,\" and \"The Emigrant's Farewell\"",
+        "description": null
+      },
+      {
+        "id": "aspace_927b9ef085643e5c6d7c29a6f4828dbe",
+        "level": "manifest",
+        "title": "\"A New Song on the Birth and Suffering of Our Lord and Saviour Jesus Christ\"",
+        "description": null
+      },
+      {
+        "id": "aspace_959718c5d51ff0fb87a7f91d49b5a8b0",
+        "level": "manifest",
+        "title": "\"The Blackbird of Avondale; Or, the Arrest of Parnell\"",
+        "description": null
+      },
+      {
+        "id": "aspace_22b6b5133536baede4ad58078160d424",
+        "level": "manifest",
+        "title": "\"Blow the Candle Out\"",
+        "description": null
+      },
+      {
+        "id": "aspace_b6b6bbec28d1da9e2b98f77934b7a7ae",
+        "level": "manifest",
+        "title": "\"The Blind Boy,\" and \"Come Home Father\"",
+        "description": null
+      },
+      {
+        "id": "aspace_0327d5b1ff68a0d94663882aa340f95a",
+        "level": "manifest",
+        "title": "\"A New Song Called The Bold Rake\"",
+        "description": null
+      },
+      {
+        "id": "aspace_7cbc44746de6d05248c4695951df7e8b",
+        "level": "manifest",
+        "title": "\"Bonny Moor Hen\"",
+        "description": null
+      },
+      {
+        "id": "aspace_e5952ab5e97d4ba5e9d49f42d6d3ff23",
+        "level": "manifest",
+        "title": "\"The Boys of Ballinamore\"",
+        "description": null
+      },
+      {
+        "id": "aspace_41c3b2627d036e40773a04250d56f8be",
+        "level": "manifest",
+        "title": "\"The Braes O'Gleniffer,\" and \"Henry and Nancy, Or, The Lovers' Separation\"",
+        "description": null
+      },
+      {
+        "id": "aspace_901621a799cb9f22fbb016361dc00194",
+        "level": "manifest",
+        "title": "\"Brennan on the Moor\"",
+        "description": null
+      },
+      {
+        "id": "aspace_d7ff724060c496d63e85de5016b9c0eb",
+        "level": "manifest",
+        "title": "\"Bundle and Go,\" and \"Donnely and Oliver\"",
+        "description": null
+      },
+      {
+        "id": "aspace_210898fb309af290ee152f088088f49f",
+        "level": "manifest",
+        "title": "\"Lamentable Lines on the Burning of the 'Cospatrick'\"",
+        "description": null
+      },
+      {
+        "id": "aspace_ae0fa9ca1723fd992857854fa4ecb827",
+        "level": "manifest",
+        "title": "\"Can of Spring Water\"",
+        "description": null
+      },
+      {
+        "id": "aspace_5a8b40907e6cfde460040ec9da60a73e",
+        "level": "manifest",
+        "title": "\"Can Your Mother Pay Her Rent?\"",
+        "description": null
+      },
+      {
+        "id": "aspace_7aa98e28ec20e32a714237943339d6a3",
+        "level": "manifest",
+        "title": "\"Calcutta House of Correction,\" and \"The Boy in Blue\"",
+        "description": null
+      },
+      {
+        "id": "aspace_955478120f4aebdb8c8b191758f81e55",
+        "level": "manifest",
+        "title": "\"Campbell's Farewell to Ireland\"",
+        "description": null
+      },
+      {
+        "id": "aspace_4864e937da763ed3b66d2d966c9ed246",
+        "level": "manifest",
+        "title": "\"A Much Admired Song Called Carroline of Edinborough Town\"",
+        "description": null
+      },
+      {
+        "id": "aspace_723ac151d8923702ddaecaa632103548",
+        "level": "manifest",
+        "title": "\"A New Song in Praise of The Catholic Church of Kantur\"",
+        "description": null
+      },
+      {
+        "id": "aspace_9a7343ba428b01e925090e114c4199ad",
+        "level": "manifest",
+        "title": "\"Champagne Charlie\"",
+        "description": null
+      },
+      {
+        "id": "aspace_4f9345673a7b5d19268fbf09888bb2b8",
+        "level": "manifest",
+        "title": "\"The Child's Dream,\" and \"Fortunate Factory Girl\"",
+        "description": null
+      },
+      {
+        "id": "aspace_c201346cca90a6677bd64e524e9d843d",
+        "level": "manifest",
+        "title": "\"A New Song Called the Chimney Sweeper's Wedding\"",
+        "description": null
+      },
+      {
+        "id": "aspace_698ab9963a67345aa734a180b6b21f42",
+        "level": "manifest",
+        "title": "\"Chow Bent Wedding,\" and \"Single Young Man Lodger\"",
+        "description": null
+      },
+      {
+        "id": "aspace_719a500a24e734e44fe55034acd6f0cc",
+        "level": "manifest",
+        "title": "\"The Church Bill and Downfall of Bribery\"",
+        "description": null
+      },
+      {
+        "id": "aspace_fabf84ef25c7bb64aaeb02ac09270760",
+        "level": "manifest",
+        "title": "\"A New Song Called the Coast-guard on the Isle of France\"",
+        "description": null
+      },
+      {
+        "id": "aspace_6d47fb80c62543268abeec821aff902a",
+        "level": "manifest",
+        "title": "\"A New Song Called Coburn's Challenge To Heenan\"",
+        "description": null
+      },
+      {
+        "id": "aspace_3d673a0a1886d08d9e1e0032baef177f",
+        "level": "manifest",
+        "title": "\"Colleen Dhas Crutha Na Mho\"",
+        "description": null
+      },
+      {
+        "id": "aspace_85fa7c97a4911da42f6b960f082143d3",
+        "level": "manifest",
+        "title": "\"The Collier Lads, Who Labor Underground\"",
+        "description": null
+      },
+      {
+        "id": "aspace_aa57cd96fdbebc7edbfb57c1e3d98f51",
+        "level": "manifest",
+        "title": "\"Colonel Shea of the Irish Brigade\"",
+        "description": null
+      },
+      {
+        "id": "aspace_848438846eb316d79daeaa5795bebe1d",
+        "level": "manifest",
+        "title": "\"Come Home to the Children and Me\"",
+        "description": null
+      },
+      {
+        "id": "aspace_ad9b185035d165c500f857b1166c3875",
+        "level": "manifest",
+        "title": "\"Condemned Men for the Phoenix Park Murders\"",
+        "description": null
+      },
+      {
+        "id": "aspace_2b8979ecbdcc181e70cfb9a37191901b",
+        "level": "manifest",
+        "title": "\"The Constant Farmer's Son\"",
+        "description": null
+      },
+      {
+        "id": "aspace_7a04e37939dba3e7030d8ce20bd1b327",
+        "level": "manifest",
+        "title": "\"The Constant Lovers,\" and \"Be Careful in Choosing A Wife\"",
+        "description": null
+      },
+      {
+        "id": "aspace_bc9559623f579829d48d8acaa5788122",
+        "level": "manifest",
+        "title": "\"Country Hirings,\" and \"Will You Love Me Then as Now\"",
+        "description": null
+      },
+      {
+        "id": "aspace_9f696db7e4c714b232a769b55dc1871d",
+        "level": "manifest",
+        "title": "\"A New Song on the Beauties of the County Wicklow\"",
+        "description": null
+      },
+      {
+        "id": "aspace_bcc6c57adafad6bc57f3c3f2198f3747",
+        "level": "manifest",
+        "title": "\"The Cow Eat the Piper,\" and \"Young William of the Royal Wagon Train\"",
+        "description": null
+      },
+      {
+        "id": "aspace_9f5355ba4c1edec8877ad89649338215",
+        "level": "manifest",
+        "title": "\"Crafty London Apprentice Or, Bow Bells,\" and \"Saucy Sailor Boy\"",
+        "description": null
+      },
+      {
+        "id": "aspace_f8e05a7aaf90243d5c63cb2d26e9c1a8",
+        "level": "manifest",
+        "title": "\"The Cruel Father, or, The affectionate Lover,\" and \"The Boughleen Dhoun\"",
+        "description": null
+      },
+      {
+        "id": "aspace_f95930cf4cc09bc5a8b83f03bfaedf1d",
+        "level": "manifest",
+        "title": "\"In the Days When I Was Hard Up,\" and \"Up with the Standard of England\"",
+        "description": null
+      },
+      {
+        "id": "aspace_798ecde6ff28eedbf4bece2fe706fd16",
+        "level": "manifest",
+        "title": "\"A New Song Called the Dear and Darling Boy\" (1 of 2)",
+        "description": null
+      },
+      {
+        "id": "aspace_fe367ec55504c6311a0cf0637f2cab00",
+        "level": "manifest",
+        "title": "\"A New Song Called the Dear and Darling Boy\" (2 of 2)",
+        "description": null
+      },
+      {
+        "id": "aspace_f0db752ea609a3bfed6cf4e11c42d52a",
+        "level": "manifest",
+        "title": "\"Lamentable Lines, on the Death of Joseph McMahon who was Shot in Dorset-Street, on the 28th March '82\"",
+        "description": null
+      },
+      {
+        "id": "aspace_ccf474903b51d180601886bff256d70d",
+        "level": "manifest",
+        "title": "\"A Divine Poem Written on Saint Francis Founder of the Order of the Cord\"",
+        "description": null
+      },
+      {
+        "id": "aspace_0b3844f6746c8eafba55487a4dc62603",
+        "level": "manifest",
+        "title": "\"An Elegy on the Death of the Much Lamented Doctor D. M. O'Brien\"",
+        "description": null
+      },
+      {
+        "id": "aspace_8e20031d90d6d986b0d62322ca55b585",
+        "level": "manifest",
+        "title": "\"An Elegy on the Death of the Much Lamented Very Rev. Bishop McCabe. Air 'Exile of Erin'\"",
+        "description": null
+      },
+      {
+        "id": "aspace_69f727d34c4adc7769dfe918dcec3f83",
+        "level": "manifest",
+        "title": "\"An Elegy on the Much Lamented Death of the Very Reverend Dr. Spratt. By Job Sadler\"",
+        "description": null
+      },
+      {
+        "id": "aspace_6ca7d61f61fc25a8a715b420d4efd003",
+        "level": "manifest",
+        "title": "\"Deeds of Napolean,\" \"She Died for Love, and He For Glory,\" and \"Moon is on the Waters\"",
+        "description": null
+      },
+      {
+        "id": "aspace_f69ac86164ed2aa4c7d073b07a0d5e93",
+        "level": "manifest",
+        "title": "\"The Disappointed Wife,\" and \"Gilderoy\"",
+        "description": null
+      },
+      {
+        "id": "aspace_38d9ad9b40dbefdc8024f5d9ef109946",
+        "level": "manifest",
+        "title": "\"Lines written on a Discussion, Between a Protestant Boy, and a Catholic Girl, near Dundalk, County Louth\"",
+        "description": null
+      },
+      {
+        "id": "aspace_670701c65d057252b9273a86bb345416",
+        "level": "manifest",
+        "title": "\"The Doting Old Man,\" and \"My Father's Old Farm\"",
+        "description": null
+      },
+      {
+        "id": "aspace_23dc3cc215e348f88a41bcd6bb8bb440",
+        "level": "manifest",
+        "title": "\"The Doctor Outwitted by the Black\"",
+        "description": null
+      },
+      {
+        "id": "aspace_2c1bdb406275d62b44b0d23d5aee735e",
+        "level": "manifest",
+        "title": "\"Don't Be Angry Mother,\" \"Massa's in the Cold, Cold Ground,\" and \"I am Not Angry\"",
+        "description": null
+      },
+      {
+        "id": "aspace_9543c5708b7342a41815f56ae57fa538",
+        "level": "manifest",
+        "title": "\"Donald's Return to Glencoe\"",
+        "description": null
+      },
+      {
+        "id": "aspace_c5b29c8b22550644dc187c2fec64c4f0",
+        "level": "manifest",
+        "title": "\"Donnelly and Oliver\"",
+        "description": null
+      },
+      {
+        "id": "aspace_fbc85f881bb7d0dcf7396e94840e0e9a",
+        "level": "manifest",
+        "title": "\"Donny-Brook Fair,\" and \"Lazy Society\"",
+        "description": null
+      },
+      {
+        "id": "aspace_91dfb2f9ea1cdfa3c5274374e2bf9888",
+        "level": "manifest",
+        "title": "\"Down Among the Dead Men,\" and \"The Englishman\"",
+        "description": null
+      },
+      {
+        "id": "aspace_f9d2c20a338439770097d6bc07dae58b",
+        "level": "manifest",
+        "title": "\"The Downfall of Garibaldi\"",
+        "description": null
+      },
+      {
+        "id": "aspace_b73ed3dbe253f9961959763c94905cfc",
+        "level": "manifest",
+        "title": "\"A Dream of General T.F. Burkes\"",
+        "description": null
+      },
+      {
+        "id": "aspace_5e6437543d92d6920f6369986e7bcf3e",
+        "level": "manifest",
+        "title": "\"A Dream of General T.F. Burkes\"",
+        "description": null
+      },
+      {
+        "id": "aspace_105d22cf0d60b362b2911797f1d413e0",
+        "level": "manifest",
+        "title": "\"The Drunkard Reclaimed,\" and \"The Dying Child\"",
+        "description": null
+      },
+      {
+        "id": "aspace_93d28699e2b931c3207d1090396c5d08",
+        "level": "manifest",
+        "title": "\"The Drunkard's Catechism,\" \"The Drunkard's Looking Glass,\" and \"The Farewall to Folly\"",
+        "description": null
+      },
+      {
+        "id": "aspace_cf04a173b5d6b46bcdd4c22903985a53",
+        "level": "manifest",
+        "title": "\"A New Song on the Drunken Act\"",
+        "description": null
+      },
+      {
+        "id": "aspace_9fb19d7849fdb17a49aa6db76781f9af",
+        "level": "manifest",
+        "title": "\"Dublin Jack of All Trades\"",
+        "description": null
+      },
+      {
+        "id": "aspace_b189cd20afae3efdee0ee24075dc0498",
+        "level": "manifest",
+        "title": "\"The Effects of Love,\" \"I'm Lonely Since My Mother Died,\" and \"London Agrah\"",
+        "description": null
+      },
+      {
+        "id": "aspace_0980055496e80f3f7f5059a646d823ce",
+        "level": "manifest",
+        "title": "\"A new Song on 18s. A-Week\"",
+        "description": null
+      },
+      {
+        "id": "aspace_3c81a1096e4337e6a34f9796dbe96d03",
+        "level": "manifest",
+        "title": "\"A New Song Called the Emigrant's Farewell to Donegal\"",
+        "description": null
+      },
+      {
+        "id": "aspace_014a64c3e3a65bad7e529d664f38ea41",
+        "level": "manifest",
+        "title": "\"The Emigrant's Farewell to Ireland Air Burns Farewell\"",
+        "description": null
+      },
+      {
+        "id": "aspace_4422f08b5182e0cb35bb2b9dd297508e",
+        "level": "manifest",
+        "title": "\"My Emmets No More,\" and \"Molly Bawn\"",
+        "description": null
+      },
+      {
+        "id": "aspace_2c37e0f10fad57ea642989960a850b7b",
+        "level": "manifest",
+        "title": "\"The English Courtship\"",
+        "description": null
+      },
+      {
+        "id": "aspace_410609d8476f90b6ce672ba55497d9c6",
+        "level": "manifest",
+        "title": "\"A New Song, Erin, To its Own Tune\"",
+        "description": null
+      },
+      {
+        "id": "aspace_4c4d9727de9eb71f3001d6bef0706bce",
+        "level": "manifest",
+        "title": "\"Erin's Green Linnet\" (Copy 1)",
+        "description": null
+      },
+      {
+        "id": "aspace_cc170792d27af60555a4b21eab659825",
+        "level": "manifest",
+        "title": "\"Erin's Green Linnet\" (Copy 2)",
+        "description": null
+      },
+      {
+        "id": "aspace_da7641d3e4d7afb7ae33e8601bee0a64",
+        "level": "manifest",
+        "title": "\"Evicted Farmer's Farewell\"",
+        "description": null
+      },
+      {
+        "id": "aspace_28058bded1ff01b686382431ae17e4ec",
+        "level": "manifest",
+        "title": "\"Exile of Erin\"",
+        "description": null
+      },
+      {
+        "id": "aspace_46d959d0f12e0dabead9696c707e6f0b",
+        "level": "manifest",
+        "title": "\"A New Song Called The Exiles' Return\"",
+        "description": null
+      },
+      {
+        "id": "aspace_3eccfbae716a046bb13c609c7fff9eb5",
+        "level": "manifest",
+        "title": "\"Lines on the Expected Testimonial of His Grace the Late Much Lamented Most Reverend Doctor O'Connor Bishop of Saldis By Joseph Sadler\"",
+        "description": null
+      },
+      {
+        "id": "aspace_2737eda02021d02aca0b7ea7ae6c6cb9",
+        "level": "manifest",
+        "title": "\"A Song on the Expected Triumph of Sir Domnick Corrigan at the Coming Election Over the Tories\"",
+        "description": null
+      },
+      {
+        "id": "aspace_17990580f7190cb969bf97372c90a16c",
+        "level": "manifest",
+        "title": "\"Fairlop Fair,\" and \"Albion the Pride of the Sea\"",
+        "description": null
+      },
+      {
+        "id": "aspace_fe86af855d0db383d98b7e1025fa5c85",
+        "level": "manifest",
+        "title": "\"The Farmer's Boy\"",
+        "description": null
+      },
+      {
+        "id": "aspace_37d3770e14a4fe293f3bfc309c0ffb0c",
+        "level": "manifest",
+        "title": "\"A New Song on the Farmer's Tenant-Right\"",
+        "description": null
+      },
+      {
+        "id": "aspace_350a1b67afda0de18e3b3ec21312aedb",
+        "level": "manifest",
+        "title": "\"Lamentation on the Death of Father Carlon. Who was drowned at Bundoran, the 8th of July 1869\"",
+        "description": null
+      },
+      {
+        "id": "aspace_7a0165b40c2f29796f5e7a6df759d2be",
+        "level": "manifest",
+        "title": "\"The Felon's Return to his Native Land\"",
+        "description": null
+      },
+      {
+        "id": "aspace_98ac9c184cde9acbb08ee2144430b513",
+        "level": "manifest",
+        "title": "\"A Much Admired Love Song Called the Feenian Lovers\"",
+        "description": null
+      },
+      {
+        "id": "aspace_f91f9e7e443aaf9b45e80ea39cba1c6f",
+        "level": "manifest",
+        "title": "\"Fighting on the Rhine\"",
+        "description": null
+      },
+      {
+        "id": "aspace_98d27ebc2f61adf8660ea198f7352147",
+        "level": "manifest",
+        "title": "\"The Fisherman's Daughter that Lives Over the Water,\" and \"Meet me at the Lane\"",
+        "description": null
+      },
+      {
+        "id": "aspace_293dc214357cd995fa20fe3cf06df281",
+        "level": "manifest",
+        "title": "\"Fontenoy\"",
+        "description": null
+      },
+      {
+        "id": "aspace_69a7d7d18f1b6de9f563178360f8cb95",
+        "level": "manifest",
+        "title": "\"The Gallant Farmers' Farewell to Ireland\"",
+        "description": null
+      },
+      {
+        "id": "aspace_3c42f97b6ce2006958f08a085332597a",
+        "level": "manifest",
+        "title": "\"The Game of Cards\"",
+        "description": null
+      },
+      {
+        "id": "aspace_5668787478ca773b3f80e09f2a3770a2",
+        "level": "manifest",
+        "title": "\"Garryowen\"",
+        "description": null
+      },
+      {
+        "id": "aspace_f6587d168ecb0a7abe87672b1b81c704",
+        "level": "manifest",
+        "title": "\"A New Song Called The Gay Old Hag\"",
+        "description": null
+      },
+      {
+        "id": "aspace_4e58aa25a5dcbad72b3c816198d4a167",
+        "level": "manifest",
+        "title": "\"Hymn on the General Judgment Day\"",
+        "description": null
+      },
+      {
+        "id": "aspace_f6d0fde1708a760332638567cb328f62",
+        "level": "manifest",
+        "title": "\"A New Song on the General Taxation of Our Days\"",
+        "description": null
+      },
+      {
+        "id": "aspace_7ac0d74656a85888cff88faa0da10353",
+        "level": "manifest",
+        "title": "\"Gentle Jenny Gray,\" and \"The Fashions of this Town\"",
+        "description": null
+      },
+      {
+        "id": "aspace_6744928a708fd484203cee16aa1c9e08",
+        "level": "manifest",
+        "title": "\"A New Song Called the Girl I Left Behind Me\"",
+        "description": null
+      },
+      {
+        "id": "aspace_835083c253f7a09f7ec1bd96be870d7a",
+        "level": "manifest",
+        "title": "\"The Girls of the Shire,\" and \"The Oyster Girl\"",
+        "description": null
+      },
+      {
+        "id": "aspace_e1fa963104ef083b56d4148d68e42554",
+        "level": "manifest",
+        "title": "\"The Glorious Meeting of Dublin Held in Cabra with an Account of the Bands and Banner Peace and Order of that Day For the Liberation of the Prisoner\"",
+        "description": null
+      },
+      {
+        "id": "aspace_aaabd36af92f6087d6ed0418cbbe057b",
+        "level": "manifest",
+        "title": "\"Glorious Sons of France\"",
+        "description": null
+      },
+      {
+        "id": "aspace_b39a3b5e1f01123efb5c38dacefc3e88",
+        "level": "manifest",
+        "title": "\"The Glorious Victory of John Morrissy,\" and \"Young and Single Sailor\"",
+        "description": null
+      },
+      {
+        "id": "aspace_1667fe4e03180f940c6c151d483c88d4",
+        "level": "manifest",
+        "title": "\"The Glorious Victory of Morrisey over the Russian Boy\"",
+        "description": null
+      },
+      {
+        "id": "aspace_86f88c74184f863ee9a36017d0e31d75",
+        "level": "manifest",
+        "title": "\"The Glorious Victory of Richard Dowse MP for Derry City\"",
+        "description": null
+      },
+      {
+        "id": "aspace_988f0088db648032e22685b24fe1975a",
+        "level": "manifest",
+        "title": "\"A New Song in Praise of Gort-Town by Michael Shanahan\"",
+        "description": null
+      },
+      {
+        "id": "aspace_bbda7d9b848efcda2daa60eaba35fa91",
+        "level": "manifest",
+        "title": "\"Gosport Beach,\" and \"Jolly Young Waterman\"",
+        "description": null
+      },
+      {
+        "id": "aspace_a1e322ab7011bfe605182b5b2c627231",
+        "level": "manifest",
+        "title": "\"The Grand Conversation On Napolean Arose\"",
+        "description": null
+      },
+      {
+        "id": "aspace_d1845ef04266b2f190de30e2eef36c5a",
+        "level": "manifest",
+        "title": "\"The Grand Conversation On Napolean Arose,\" and \"What's Old English Come To\"",
+        "description": null
+      },
+      {
+        "id": "aspace_57ed5f89b06a7381d32a1b485398fd39",
+        "level": "manifest",
+        "title": "\"A New Song on the Grand Procession of Father Lavell on his Removal from Partry to Cong on the 16 of October, 1869\"",
+        "description": null
+      },
+      {
+        "id": "aspace_8ca8d47c54c1988a302fc73ad6638bd3",
+        "level": "manifest",
+        "title": "\"Grand Victory of Paddy Ryan, over Joe Goss, in America (For the Heavy Championship and 400, in Gold)",
+        "description": null
+      },
+      {
+        "id": "aspace_0f376a668cfa328ef2bcb77567a1562d",
+        "level": "manifest",
+        "title": "\"My Grandmother's Chair\"",
+        "description": null
+      },
+      {
+        "id": "aspace_a81e7bb123c9bf03a9f40d5a817fcfdd",
+        "level": "manifest",
+        "title": "\"Great Fight Between Bendigo and Paddock,\" and \"Remember the Glories of Brien the Brave\"",
+        "description": null
+      },
+      {
+        "id": "aspace_abcfbf04752ed9e51153ee51ddc7f447",
+        "level": "manifest",
+        "title": "\"Lines on the Great Miracle of Our Holy Father the Pope\"",
+        "description": null
+      },
+      {
+        "id": "aspace_af1b82f961a4feca96ba1360c914231c",
+        "level": "manifest",
+        "title": "\"A New Song Called Grogan's Grove\"",
+        "description": null
+      },
+      {
+        "id": "aspace_81a579b034f63a611c9e17a69ba8ce14",
+        "level": "manifest",
+        "title": "\"Hagerty's Ball\"",
+        "description": null
+      },
+      {
+        "id": "aspace_ad1d389aed36ba409c59ee04da8d1ac5",
+        "level": "manifest",
+        "title": "\"A New Song Called the Hiring Day\"",
+        "description": null
+      },
+      {
+        "id": "aspace_f0d2194055b9d581db5d30664e5116b9",
+        "level": "manifest",
+        "title": "\"A New Song on the Hiring Fairs of Ulster\"",
+        "description": null
+      },
+      {
+        "id": "aspace_e5623a39ce13fc14cc3d7e5757ea394d",
+        "level": "manifest",
+        "title": "\"A New Song on the Hiring of the Servants\"",
+        "description": null
+      },
+      {
+        "id": "aspace_a2e781eacb5fe44c8641343d0b963212",
+        "level": "manifest",
+        "title": "\"The Holy Missioners Farewell to Thomastown\"",
+        "description": null
+      },
+      {
+        "id": "aspace_2bcde93638033a3b7196bfd07374d611",
+        "level": "manifest",
+        "title": "\"The Home Rule Man,\" and \"Though Poor I'm a Gentleman Still\"",
+        "description": null
+      },
+      {
+        "id": "aspace_d6edeeea401ad8ef851fbbd325ab9844",
+        "level": "manifest",
+        "title": "\"Homeward Bound,\" and \"Sally in our Alley\"",
+        "description": null
+      },
+      {
+        "id": "aspace_0437799da659c5fc8029900057e492b2",
+        "level": "manifest",
+        "title": "\"Honest Working Man,\" and \"Come, Landlord, Fill a Flowing Bowl\"",
+        "description": null
+      },
+      {
+        "id": "aspace_ce06c3fc65ca77b871789cb0dd302654",
+        "level": "manifest",
+        "title": "\"I Vowed I Never Would Leave Her\"",
+        "description": null
+      },
+      {
+        "id": "aspace_e7c62289ef80d9cf0da2b54c046aa3eb",
+        "level": "manifest",
+        "title": "\"I Wish I Was Lying Alone\"",
+        "description": null
+      },
+      {
+        "id": "aspace_6d58eb0f6a45b6a64f0fa2410e6e19b7",
+        "level": "manifest",
+        "title": "\"I've Got a Soft Place in my Head,\" and \"A New Song One Thing and the Other\"",
+        "description": null
+      },
+      {
+        "id": "aspace_aba0dbc4bc694a15adcfc7aba855efc0",
+        "level": "manifest",
+        "title": "\"A New Song on the Insanity and the Doings of The Poor Judge\"",
+        "description": null
+      },
+      {
+        "id": "aspace_7ad95992f04c8868b18520b8464c89d9",
+        "level": "manifest",
+        "title": "\"The Irish Brigade,\" and \"The Fenian Men\"",
+        "description": null
+      },
+      {
+        "id": "aspace_f868744fd9a4ba9c27d0630e1779c89a",
+        "level": "manifest",
+        "title": "\"The Irish Girls My Darling\"",
+        "description": null
+      },
+      {
+        "id": "aspace_04e2daf14abb3975a906726203018cc1",
+        "level": "manifest",
+        "title": "\"A New Song on the Irish Harvesters' Triumph over the English\"",
+        "description": null
+      },
+      {
+        "id": "aspace_d14c4fbc02377bea96494912efd6aeb0",
+        "level": "manifest",
+        "title": "\"The Irish Jaunting Car\"",
+        "description": null
+      },
+      {
+        "id": "aspace_45005c510765d2b523c9353fef9040ac",
+        "level": "manifest",
+        "title": "\"The Irish Rake\"",
+        "description": null
+      },
+      {
+        "id": "aspace_ee01dd16786e50b803268217675d4945",
+        "level": "manifest",
+        "title": "\"The Irish Tenant Farmer's Lament from Eviction from his Native Home\"",
+        "description": null
+      },
+      {
+        "id": "aspace_300a37d5c2a651226a35e71216a863f8",
+        "level": "manifest",
+        "title": "\"Isabella, the Barbar's Daughter,\" and \"The Exile's Return\"",
+        "description": null
+      },
+      {
+        "id": "aspace_d8a8976c3c11bb520b4b65dcc0cfcd60",
+        "level": "manifest",
+        "title": "\"A New Song Called Jack, You Remember the Nuts\"",
+        "description": null
+      },
+      {
+        "id": "aspace_2ad185aa03137a32b784096d5a19a353",
+        "level": "manifest",
+        "title": "\"The Jacket Green\"",
+        "description": null
+      },
+      {
+        "id": "aspace_24315110189f04dcd831eb8079c01a95",
+        "level": "manifest",
+        "title": "\"A New Song Called Jig Light Sue\"",
+        "description": null
+      },
+      {
+        "id": "aspace_b47b573afc22692395cf48219dfb9fa9",
+        "level": "manifest",
+        "title": "\"John O'Dwyer-a-Glana\"",
+        "description": null
+      },
+      {
+        "id": "aspace_2d55df624a1644cc4cb6ff0f5659fcc0",
+        "level": "manifest",
+        "title": "\"The Adventures of John Manks and His Pockmarked Cat\"",
+        "description": null
+      },
+      {
+        "id": "aspace_0e842710a78dc80df217b5cf377b943a",
+        "level": "manifest",
+        "title": "\"A New Song called John Morrissy Again in the Field? Who he is to fight on the 1st of November, 1864\"",
+        "description": null
+      },
+      {
+        "id": "aspace_80b6d1dd581ff149fce1b77c555a6f34",
+        "level": "manifest",
+        "title": "\"A New Song on the Judgment Delivered in Galway\"",
+        "description": null
+      },
+      {
+        "id": "aspace_3e4114f1cf8be4f729aa53b2aa9b614a",
+        "level": "manifest",
+        "title": "\"Just Before the Battle Mother\"",
+        "description": null
+      },
+      {
+        "id": "aspace_192e1d4cbfdbb2fe8e81803385ed5b97",
+        "level": "manifest",
+        "title": "\"Kentish Fire\"",
+        "description": null
+      },
+      {
+        "id": "aspace_26f28a6bd80ab7d52a5e99bdcb711c3e",
+        "level": "manifest",
+        "title": "\"The Kerryman's Rambles. To the County of Tipperary\"",
+        "description": null
+      },
+      {
+        "id": "aspace_3cecb47383fa346e528d10bcb682f2cf",
+        "level": "manifest",
+        "title": "\"Kiss Me, Mother, Before I Die,\" and \"I'm One of the Olden Time; or, Fifty Years Ago\"",
+        "description": null
+      },
+      {
+        "id": "aspace_0e3a8ad7950496fb0aa476243d6c4b60",
+        "level": "manifest",
+        "title": "\"The Labouring Woman,\" and \"Polly Won't You Try Me Oh!\"",
+        "description": null
+      },
+      {
+        "id": "aspace_4e643d0964d2e78b0e121696f369e09d",
+        "level": "manifest",
+        "title": "\"The Lady's Conversion to Catholicity\"",
+        "description": null
+      },
+      {
+        "id": "aspace_ebd07e87219935543e8e47fedb1d7ca3",
+        "level": "manifest",
+        "title": "\"A New Song Called the Lady's New Fashions or the Girls' Dress Caps\"",
+        "description": null
+      },
+      {
+        "id": "aspace_2afc9477b17cf9d56c73965a9ab949f3",
+        "level": "manifest",
+        "title": "\"The Lady's Petycoat\"",
+        "description": null
+      },
+      {
+        "id": "aspace_ba26ba9648e117d6e864fee3eb86de91",
+        "level": "manifest",
+        "title": "\"A Much Admired Song Entitled Lannigan's Ball\"",
+        "description": null
+      },
+      {
+        "id": "aspace_375f0684060fbb42330e903cdab8ccdf",
+        "level": "manifest",
+        "title": "\"Lark in the Morning,\" and \"Fanny Gray\"",
+        "description": null
+      },
+      {
+        "id": "aspace_20abee28f00eb61eb73302511f25cc3a",
+        "level": "manifest",
+        "title": "\"Lass of Glenshea,\" and \"Betsey of Dundee\"",
+        "description": null
+      },
+      {
+        "id": "aspace_aa0f33011b4b9717a73eb991155dfb4a",
+        "level": "manifest",
+        "title": "\"A New Song on the Last Dublin Election. Composed by Joseph Saddler\"",
+        "description": null
+      },
+      {
+        "id": "aspace_b219d252f5b287844bbb6c900c0abf0c",
+        "level": "manifest",
+        "title": "\"Lines Written on the Late Melancholy Death of T.F. Meagher\"",
+        "description": null
+      },
+      {
+        "id": "aspace_0bb5769bf83cb5838d5656518871e7a3",
+        "level": "manifest",
+        "title": "\"The Lamentation of Laurence and Margret Shields who was Executed on the 27th Day of May in Tullamore Gaol for the Murder of Patrick Dunne\"",
+        "description": null
+      },
+      {
+        "id": "aspace_e27dbe3c33065f6777cb8179f4eb0038",
+        "level": "manifest",
+        "title": "\"Lines Written on the Liberation of Barrett\"",
+        "description": null
+      },
+      {
+        "id": "aspace_d2d1dce0a3c878f7619df8b9956f5227",
+        "level": "manifest",
+        "title": "\"A New Song on the Liberation of Robert Kelly\"",
+        "description": null
+      },
+      {
+        "id": "aspace_8d1e50bce23d7eb159632b0d2d2d6c21",
+        "level": "manifest",
+        "title": "\"The Lish Young Buy-A-Broom,\" and \"The Bonnie Lassie's Answer\"",
+        "description": null
+      },
+      {
+        "id": "aspace_4f7e4007a1e96b033ba7e140a9e7dff8",
+        "level": "manifest",
+        "title": "\"The Loss of One Hero on the Plains of Waterloo\"",
+        "description": null
+      },
+      {
+        "id": "aspace_1972f34592b43e51c0199c474956e4fe",
+        "level": "manifest",
+        "title": "\"Love your Own Land\"",
+        "description": null
+      },
+      {
+        "id": "aspace_7c7af05eee1895ddcb36aba36cb5c4b8",
+        "level": "manifest",
+        "title": "\"A Much Admired Song Called the Lovely Maid of Williams Town\"",
+        "description": null
+      },
+      {
+        "id": "aspace_33856a9e24c50cfb6eb277bd123f0f82",
+        "level": "manifest",
+        "title": "\"A Much Admired Song Called the Lovers of Derry\"",
+        "description": null
+      },
+      {
+        "id": "aspace_5e797a112e17862fd38cadf6859008e6",
+        "level": "manifest",
+        "title": "\"A New Song Called the Loyal Lasses of Castlerea\"",
+        "description": null
+      },
+      {
+        "id": "aspace_5c55b256436897c60ed1af4dd45989fa",
+        "level": "manifest",
+        "title": "\"The Loyal Lovers\"",
+        "description": null
+      },
+      {
+        "id": "aspace_7f1ba78c7508cc90137e8d5b50910a2e",
+        "level": "manifest",
+        "title": "\"A New Song on Lucky Elopement\"",
+        "description": null
+      },
+      {
+        "id": "aspace_c8fb86141b9330ab844903c6509ce499",
+        "level": "manifest",
+        "title": "\"McKenna's Dream\"",
+        "description": null
+      },
+      {
+        "id": "aspace_c7e99be1c43bf78e1af24cdd36e1ac76",
+        "level": "manifest",
+        "title": "\"A New Song Called the Maid of Ballymoat\"",
+        "description": null
+      },
+      {
+        "id": "aspace_3a6c634b98f25ba4238a78eb343bac49",
+        "level": "manifest",
+        "title": "\"The Maid of BonClody\"",
+        "description": null
+      },
+      {
+        "id": "aspace_69abb52bff2efa901905bf51097b969c",
+        "level": "manifest",
+        "title": "\"The Maid of Lismore\"",
+        "description": null
+      },
+      {
+        "id": "aspace_d64b8846ea79b6f046bb6ef6b7418ced",
+        "level": "manifest",
+        "title": "\"Maid of Slievenamon\"",
+        "description": null
+      },
+      {
+        "id": "aspace_4960ae441691cfdab9697c590db6b3bd",
+        "level": "manifest",
+        "title": "\"Maid of Sweet Gurteen,\" and \"Answer to Betsy of Ballintown Brae\"",
+        "description": null
+      },
+      {
+        "id": "aspace_962d88e4db488e8f6e1f80c45367e7d6",
+        "level": "manifest",
+        "title": "\"A New Song Called the Malisia Man\"",
+        "description": null
+      },
+      {
+        "id": "aspace_f43e781cefa2b03d5b92191b978e6d20",
+        "level": "manifest",
+        "title": "\"[On board] Of The Man-of-war,\" and \"Hurrah for the Road\"",
+        "description": null
+      },
+      {
+        "id": "aspace_13edf902e91cf69298bf09f590531fe9",
+        "level": "manifest",
+        "title": "\"A New Song Called The Mantle So Green\"",
+        "description": null
+      },
+      {
+        "id": "aspace_3421b2c8c44b29ae0c0356ce1b8362de",
+        "level": "manifest",
+        "title": "\"The Mantle So Green\"",
+        "description": null
+      },
+      {
+        "id": "aspace_735a4d20e997fbd799a416ac4d065843",
+        "level": "manifest",
+        "title": "\"The Mantle So Green,\" and \"The Open Sea's My Home\"",
+        "description": null
+      },
+      {
+        "id": "aspace_e492c72e127e95824d9a22425f4ab828",
+        "level": "manifest",
+        "title": "\"My Bark is Bounding Near,\" \"Maiden, I'll Never Deceive Thee,\" \"Pirate Crew,\" \"Standard Bearer,\" \"Marble Halls,\" and \"Love Not\"",
+        "description": null
+      },
+      {
+        "id": "aspace_1f01c513fbfbe49ec736e12a4f033f77",
+        "level": "manifest",
+        "title": "\"Mary Jane, Parody on Old Log Cabin down the Lane,\" \"Out in the Moonlight,\" and \"The Hat My Father Wore!\"",
+        "description": null
+      },
+      {
+        "id": "aspace_10ffe1f4fb5b426399c9ab97d2b3aa09",
+        "level": "manifest",
+        "title": "\"Mary Melvin\"",
+        "description": null
+      },
+      {
+        "id": "aspace_18e1397ec814f198a26af62820c12556",
+        "level": "manifest",
+        "title": "\"Meeting of Tara\"",
+        "description": null
+      },
+      {
+        "id": "aspace_0cb2ab4d2a52ac34259e2ee98cb6c09c",
+        "level": "manifest",
+        "title": "\"Merry Ploughboy,\" and \"Old Soldier's Daughter\"",
+        "description": null
+      },
+      {
+        "id": "aspace_65a02c3cfeec1c647379d0c5c782bcda",
+        "level": "manifest",
+        "title": "\"The Minute-Gun at Sea,\" \"The Keel Row,\" and \"Harry Bluff\"",
+        "description": null
+      },
+      {
+        "id": "aspace_f4079112cfad41120ba14e89060959a8",
+        "level": "manifest",
+        "title": "\"Mitchell's Address\"",
+        "description": null
+      },
+      {
+        "id": "aspace_d60d590c75a5f0d6c46893492ff175fd",
+        "level": "manifest",
+        "title": "Cronan, Jeramiah, \"Lines Written on the Most Dreadful Fire that Broke out in Chicago in America\"",
+        "description": null
+      },
+      {
+        "id": "aspace_b9e9f534c1fdfb0bb25196d6b3c40a26",
+        "level": "manifest",
+        "title": "\"A New Song Called Molly My Darling Don't Leave Me\"",
+        "description": null
+      },
+      {
+        "id": "aspace_0cb426c8496d26bd1acfa57625c1693b",
+        "level": "manifest",
+        "title": "\"My Mother is a True Born Irishman,\" and \"Travelling Tinker\"",
+        "description": null
+      },
+      {
+        "id": "aspace_e79c3a37a03ff8b7cf43a2c0e1841864",
+        "level": "manifest",
+        "title": "\"Mother, Mother, Let me Kiss Thee,\" and \"After Dark\"",
+        "description": null
+      },
+      {
+        "id": "aspace_c734bfc7cbe2294ed7ae7dec3ffc8f81",
+        "level": "manifest",
+        "title": "\"A New Song in Praise of Mr. Tait and the Harbour Commissioners\"",
+        "description": null
+      },
+      {
+        "id": "aspace_0f66db6a22243d884fb0c6a1eb2ac15f",
+        "level": "manifest",
+        "title": "\"Mrs. O'Donovan Rosia's Lament for her Husband\"",
+        "description": null
+      },
+      {
+        "id": "aspace_b955f4552a84c2a0e4c7fb0f528cdd8e",
+        "level": "manifest",
+        "title": "\"Murderous Outrage and Attack on the Tenant Farmers at Douvilla in the County of Cavan\"",
+        "description": null
+      },
+      {
+        "id": "aspace_c7811f435d023e14309433be98c2f6f3",
+        "level": "manifest",
+        "title": "\"Murphy the Blighted Potatoes\"",
+        "description": null
+      },
+      {
+        "id": "aspace_ff7b7f88ab317d75b7802c6c34b45d99",
+        "level": "manifest",
+        "title": "\"Murphy is Coming\"",
+        "description": null
+      },
+      {
+        "id": "aspace_3707aea41f1e5c349dfe6914d1a66e50",
+        "level": "manifest",
+        "title": "\"O'Reilly from the Co. Cavan or the Phoenix of Erin's Green Isle\"",
+        "description": null
+      },
+      {
+        "id": "aspace_f1cfc1877f29a22ea7fdff3f774e215c",
+        "level": "manifest",
+        "title": "\"The Old Bedstead,\" \"The Noble 24th,\" and \"Home Rule for Ireland\"",
+        "description": null
+      },
+      {
+        "id": "aspace_5eab3ec5b1318ecd52249d75e8eca814",
+        "level": "manifest",
+        "title": "\"Old Dog Tray,\" and \"Good-bye, Sweetheart! Good-bye\"",
+        "description": null
+      },
+      {
+        "id": "aspace_1f418a63ba783c75627f93c1f9e9c61a",
+        "level": "manifest",
+        "title": "\"The Old Oak Tree\"",
+        "description": null
+      },
+      {
+        "id": "aspace_afc074a42907f6b1ff61bca36b9c56bf",
+        "level": "manifest",
+        "title": "\"Oleon's Ashes\" and \"Come Dwell with Me\"",
+        "description": null
+      },
+      {
+        "id": "aspace_7a4727b2774aa41a1490616243563f86",
+        "level": "manifest",
+        "title": "\"One Suit Between Two\" and \"The Scarlet Flower\"",
+        "description": null
+      },
+      {
+        "id": "aspace_849c7178b8e1cf8ac61da1ab50146279",
+        "level": "manifest",
+        "title": "\"The Organ Grinder\"",
+        "description": null
+      },
+      {
+        "id": "aspace_f86583fb0516f7319cb10e4d26c099c2",
+        "level": "manifest",
+        "title": "Purnel, William, \"Lines Written on our Patriotic Priest Father Thos. O'Mally\"",
+        "description": null
+      },
+      {
+        "id": "aspace_c64e27219c1139840b05fb1bdb1f1c00",
+        "level": "manifest",
+        "title": "\"Over the Garden Wall\"",
+        "description": null
+      },
+      {
+        "id": "aspace_db8a8bbdcced9e8c48976be0de01caab",
+        "level": "manifest",
+        "title": "\"Oyster Girl,\" \"If I Had A Thousand A Year,\" and \"Ellen the Fair\"",
+        "description": null
+      },
+      {
+        "id": "aspace_c7bcc18907f64def9ab2e91e38e56f69",
+        "level": "manifest",
+        "title": "\"Oyster Shell Bonnet and Dandy Chignauns\"",
+        "description": null
+      },
+      {
+        "id": "aspace_f2a5b67c5349b54017a51b7335f32326",
+        "level": "manifest",
+        "title": "\"The Paddington Coachman\" and \"Mary May\"",
+        "description": null
+      },
+      {
+        "id": "aspace_d028aded3cbe12f21a246942935bb3ab",
+        "level": "manifest",
+        "title": "\"Parody on Paddle Your Own Canoe\"",
+        "description": null
+      },
+      {
+        "id": "aspace_a7e1e532128dc36b551b485ea4002043",
+        "level": "manifest",
+        "title": "\"New Version of Paddle Your Own Canoe by a Sailor in the City of Waterford\"",
+        "description": null
+      },
+      {
+        "id": "aspace_2968628fa1721bf89b0f429748c45e5c",
+        "level": "manifest",
+        "title": "\"A New Song Called the Papist Ass\"",
+        "description": null
+      },
+      {
+        "id": "aspace_3d4cf95f66d7981442097a5914bcbc02",
+        "level": "manifest",
+        "title": "O'Brien, M. \"A New Song Entitled Parnell's Progress through America\"",
+        "description": null
+      },
+      {
+        "id": "aspace_6ece49dba9802b2ee9ee708521524e92",
+        "level": "manifest",
+        "title": "\"Parson and Quaker,\" \"Though Fortune Darkly Over Me Frowns,\" and \"Silly Young Maid\"",
+        "description": null
+      },
+      {
+        "id": "aspace_eb8f0f7444d9d9e63a44f12a8855f9b3",
+        "level": "manifest",
+        "title": "\"The Methodist Parson, or, Preaching for Bacon\" and \"When My Old Hat Was New\"",
+        "description": null
+      },
+      {
+        "id": "aspace_13b30b0109c8d7e92ab9df4c47581f87",
+        "level": "manifest",
+        "title": "\"Patrick Brady\"",
+        "description": null
+      },
+      {
+        "id": "aspace_34b66830b45a6bfa42ab87f0826fc315",
+        "level": "manifest",
+        "title": "\"Patrick O'Neill\"",
+        "description": null
+      },
+      {
+        "id": "aspace_f24962fd4aea456ea05bd160d47dc75e",
+        "level": "manifest",
+        "title": "\"Patrick Sheehan\"",
+        "description": null
+      },
+      {
+        "id": "aspace_70dfb530bbcd741585970f4ed860c16a",
+        "level": "manifest",
+        "title": "\"The Original Peeler and the Goat\"",
+        "description": null
+      },
+      {
+        "id": "aspace_36d83b148d09bc7d75c722bce6f4b70a",
+        "level": "manifest",
+        "title": "\"A Perfect Cure\" and \"When Bucks A-hunting Go!\"",
+        "description": null
+      },
+      {
+        "id": "aspace_7932e699f807b206406cac05e7fda8a3",
+        "level": "manifest",
+        "title": "\"The Phillipstown Murder and the Conviction of Laurence and Margret Shields\"",
+        "description": null
+      },
+      {
+        "id": "aspace_f806cb6f51f2f8aa55c1d7a909cd0aad",
+        "level": "manifest",
+        "title": "\"Pleasant Looking Wife\"",
+        "description": null
+      },
+      {
+        "id": "aspace_df6809f4216a9d513d9e6d96ccdbdd95",
+        "level": "manifest",
+        "title": "\"The Poor Little Sweep\"",
+        "description": null
+      },
+      {
+        "id": "aspace_dd7b0fbab47afa505b9f04ae987ab646",
+        "level": "manifest",
+        "title": "\"Poor Tom\"",
+        "description": null
+      },
+      {
+        "id": "aspace_15b3d1fdfe4bf286090da8aac29a2b71",
+        "level": "manifest",
+        "title": "\"A New Song Called the Poor Wanderer's Sighs and Grief on Parting His Native Land\"",
+        "description": null
+      },
+      {
+        "id": "aspace_4936ed7bba6cb8aef17bf18576ad08d3",
+        "level": "manifest",
+        "title": "\"A Pound or a Penny\" and \"Is That Mother Bending Over Me. Tune-Mother's Warning\"",
+        "description": null
+      },
+      {
+        "id": "aspace_1b6ca280307e0d0c251852762bc3006b",
+        "level": "manifest",
+        "title": "\"The Praises of Limerick\"",
+        "description": null
+      },
+      {
+        "id": "aspace_2eea1db4caacae95ad80eacebbbc59d8",
+        "level": "manifest",
+        "title": "\"A New Song Called the Pride of Ardagh Air the Lass of Gowry\"",
+        "description": null
+      },
+      {
+        "id": "aspace_848f20a8f97b7465304bdb286a779a22",
+        "level": "manifest",
+        "title": "\"A New Song Called the Queen of Love\"",
+        "description": null
+      },
+      {
+        "id": "aspace_cdcbfd5458cc7ccedbd6d42b8591df4a",
+        "level": "manifest",
+        "title": "\"A New Song Called the Rake of Rathkeal\"",
+        "description": null
+      },
+      {
+        "id": "aspace_73fa61288595fc7f9338c53d06323ba0",
+        "level": "manifest",
+        "title": "\"The Rattling Boys of Paddy's Land\"",
+        "description": null
+      },
+      {
+        "id": "aspace_9b4700743147e910104956e7915e9b72",
+        "level": "manifest",
+        "title": "\"A New Song Called the Red Haired Man's Wife\"",
+        "description": null
+      },
+      {
+        "id": "aspace_016de99082151174fdd0050a01d8bb18",
+        "level": "manifest",
+        "title": "\"Lamentation of Rilley and Mary Campbell,\" and \"Sailor Boy's Farewell to His Mother\"",
+        "description": null
+      },
+      {
+        "id": "aspace_2e171516367ab2a8a74d324903b13bf5",
+        "level": "manifest",
+        "title": "\"Reily from the Co. Kerry\"",
+        "description": null
+      },
+      {
+        "id": "aspace_ae8b9846cf6e24bc0f9266ff2c9f9a6c",
+        "level": "manifest",
+        "title": "\"A New Song on the Release of the Fenian Prisoners\"",
+        "description": null
+      },
+      {
+        "id": "aspace_605a9b9f7822878886fdee6d6d8b41d8",
+        "level": "manifest",
+        "title": "\"A New Song on the Release of the Political Prisoners\"",
+        "description": null
+      },
+      {
+        "id": "aspace_254562eba4aa638e39fc6af7afb24639",
+        "level": "manifest",
+        "title": "\"Rev. Father Tom, O'Neill\"",
+        "description": null
+      },
+      {
+        "id": "aspace_e03f8227cd5bad8b91e9ffd88f799815",
+        "level": "manifest",
+        "title": "\"The Riches of Ireland\"",
+        "description": null
+      },
+      {
+        "id": "aspace_e7407a317cd0557155df623226217580",
+        "level": "manifest",
+        "title": "\"The Riggs and Sprees of Playhouse Square and Wapping\"",
+        "description": null
+      },
+      {
+        "id": "aspace_9b647cef12972c41eaa6b2d4d2480f28",
+        "level": "manifest",
+        "title": "\"Rights of Man\"",
+        "description": null
+      },
+      {
+        "id": "aspace_ef7561ccacdae8ba75d3fbd939d3f010",
+        "level": "manifest",
+        "title": "\"The River Roe\"",
+        "description": null
+      },
+      {
+        "id": "aspace_830dda25633cee0f81770570c17c5d32",
+        "level": "manifest",
+        "title": "\"The Robber Outwitted\"",
+        "description": null
+      },
+      {
+        "id": "aspace_2328fbee05af9f658c0c3006d2f801e9",
+        "level": "manifest",
+        "title": "\"A New Song on the Royal Visit\"",
+        "description": null
+      },
+      {
+        "id": "aspace_51fbb317bbcf8155c57c61ae3e35a9e7",
+        "level": "manifest",
+        "title": "\"A Dialogue Between a Schoolmaster and Laborer\"",
+        "description": null
+      },
+      {
+        "id": "aspace_9334a6f879d9f04d2fd028c3987d1c31",
+        "level": "manifest",
+        "title": "\"Most Tragic Lines Written on the Seduction and Lamentable Death of Anny Gray\"",
+        "description": null
+      },
+      {
+        "id": "aspace_c07bf6b24e89d2ceac33426fc48d9a81",
+        "level": "manifest",
+        "title": "\"A New Song Called the Sewing Machine\"",
+        "description": null
+      },
+      {
+        "id": "aspace_f95943fc284e9c21cb64502366c08e20",
+        "level": "manifest",
+        "title": "\"The Shamrock Green\" and \"Blow the Candle Out\"",
+        "description": null
+      },
+      {
+        "id": "aspace_45330195c143377b53460eae9cbb5a51",
+        "level": "manifest",
+        "title": "\"Shelling Green Peas\"",
+        "description": null
+      },
+      {
+        "id": "aspace_a8826383d4cdbba14c9f62ba0dcb996f",
+        "level": "manifest",
+        "title": "\"A Sight for a Father\"",
+        "description": null
+      },
+      {
+        "id": "aspace_c36e7541f16cd337b56532806930647a",
+        "level": "manifest",
+        "title": "\"The Single Young Man Lodger\"",
+        "description": null
+      },
+      {
+        "id": "aspace_7cf95db2a69df7298d3fdc26877bc1cb",
+        "level": "manifest",
+        "title": "\"For Sixteen Months I Courted Her\"",
+        "description": null
+      },
+      {
+        "id": "aspace_691657f609ee26ce639b1a74adce41b0",
+        "level": "manifest",
+        "title": "\"The Skipper and Boy\" and \"Sodger Laddie\"",
+        "description": null
+      },
+      {
+        "id": "aspace_b3d598c0973d41dd8ae3a9ae6a6f675b",
+        "level": "manifest",
+        "title": "\"The Sorrowful Lamentation of Andrew Carr who was Executed on the 28 of July at Richmond Jail For the Murder of Margret Murphy\"",
+        "description": null
+      },
+      {
+        "id": "aspace_972795b1a8f501ca6c35b462261b61d2",
+        "level": "manifest",
+        "title": "\"A Sorrowful Lamentation on the Execution of Patrick Power who Suffered at the Front of Wexford Jail on the 4th of April for the Unnatural Murder of his Father\"",
+        "description": null
+      },
+      {
+        "id": "aspace_f59a959d9a1c6811806e1ceb3448befc",
+        "level": "manifest",
+        "title": "\"A Sorrowful Lamentation on the Hollywood Tragedy where Two Sisters Have Been Brutally Murdered\"",
+        "description": null
+      },
+      {
+        "id": "aspace_e96aa623360b506aecc5b9f72d2bc785",
+        "level": "manifest",
+        "title": "\"Speak of a Man as We Find Him\" and \"Bloom of Erin\"",
+        "description": null
+      },
+      {
+        "id": "aspace_939d0f8b7be838fbc71f743c9c03d3b1",
+        "level": "manifest",
+        "title": "\"A New Song on the Sporting Races of Cavan\"",
+        "description": null
+      },
+      {
+        "id": "aspace_04e5c3623805da55e7096d92f32c9ee2",
+        "level": "manifest",
+        "title": "\"A New Song on the Sporting Races of Kanturk\"",
+        "description": null
+      },
+      {
+        "id": "aspace_b4999776e60735d259b9adacf8647029",
+        "level": "manifest",
+        "title": "\"Spotted Cow\"",
+        "description": null
+      },
+      {
+        "id": "aspace_d23366c758bcbeb15137686ceee4f153",
+        "level": "manifest",
+        "title": "\"The Star of Slane\" and \"General Burke's Dream\"",
+        "description": null
+      },
+      {
+        "id": "aspace_10a11f6ff7c4247c90a469d5fd4efa8e",
+        "level": "manifest",
+        "title": "\"The Strike\" and \"Tramp! Tramp, Tramp\"",
+        "description": null
+      },
+      {
+        "id": "aspace_47ac9d106a661ada2c915cd86f399a78",
+        "level": "manifest",
+        "title": "\"Surrender of Napoleon and France Determined\"",
+        "description": null
+      },
+      {
+        "id": "aspace_fab35f22c58b23e968bdc663318a458e",
+        "level": "manifest",
+        "title": "\"The Sweet Silver Light, Bonny Moon\" and \"Beautiful Bells\"",
+        "description": null
+      },
+      {
+        "id": "aspace_a1ef3507b6a6811369eb1dfb7e4c78f1",
+        "level": "manifest",
+        "title": "\"Tara's Old Hall\"",
+        "description": null
+      },
+      {
+        "id": "aspace_bcbb1519697115b5c4034416fc3a4442",
+        "level": "manifest",
+        "title": "\"A New Song on the Taking Down of the Irish Census\"",
+        "description": null
+      },
+      {
+        "id": "aspace_8fd6082d663e59df74a1fdf406e3d1c1",
+        "level": "manifest",
+        "title": "\"Terence's Farewell\"",
+        "description": null
+      },
+      {
+        "id": "aspace_52b250fd3cfd8fc570351714c5f00253",
+        "level": "manifest",
+        "title": "\"Terence's Farewell\" and \"Irish Boy\"",
+        "description": null
+      },
+      {
+        "id": "aspace_bc45a7033e46c0a54dde46b657bcb68e",
+        "level": "manifest",
+        "title": "\"There are Kind Hearts Everywhere\" and \"Just to Show There's No Ill-Feeling\"",
+        "description": null
+      },
+      {
+        "id": "aspace_6fdf1b7398328060ec02cee0c852a144",
+        "level": "manifest",
+        "title": "\"There was a Man Named O'Sullivan Lived Near Kildare\"",
+        "description": null
+      },
+      {
+        "id": "aspace_140d866278c91f0005fd25cf892bc66f",
+        "level": "manifest",
+        "title": "\"Things I Do Like to See\" and \"The Cachuca\"",
+        "description": null
+      },
+      {
+        "id": "aspace_df089ecef24c90fc9b1052b0edbaede2",
+        "level": "manifest",
+        "title": "\"A New Song Called the Three Huntsmen's Tragedy\"",
+        "description": null
+      },
+      {
+        "id": "aspace_fbff3dfeae5e71d881fe8e17e29705ae",
+        "level": "manifest",
+        "title": "\"A New and Much Admired Song called the Three Lovers' Trip to Carrickmagat By Michael Daily\"",
+        "description": null
+      },
+      {
+        "id": "aspace_99a2ac911d995f7158aedd6e07d4fb67",
+        "level": "manifest",
+        "title": "\"A Much Admired Song Called Tie My Toes to the Bed\"",
+        "description": null
+      },
+      {
+        "id": "aspace_93c9213c0cde035335ddf1b37ed04ba5",
+        "level": "manifest",
+        "title": "\"A New Song on the Tipperary Ass\" (Copy 1)",
+        "description": null
+      },
+      {
+        "id": "aspace_46e3629bea4e2678f125d0758d4236af",
+        "level": "manifest",
+        "title": "\"A New Song on the Tipperary Ass\" (Copy 2)",
+        "description": null
+      },
+      {
+        "id": "aspace_9a55485bbd831305c5f75cbcd6353ad8",
+        "level": "manifest",
+        "title": "\"Tipperary Man's Courtship\"",
+        "description": null
+      },
+      {
+        "id": "aspace_843018209e1a4cb98521abea055f2f82",
+        "level": "manifest",
+        "title": "\"Tramp! Tramp!! Tramp!!!\"",
+        "description": null
+      },
+      {
+        "id": "aspace_46c693be0fc70a34fad8cda3a1f2d950",
+        "level": "manifest",
+        "title": "\"The True-Lover's Trip over the Mountain\"",
+        "description": null
+      },
+      {
+        "id": "aspace_f22a104daa4fc5336d7107016ef623d3",
+        "level": "manifest",
+        "title": "\"A True History of Bernard Reilly, a Returned Convict who was Transported in the Year 1824\"",
+        "description": null
+      },
+      {
+        "id": "aspace_f434c5f15c053dab876413e53a8e6236",
+        "level": "manifest",
+        "title": "\"A New Song on Unconquered Tipperary\"",
+        "description": null
+      },
+      {
+        "id": "aspace_42a22617a09ae37e1ea4e801df692a8d",
+        "level": "manifest",
+        "title": "\"Up in a Balloon\"",
+        "description": null
+      },
+      {
+        "id": "aspace_1ce33ec4c49657d09c8450f0b4b600e2",
+        "level": "manifest",
+        "title": "\"We Are Coming Sister Mary\" and \"My Bonny Lad Is Young But He's Growing\"",
+        "description": null
+      },
+      {
+        "id": "aspace_82bcddc053eedab56f99c150d249a15c",
+        "level": "manifest",
+        "title": "\"We Miss Thee at Home,\" \"Bonny Eloise,\" and \"The Dear Little Shamrock\"",
+        "description": null
+      },
+      {
+        "id": "aspace_dd0a5021d2f038883fe594b8ddf2616e",
+        "level": "manifest",
+        "title": "\"A New Song Called the Wedding Afternoon\"",
+        "description": null
+      },
+      {
+        "id": "aspace_00864f2a3ed781e0cce1982925888231",
+        "level": "manifest",
+        "title": "\"Wedding of Balyporeen\" and \"The Stage Struck Hero\"",
+        "description": null
+      },
+      {
+        "id": "aspace_8cc3c9abf940056a167ae000f9fa323e",
+        "level": "manifest",
+        "title": "\"On the Wexford Man of '98\"",
+        "description": null
+      },
+      {
+        "id": "aspace_daf5f576dbf736f23bcf5f49bd13e85b",
+        "level": "manifest",
+        "title": "\"What Can the Matter Be\" and \"Steam's Up Darkies\"",
+        "description": null
+      },
+      {
+        "id": "aspace_bf23246194e5c2305f73cf5361875c47",
+        "level": "manifest",
+        "title": "\"Where are the Friends of my Youth?,\" \"Rock Me to Sleep, Mother,\" \"What Can a Porr Maiden Do?,\" and \"The Old Oaken Bucket\"",
+        "description": null
+      },
+      {
+        "id": "aspace_9e2d34fde3499bf338713540e23ebd01",
+        "level": "manifest",
+        "title": "\"William and Eliza; Or, Lough Eene Shor\"",
+        "description": null
+      },
+      {
+        "id": "aspace_25e752519f486314dd09a4ad7c37da45",
+        "level": "manifest",
+        "title": "\"New Song Called William and Jane on the Banks of Clyde\"",
+        "description": null
+      },
+      {
+        "id": "aspace_4577313d2dfefefb1468e4d0e36e557f",
+        "level": "manifest",
+        "title": "\"A New Song on William O'Brien and the 'Mysterious Rats'\"",
+        "description": null
+      },
+      {
+        "id": "aspace_98c62f16175a62e2ad6c398801483191",
+        "level": "manifest",
+        "title": "\"A New Song Called Willy Leonard\"",
+        "description": null
+      },
+      {
+        "id": "aspace_0ce08a3d862ab168167431ec67d52fd5",
+        "level": "manifest",
+        "title": "\"Willy Reilly and his Dear Colleen Bawn\"",
+        "description": null
+      },
+      {
+        "id": "aspace_31c7445013ad1ac1664ecdfda15e9e3a",
+        "level": "manifest",
+        "title": "\"The Window\"",
+        "description": null
+      },
+      {
+        "id": "aspace_c8805b54dbf59fbb6c0d1680e012c0b8",
+        "level": "manifest",
+        "title": "\"A New Song Called Wire In and Get Your Tea Pot\"",
+        "description": null
+      },
+      {
+        "id": "aspace_e0ea96c93c4e87819ef2c9e53f3d9d78",
+        "level": "manifest",
+        "title": "\"A New Song Called the Wonders of the World\"",
+        "description": null
+      },
+      {
+        "id": "aspace_f86dc673fa853368f867afdd1f499709",
+        "level": "manifest",
+        "title": "\"Work, Boys, Work,\" and \"The Irish Excavator\"",
+        "description": null
+      },
+      {
+        "id": "aspace_9054421522d8df4e466d4d443896eb8b",
+        "level": "manifest",
+        "title": "\"Wrongs of Ireland\"",
+        "description": null
+      },
+      {
+        "id": "aspace_570b802cf3bfd1936e3042fb902ad476",
+        "level": "manifest",
+        "title": "\"You Never Can Tell\"",
+        "description": null
+      },
+      {
+        "id": "aspace_994774c49f239bd9549c4c163f6df724",
+        "level": "manifest",
+        "title": "\"An Admired Song Called Youghal Harbour\"",
+        "description": null
+      },
+      {
+        "id": "aspace_c02dfae2356543c1517fde1f92d04a0f",
+        "level": "manifest",
+        "title": "\"Young Henry of the Raging Main\" and \"Erin is my Home\"",
+        "description": null
+      },
+      {
+        "id": "aspace_46578425191b3a159627217fe7ca10bd",
+        "level": "manifest",
+        "title": "\"A New Song Called the Young Lady's Lamentation for the Loss of Her True Love\"",
+        "description": null
+      },
+      {
+        "id": "aspace_5cef0779e7553093090ac450cb3767dc",
+        "level": "manifest",
+        "title": "\"A New Song Called the Young Man in Search of his Sister\"",
+        "description": null
+      },
+      {
+        "id": "aspace_ce8e13fa490eceeb410e34113d247061",
+        "level": "manifest",
+        "title": "\"A New Song Called the Young Squire or the Counselor Outwitted\"",
+        "description": null
+      },
+      {
+        "id": "aspace_08d472adf3529ab015c9841be3fbac68",
+        "level": "manifest",
+        "title": "\"Young Volunteer! on his March to Battle\"",
+        "description": null
+      },
+      {
+        "id": "aspace_8ad655242488a44491124d1cc028c5c0",
+        "level": "manifest",
+        "title": "\"Young Woman's Wants,\" and \"Reading Made Easy\"",
+        "description": null
+      },
+      {
+        "id": "aspace_0e2c51362a5e2db374f233acb1127cd5",
+        "level": "manifest",
+        "title": "\"A New Song on the Afghan War\"",
+        "description": null
+      },
+      {
+        "id": "aspace_f7baefd701a2c8333204a090faabe887",
+        "level": "manifest",
+        "title": "\"A New Song on the Curragh Murder\"",
+        "description": null
+      },
+      {
+        "id": "aspace_3fb4c152cea800c5c00b94c0514cf061",
+        "level": "manifest",
+        "title": "\"A New Song on the Erecting of O'Connell's Monument For 1882\"",
+        "description": null
+      },
+      {
+        "id": "aspace_109cb7fdd59d3df2911b2c3068e29711",
+        "level": "manifest",
+        "title": "\"Lamentable Lines on the Execution of the Maamtrasna Murderers\"",
+        "description": null
+      },
+      {
+        "id": "aspace_874527b7023f8f2642bda26c3352c2ee",
+        "level": "manifest",
+        "title": "\"Our Latest Song - The Gems of the Land League. Air- The Gems of Old Ireland\"",
+        "description": null
+      },
+      {
+        "id": "aspace_4c86eb9e1726bdbcd8d1e75b3b1381ca",
+        "level": "manifest",
+        "title": "\"A New Song on the Happy Return of Moody and Sankey\"",
+        "description": null
+      },
+      {
+        "id": "aspace_3d321bdca11f6842e88353ec26a4af0f",
+        "level": "manifest",
+        "title": "\"Lamentable Lines on Joe. Brady and Dan. Curley\"",
+        "description": null
+      },
+      {
+        "id": "aspace_00fc8ba37623ae0fad3883ecbd12ecd9",
+        "level": "manifest",
+        "title": "\"Joseph Brady's Last Advice to the People of Ireland\"",
+        "description": null
+      },
+      {
+        "id": "aspace_9ed7b6190a59a7c14f4907934fbef07a",
+        "level": "manifest",
+        "title": "\"McKenna's Dream\"",
+        "description": null
+      },
+      {
+        "id": "aspace_08f859c344a1545e52ad9d26f63dc1ea",
+        "level": "manifest",
+        "title": "\"A New Song on the Massacre of 20,000 Roman Catholics in Syria\"",
+        "description": null
+      },
+      {
+        "id": "aspace_e0e27f124b4f256d312591740ef23bd9",
+        "level": "manifest",
+        "title": "\"Lines on the Death of Miss Fanny Parnell. Air-Exile of Erin\"",
+        "description": null
+      },
+      {
+        "id": "aspace_f9e6410706331fa05286ff38297ad8d3",
+        "level": "manifest",
+        "title": "\"Release of M. L. Davitt, (Founder of the Land League)\"",
+        "description": null
+      },
+      {
+        "id": "aspace_51f8e80a62c95f019d1fe406e652550b",
+        "level": "manifest",
+        "title": "\"Lines on the Phoenix Park Tragedy\"",
+        "description": null
+      },
+      {
+        "id": "aspace_c60b04dfb9e514b2f37b29359f052292",
+        "level": "manifest",
+        "title": "\"Poor Pat Must Emigrate. Air-'Apple Praters'\"",
+        "description": null
+      },
+      {
+        "id": "aspace_2b155af38627b612f2a0dff09006ca3d",
+        "level": "manifest",
+        "title": "\"Sights and Scenes of Dublin\"",
+        "description": null
+      },
+      {
+        "id": "aspace_383258bdd1a0c9580ff5e0a6b633057e",
+        "level": "manifest",
+        "title": "\"The Star of Erin's Isle\"",
+        "description": null
+      },
+      {
+        "id": "aspace_d5b8426fe4f787bbaea0ee7b6e22332f",
+        "level": "manifest",
+        "title": "\"The Surprising Tree of Knowledge\"",
+        "description": null
+      }
+    ]
+  },
+  "files": {
+    "items": [
+      {
+        "id": "collections/ead_xml/images/BPP_1001/BPP_1001-001.tif",
+        "mediaResourceId": "collections%2Fead_xml%2Fimages%2FBPP_1001%2FBPP_1001-001",
+        "mediaServer": "https://image-iiif-testlib.libraries.nd.edu/iiif/2"
+      }
+    ]
+  }
+}

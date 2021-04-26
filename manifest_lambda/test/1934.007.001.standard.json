@@ -1,0 +1,81 @@
+{
+  "collections": null,
+  "contributors": null,
+  "copyrightStatement": "",
+  "copyrightStatus": "Public domain",
+  "createdDate": "ca. 1460",
+  "creators": [
+    {
+      "display": "Unknown German artist"
+    }
+  ],
+  "dedication": "Gift of Mrs. F. H. Wickett",
+  "defaultFilePath": "1934.007.001/1934_007_001-v0003.tif",
+  "defaultFile": {
+    "id": "1934.007.001/1934_007_001-v0003.tif",
+    "mediaResourceId": "1934.007.001%2F1934_007_001-v0003",
+    "mediaServer": "https://image-iiif-testlib.libraries.nd.edu/iiif/2"
+  },
+  "description": "",
+  "dimensions": "42 x 35 1/4 x 12 3/4 in. (106.68 x 89.54 x 32.39 cm)",
+  "format": "",
+  "id": "1934.007.001",
+  "languages": null,
+  "level": "manifest",
+  "linkToSource": null,
+  "parentId": "root",
+  "parent": {
+    "level": null
+  },
+  "publishers": null,
+  "repository": "museum",
+  "sourceSystem": "EmbARK",
+  "subjects": [
+    {
+      "display": "Blessed Virgin Mary"
+    },
+    {
+      "display": "crowns"
+    },
+    {
+      "display": "God the Father"
+    },
+    {
+      "display": "Jesus Christ"
+    },
+    {
+      "display": "orbs"
+    },
+    {
+      "display": "religion"
+    },
+    {
+      "display": "scepters"
+    }
+  ],
+  "title": "Coronation of the Virgin",
+  "uniqueIdentifier": "1934.007.001",
+  "workType": "sculpture",
+  "children": {
+    "items": []
+  },
+  "files": {
+    "items": [
+      {
+        "id": "1934.007.001/1934_007_001-v0003.tif",
+        "mediaResourceId": "1934.007.001%2F1934_007_001-v0003",
+        "mediaServer": "https://image-iiif-testlib.libraries.nd.edu/iiif/2"
+      },
+      {
+        "id": "1934.007.001/1934_007_001-v0001.tif",
+        "mediaResourceId": "1934.007.001%2F1934_007_001-v0001",
+        "mediaServer": "https://image-iiif-testlib.libraries.nd.edu/iiif/2"
+      },
+      {
+        "id": "1934.007.001/1934_007_001-v0002.tif",
+        "mediaResourceId": "1934.007.001%2F1934_007_001-v0002",
+        "mediaServer": "https://image-iiif-testlib.libraries.nd.edu/iiif/2"
+      }
+    ]
+  }
+}

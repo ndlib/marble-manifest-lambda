@@ -1,0 +1,4226 @@
+{
+  "type": "Collection",
+  "id": "iiif-manifest.test.edu/manifest/BPP1001_EAD",
+  "label": {
+    "en": [
+      "Irish Broadside Ballads"
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://image-iiif-testlib.libraries.nd.edu/iiif/2/collections%2Fead_xml%2Fimages%2FBPP_1001%2FBPP_1001-001/full/250,/0/default.jpg",
+      "type": "Image",
+      "service": [
+        {
+          "id": "https://image-iiif-testlib.libraries.nd.edu/iiif/2/collections%2Fead_xml%2Fimages%2FBPP_1001%2FBPP_1001-001",
+          "type": "ImageService2",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_8177830828c061f66a16bb593fa13af1",
+      "label": {
+        "en": [
+          "\"The Aquital of Robert Kelly\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_0fe11eae066b0bb1d7a98b48d4b0fc14",
+      "label": {
+        "en": [
+          "\"The Admiral,\" \"I'm a Gent,\" and \"By the Sad Sea Waves\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_ded16ebf7e599898bfefc48a7baf732e",
+      "label": {
+        "en": [
+          "\"The Adventures of Jack O'Donohoe\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_3fb36a486c129211bbefd0d14c043ce7",
+      "label": {
+        "en": [
+          "\"The Adventures of Roger O'Hare\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_99d1477d4b1900153e697a31e3e28d86",
+      "label": {
+        "en": [
+          "\"A New Song on the American Beef and Austalian Mutton\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_e633627bb408d3ced026f485d0a3af66",
+      "label": {
+        "en": [
+          "\"A New Song on the Amesty Meeting in Tipperary Written by a Friend to the Cause\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_40b7644d14e191d1fa4d0dab4f7320ba",
+      "label": {
+        "en": [
+          "\"A New Song Called Annie Lisle\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_2c4ff7859de9b02f2c0fa6520360ac82",
+      "label": {
+        "en": [
+          "\"The Anniversary of the Death Of The Irish Patriots W.P. Allen Larkin, Michael O'Brien. Monday, November the 23, God Save Ireland By D. Sullivan\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_ff732622108e68a70330b38bc429da15",
+      "label": {
+        "en": [
+          "\"Answer to the Irish Emigrant,\" and \"Long Long Ago\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_320144d634829384eb81d8ab988f565a",
+      "label": {
+        "en": [
+          "\"The Artificial Flower Maker,\" and \"Plains of Waterloo\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_0fc1d0fb70407df56216319afc8f5a10",
+      "label": {
+        "en": [
+          "\"A New Song on the Attempt of the Life of the Very Rev. Father Ryan\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_37dc614a2e738cc798c31f4884c7c9be",
+      "label": {
+        "en": [
+          "\"Song from the Backwoods\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_8359f44e499fb858376e67e529cb32f4",
+      "label": {
+        "en": [
+          "\"The Banks of Doon,\" and \"The Bill Sticker\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_43cb29bf0d583bb7be41e9bd64cc5e28",
+      "label": {
+        "en": [
+          "\"Banks of the Dee\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_d3f4814cb0f00831043bbb0ff9ca65fb",
+      "label": {
+        "en": [
+          "\"A Much Admired Love Song Called the Banks of the Nile\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_bbe9459dea1c2a98fa9db144ea917a18",
+      "label": {
+        "en": [
+          "\"Lines Written on the Barley Corn\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_c384e35f5d5f35b00533e484f4777a32",
+      "label": {
+        "en": [
+          "\"Bill Jones,\" and \"I'm King of the Forest Glade\" (1 of 2)"
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_e6811e7e2ccea1c0b96c4f75714ef38d",
+      "label": {
+        "en": [
+          "\"Bill Jones,\" and \"I'm King of the Forest Glade\" (2 of 2)"
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_e95162e9cdc4af4bce8bb0b90efde96b",
+      "label": {
+        "en": [
+          "\"Billy Byrne of Ballymanus\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_e3345d8206f417457125a3d04292ed31",
+      "label": {
+        "en": [
+          "\"Billy O'Rorke\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_15e90c3d07d158151fb3681fa598cd6c",
+      "label": {
+        "en": [
+          "\"Billy Pattison\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_6f07838c5e2c5bb1e5940dedebe9447a",
+      "label": {
+        "en": [
+          "\"A New Song Billy Pitt and The Union\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_28cf8622613394d6b2d63aeac3733cb9",
+      "label": {
+        "en": [
+          "\"The Bird Alone,\" and \"The Emigrant's Farewell\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_927b9ef085643e5c6d7c29a6f4828dbe",
+      "label": {
+        "en": [
+          "\"A New Song on the Birth and Suffering of Our Lord and Saviour Jesus Christ\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_959718c5d51ff0fb87a7f91d49b5a8b0",
+      "label": {
+        "en": [
+          "\"The Blackbird of Avondale; Or, the Arrest of Parnell\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_22b6b5133536baede4ad58078160d424",
+      "label": {
+        "en": [
+          "\"Blow the Candle Out\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_b6b6bbec28d1da9e2b98f77934b7a7ae",
+      "label": {
+        "en": [
+          "\"The Blind Boy,\" and \"Come Home Father\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_0327d5b1ff68a0d94663882aa340f95a",
+      "label": {
+        "en": [
+          "\"A New Song Called The Bold Rake\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_7cbc44746de6d05248c4695951df7e8b",
+      "label": {
+        "en": [
+          "\"Bonny Moor Hen\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_e5952ab5e97d4ba5e9d49f42d6d3ff23",
+      "label": {
+        "en": [
+          "\"The Boys of Ballinamore\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_41c3b2627d036e40773a04250d56f8be",
+      "label": {
+        "en": [
+          "\"The Braes O'Gleniffer,\" and \"Henry and Nancy, Or, The Lovers' Separation\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_901621a799cb9f22fbb016361dc00194",
+      "label": {
+        "en": [
+          "\"Brennan on the Moor\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_d7ff724060c496d63e85de5016b9c0eb",
+      "label": {
+        "en": [
+          "\"Bundle and Go,\" and \"Donnely and Oliver\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_210898fb309af290ee152f088088f49f",
+      "label": {
+        "en": [
+          "\"Lamentable Lines on the Burning of the 'Cospatrick'\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_ae0fa9ca1723fd992857854fa4ecb827",
+      "label": {
+        "en": [
+          "\"Can of Spring Water\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_5a8b40907e6cfde460040ec9da60a73e",
+      "label": {
+        "en": [
+          "\"Can Your Mother Pay Her Rent?\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_7aa98e28ec20e32a714237943339d6a3",
+      "label": {
+        "en": [
+          "\"Calcutta House of Correction,\" and \"The Boy in Blue\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_955478120f4aebdb8c8b191758f81e55",
+      "label": {
+        "en": [
+          "\"Campbell's Farewell to Ireland\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_4864e937da763ed3b66d2d966c9ed246",
+      "label": {
+        "en": [
+          "\"A Much Admired Song Called Carroline of Edinborough Town\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_723ac151d8923702ddaecaa632103548",
+      "label": {
+        "en": [
+          "\"A New Song in Praise of The Catholic Church of Kantur\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_9a7343ba428b01e925090e114c4199ad",
+      "label": {
+        "en": [
+          "\"Champagne Charlie\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_4f9345673a7b5d19268fbf09888bb2b8",
+      "label": {
+        "en": [
+          "\"The Child's Dream,\" and \"Fortunate Factory Girl\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_c201346cca90a6677bd64e524e9d843d",
+      "label": {
+        "en": [
+          "\"A New Song Called the Chimney Sweeper's Wedding\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_698ab9963a67345aa734a180b6b21f42",
+      "label": {
+        "en": [
+          "\"Chow Bent Wedding,\" and \"Single Young Man Lodger\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_719a500a24e734e44fe55034acd6f0cc",
+      "label": {
+        "en": [
+          "\"The Church Bill and Downfall of Bribery\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_fabf84ef25c7bb64aaeb02ac09270760",
+      "label": {
+        "en": [
+          "\"A New Song Called the Coast-guard on the Isle of France\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_6d47fb80c62543268abeec821aff902a",
+      "label": {
+        "en": [
+          "\"A New Song Called Coburn's Challenge To Heenan\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_3d673a0a1886d08d9e1e0032baef177f",
+      "label": {
+        "en": [
+          "\"Colleen Dhas Crutha Na Mho\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_85fa7c97a4911da42f6b960f082143d3",
+      "label": {
+        "en": [
+          "\"The Collier Lads, Who Labor Underground\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_aa57cd96fdbebc7edbfb57c1e3d98f51",
+      "label": {
+        "en": [
+          "\"Colonel Shea of the Irish Brigade\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_848438846eb316d79daeaa5795bebe1d",
+      "label": {
+        "en": [
+          "\"Come Home to the Children and Me\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_ad9b185035d165c500f857b1166c3875",
+      "label": {
+        "en": [
+          "\"Condemned Men for the Phoenix Park Murders\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_2b8979ecbdcc181e70cfb9a37191901b",
+      "label": {
+        "en": [
+          "\"The Constant Farmer's Son\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_7a04e37939dba3e7030d8ce20bd1b327",
+      "label": {
+        "en": [
+          "\"The Constant Lovers,\" and \"Be Careful in Choosing A Wife\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_bc9559623f579829d48d8acaa5788122",
+      "label": {
+        "en": [
+          "\"Country Hirings,\" and \"Will You Love Me Then as Now\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_9f696db7e4c714b232a769b55dc1871d",
+      "label": {
+        "en": [
+          "\"A New Song on the Beauties of the County Wicklow\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_bcc6c57adafad6bc57f3c3f2198f3747",
+      "label": {
+        "en": [
+          "\"The Cow Eat the Piper,\" and \"Young William of the Royal Wagon Train\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_9f5355ba4c1edec8877ad89649338215",
+      "label": {
+        "en": [
+          "\"Crafty London Apprentice Or, Bow Bells,\" and \"Saucy Sailor Boy\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_f8e05a7aaf90243d5c63cb2d26e9c1a8",
+      "label": {
+        "en": [
+          "\"The Cruel Father, or, The affectionate Lover,\" and \"The Boughleen Dhoun\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_f95930cf4cc09bc5a8b83f03bfaedf1d",
+      "label": {
+        "en": [
+          "\"In the Days When I Was Hard Up,\" and \"Up with the Standard of England\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_798ecde6ff28eedbf4bece2fe706fd16",
+      "label": {
+        "en": [
+          "\"A New Song Called the Dear and Darling Boy\" (1 of 2)"
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_fe367ec55504c6311a0cf0637f2cab00",
+      "label": {
+        "en": [
+          "\"A New Song Called the Dear and Darling Boy\" (2 of 2)"
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_f0db752ea609a3bfed6cf4e11c42d52a",
+      "label": {
+        "en": [
+          "\"Lamentable Lines, on the Death of Joseph McMahon who was Shot in Dorset-Street, on the 28th March '82\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_ccf474903b51d180601886bff256d70d",
+      "label": {
+        "en": [
+          "\"A Divine Poem Written on Saint Francis Founder of the Order of the Cord\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_0b3844f6746c8eafba55487a4dc62603",
+      "label": {
+        "en": [
+          "\"An Elegy on the Death of the Much Lamented Doctor D. M. O'Brien\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_8e20031d90d6d986b0d62322ca55b585",
+      "label": {
+        "en": [
+          "\"An Elegy on the Death of the Much Lamented Very Rev. Bishop McCabe. Air 'Exile of Erin'\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_69f727d34c4adc7769dfe918dcec3f83",
+      "label": {
+        "en": [
+          "\"An Elegy on the Much Lamented Death of the Very Reverend Dr. Spratt. By Job Sadler\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_6ca7d61f61fc25a8a715b420d4efd003",
+      "label": {
+        "en": [
+          "\"Deeds of Napolean,\" \"She Died for Love, and He For Glory,\" and \"Moon is on the Waters\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_f69ac86164ed2aa4c7d073b07a0d5e93",
+      "label": {
+        "en": [
+          "\"The Disappointed Wife,\" and \"Gilderoy\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_38d9ad9b40dbefdc8024f5d9ef109946",
+      "label": {
+        "en": [
+          "\"Lines written on a Discussion, Between a Protestant Boy, and a Catholic Girl, near Dundalk, County Louth\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_670701c65d057252b9273a86bb345416",
+      "label": {
+        "en": [
+          "\"The Doting Old Man,\" and \"My Father's Old Farm\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_23dc3cc215e348f88a41bcd6bb8bb440",
+      "label": {
+        "en": [
+          "\"The Doctor Outwitted by the Black\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_2c1bdb406275d62b44b0d23d5aee735e",
+      "label": {
+        "en": [
+          "\"Don't Be Angry Mother,\" \"Massa's in the Cold, Cold Ground,\" and \"I am Not Angry\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_9543c5708b7342a41815f56ae57fa538",
+      "label": {
+        "en": [
+          "\"Donald's Return to Glencoe\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_c5b29c8b22550644dc187c2fec64c4f0",
+      "label": {
+        "en": [
+          "\"Donnelly and Oliver\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_fbc85f881bb7d0dcf7396e94840e0e9a",
+      "label": {
+        "en": [
+          "\"Donny-Brook Fair,\" and \"Lazy Society\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_91dfb2f9ea1cdfa3c5274374e2bf9888",
+      "label": {
+        "en": [
+          "\"Down Among the Dead Men,\" and \"The Englishman\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_f9d2c20a338439770097d6bc07dae58b",
+      "label": {
+        "en": [
+          "\"The Downfall of Garibaldi\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_b73ed3dbe253f9961959763c94905cfc",
+      "label": {
+        "en": [
+          "\"A Dream of General T.F. Burkes\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_5e6437543d92d6920f6369986e7bcf3e",
+      "label": {
+        "en": [
+          "\"A Dream of General T.F. Burkes\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_105d22cf0d60b362b2911797f1d413e0",
+      "label": {
+        "en": [
+          "\"The Drunkard Reclaimed,\" and \"The Dying Child\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_93d28699e2b931c3207d1090396c5d08",
+      "label": {
+        "en": [
+          "\"The Drunkard's Catechism,\" \"The Drunkard's Looking Glass,\" and \"The Farewall to Folly\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_cf04a173b5d6b46bcdd4c22903985a53",
+      "label": {
+        "en": [
+          "\"A New Song on the Drunken Act\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_9fb19d7849fdb17a49aa6db76781f9af",
+      "label": {
+        "en": [
+          "\"Dublin Jack of All Trades\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_b189cd20afae3efdee0ee24075dc0498",
+      "label": {
+        "en": [
+          "\"The Effects of Love,\" \"I'm Lonely Since My Mother Died,\" and \"London Agrah\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_0980055496e80f3f7f5059a646d823ce",
+      "label": {
+        "en": [
+          "\"A new Song on 18s. A-Week\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_3c81a1096e4337e6a34f9796dbe96d03",
+      "label": {
+        "en": [
+          "\"A New Song Called the Emigrant's Farewell to Donegal\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_014a64c3e3a65bad7e529d664f38ea41",
+      "label": {
+        "en": [
+          "\"The Emigrant's Farewell to Ireland Air Burns Farewell\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_4422f08b5182e0cb35bb2b9dd297508e",
+      "label": {
+        "en": [
+          "\"My Emmets No More,\" and \"Molly Bawn\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_2c37e0f10fad57ea642989960a850b7b",
+      "label": {
+        "en": [
+          "\"The English Courtship\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_410609d8476f90b6ce672ba55497d9c6",
+      "label": {
+        "en": [
+          "\"A New Song, Erin, To its Own Tune\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_4c4d9727de9eb71f3001d6bef0706bce",
+      "label": {
+        "en": [
+          "\"Erin's Green Linnet\" (Copy 1)"
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_cc170792d27af60555a4b21eab659825",
+      "label": {
+        "en": [
+          "\"Erin's Green Linnet\" (Copy 2)"
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_da7641d3e4d7afb7ae33e8601bee0a64",
+      "label": {
+        "en": [
+          "\"Evicted Farmer's Farewell\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_28058bded1ff01b686382431ae17e4ec",
+      "label": {
+        "en": [
+          "\"Exile of Erin\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_46d959d0f12e0dabead9696c707e6f0b",
+      "label": {
+        "en": [
+          "\"A New Song Called The Exiles' Return\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_3eccfbae716a046bb13c609c7fff9eb5",
+      "label": {
+        "en": [
+          "\"Lines on the Expected Testimonial of His Grace the Late Much Lamented Most Reverend Doctor O'Connor Bishop of Saldis By Joseph Sadler\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_2737eda02021d02aca0b7ea7ae6c6cb9",
+      "label": {
+        "en": [
+          "\"A Song on the Expected Triumph of Sir Domnick Corrigan at the Coming Election Over the Tories\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_17990580f7190cb969bf97372c90a16c",
+      "label": {
+        "en": [
+          "\"Fairlop Fair,\" and \"Albion the Pride of the Sea\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_fe86af855d0db383d98b7e1025fa5c85",
+      "label": {
+        "en": [
+          "\"The Farmer's Boy\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_37d3770e14a4fe293f3bfc309c0ffb0c",
+      "label": {
+        "en": [
+          "\"A New Song on the Farmer's Tenant-Right\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_350a1b67afda0de18e3b3ec21312aedb",
+      "label": {
+        "en": [
+          "\"Lamentation on the Death of Father Carlon. Who was drowned at Bundoran, the 8th of July 1869\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_7a0165b40c2f29796f5e7a6df759d2be",
+      "label": {
+        "en": [
+          "\"The Felon's Return to his Native Land\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_98ac9c184cde9acbb08ee2144430b513",
+      "label": {
+        "en": [
+          "\"A Much Admired Love Song Called the Feenian Lovers\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_f91f9e7e443aaf9b45e80ea39cba1c6f",
+      "label": {
+        "en": [
+          "\"Fighting on the Rhine\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_98d27ebc2f61adf8660ea198f7352147",
+      "label": {
+        "en": [
+          "\"The Fisherman's Daughter that Lives Over the Water,\" and \"Meet me at the Lane\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_293dc214357cd995fa20fe3cf06df281",
+      "label": {
+        "en": [
+          "\"Fontenoy\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_69a7d7d18f1b6de9f563178360f8cb95",
+      "label": {
+        "en": [
+          "\"The Gallant Farmers' Farewell to Ireland\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_3c42f97b6ce2006958f08a085332597a",
+      "label": {
+        "en": [
+          "\"The Game of Cards\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_5668787478ca773b3f80e09f2a3770a2",
+      "label": {
+        "en": [
+          "\"Garryowen\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_f6587d168ecb0a7abe87672b1b81c704",
+      "label": {
+        "en": [
+          "\"A New Song Called The Gay Old Hag\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_4e58aa25a5dcbad72b3c816198d4a167",
+      "label": {
+        "en": [
+          "\"Hymn on the General Judgment Day\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_f6d0fde1708a760332638567cb328f62",
+      "label": {
+        "en": [
+          "\"A New Song on the General Taxation of Our Days\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_7ac0d74656a85888cff88faa0da10353",
+      "label": {
+        "en": [
+          "\"Gentle Jenny Gray,\" and \"The Fashions of this Town\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_6744928a708fd484203cee16aa1c9e08",
+      "label": {
+        "en": [
+          "\"A New Song Called the Girl I Left Behind Me\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_835083c253f7a09f7ec1bd96be870d7a",
+      "label": {
+        "en": [
+          "\"The Girls of the Shire,\" and \"The Oyster Girl\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_e1fa963104ef083b56d4148d68e42554",
+      "label": {
+        "en": [
+          "\"The Glorious Meeting of Dublin Held in Cabra with an Account of the Bands and Banner Peace and Order of that Day For the Liberation of the Prisoner\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_aaabd36af92f6087d6ed0418cbbe057b",
+      "label": {
+        "en": [
+          "\"Glorious Sons of France\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_b39a3b5e1f01123efb5c38dacefc3e88",
+      "label": {
+        "en": [
+          "\"The Glorious Victory of John Morrissy,\" and \"Young and Single Sailor\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_1667fe4e03180f940c6c151d483c88d4",
+      "label": {
+        "en": [
+          "\"The Glorious Victory of Morrisey over the Russian Boy\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_86f88c74184f863ee9a36017d0e31d75",
+      "label": {
+        "en": [
+          "\"The Glorious Victory of Richard Dowse MP for Derry City\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_988f0088db648032e22685b24fe1975a",
+      "label": {
+        "en": [
+          "\"A New Song in Praise of Gort-Town by Michael Shanahan\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_bbda7d9b848efcda2daa60eaba35fa91",
+      "label": {
+        "en": [
+          "\"Gosport Beach,\" and \"Jolly Young Waterman\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_a1e322ab7011bfe605182b5b2c627231",
+      "label": {
+        "en": [
+          "\"The Grand Conversation On Napolean Arose\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_d1845ef04266b2f190de30e2eef36c5a",
+      "label": {
+        "en": [
+          "\"The Grand Conversation On Napolean Arose,\" and \"What's Old English Come To\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_57ed5f89b06a7381d32a1b485398fd39",
+      "label": {
+        "en": [
+          "\"A New Song on the Grand Procession of Father Lavell on his Removal from Partry to Cong on the 16 of October, 1869\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_8ca8d47c54c1988a302fc73ad6638bd3",
+      "label": {
+        "en": [
+          "\"Grand Victory of Paddy Ryan, over Joe Goss, in America (For the Heavy Championship and 400, in Gold)"
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_0f376a668cfa328ef2bcb77567a1562d",
+      "label": {
+        "en": [
+          "\"My Grandmother's Chair\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_a81e7bb123c9bf03a9f40d5a817fcfdd",
+      "label": {
+        "en": [
+          "\"Great Fight Between Bendigo and Paddock,\" and \"Remember the Glories of Brien the Brave\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_abcfbf04752ed9e51153ee51ddc7f447",
+      "label": {
+        "en": [
+          "\"Lines on the Great Miracle of Our Holy Father the Pope\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_af1b82f961a4feca96ba1360c914231c",
+      "label": {
+        "en": [
+          "\"A New Song Called Grogan's Grove\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_81a579b034f63a611c9e17a69ba8ce14",
+      "label": {
+        "en": [
+          "\"Hagerty's Ball\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_ad1d389aed36ba409c59ee04da8d1ac5",
+      "label": {
+        "en": [
+          "\"A New Song Called the Hiring Day\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_f0d2194055b9d581db5d30664e5116b9",
+      "label": {
+        "en": [
+          "\"A New Song on the Hiring Fairs of Ulster\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_e5623a39ce13fc14cc3d7e5757ea394d",
+      "label": {
+        "en": [
+          "\"A New Song on the Hiring of the Servants\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_a2e781eacb5fe44c8641343d0b963212",
+      "label": {
+        "en": [
+          "\"The Holy Missioners Farewell to Thomastown\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_2bcde93638033a3b7196bfd07374d611",
+      "label": {
+        "en": [
+          "\"The Home Rule Man,\" and \"Though Poor I'm a Gentleman Still\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_d6edeeea401ad8ef851fbbd325ab9844",
+      "label": {
+        "en": [
+          "\"Homeward Bound,\" and \"Sally in our Alley\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_0437799da659c5fc8029900057e492b2",
+      "label": {
+        "en": [
+          "\"Honest Working Man,\" and \"Come, Landlord, Fill a Flowing Bowl\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_ce06c3fc65ca77b871789cb0dd302654",
+      "label": {
+        "en": [
+          "\"I Vowed I Never Would Leave Her\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_e7c62289ef80d9cf0da2b54c046aa3eb",
+      "label": {
+        "en": [
+          "\"I Wish I Was Lying Alone\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_6d58eb0f6a45b6a64f0fa2410e6e19b7",
+      "label": {
+        "en": [
+          "\"I've Got a Soft Place in my Head,\" and \"A New Song One Thing and the Other\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_aba0dbc4bc694a15adcfc7aba855efc0",
+      "label": {
+        "en": [
+          "\"A New Song on the Insanity and the Doings of The Poor Judge\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_7ad95992f04c8868b18520b8464c89d9",
+      "label": {
+        "en": [
+          "\"The Irish Brigade,\" and \"The Fenian Men\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_f868744fd9a4ba9c27d0630e1779c89a",
+      "label": {
+        "en": [
+          "\"The Irish Girls My Darling\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_04e2daf14abb3975a906726203018cc1",
+      "label": {
+        "en": [
+          "\"A New Song on the Irish Harvesters' Triumph over the English\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_d14c4fbc02377bea96494912efd6aeb0",
+      "label": {
+        "en": [
+          "\"The Irish Jaunting Car\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_45005c510765d2b523c9353fef9040ac",
+      "label": {
+        "en": [
+          "\"The Irish Rake\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_ee01dd16786e50b803268217675d4945",
+      "label": {
+        "en": [
+          "\"The Irish Tenant Farmer's Lament from Eviction from his Native Home\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_300a37d5c2a651226a35e71216a863f8",
+      "label": {
+        "en": [
+          "\"Isabella, the Barbar's Daughter,\" and \"The Exile's Return\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_d8a8976c3c11bb520b4b65dcc0cfcd60",
+      "label": {
+        "en": [
+          "\"A New Song Called Jack, You Remember the Nuts\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_2ad185aa03137a32b784096d5a19a353",
+      "label": {
+        "en": [
+          "\"The Jacket Green\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_24315110189f04dcd831eb8079c01a95",
+      "label": {
+        "en": [
+          "\"A New Song Called Jig Light Sue\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_b47b573afc22692395cf48219dfb9fa9",
+      "label": {
+        "en": [
+          "\"John O'Dwyer-a-Glana\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_2d55df624a1644cc4cb6ff0f5659fcc0",
+      "label": {
+        "en": [
+          "\"The Adventures of John Manks and His Pockmarked Cat\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_0e842710a78dc80df217b5cf377b943a",
+      "label": {
+        "en": [
+          "\"A New Song called John Morrissy Again in the Field? Who he is to fight on the 1st of November, 1864\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_80b6d1dd581ff149fce1b77c555a6f34",
+      "label": {
+        "en": [
+          "\"A New Song on the Judgment Delivered in Galway\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_3e4114f1cf8be4f729aa53b2aa9b614a",
+      "label": {
+        "en": [
+          "\"Just Before the Battle Mother\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_192e1d4cbfdbb2fe8e81803385ed5b97",
+      "label": {
+        "en": [
+          "\"Kentish Fire\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_26f28a6bd80ab7d52a5e99bdcb711c3e",
+      "label": {
+        "en": [
+          "\"The Kerryman's Rambles. To the County of Tipperary\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_3cecb47383fa346e528d10bcb682f2cf",
+      "label": {
+        "en": [
+          "\"Kiss Me, Mother, Before I Die,\" and \"I'm One of the Olden Time; or, Fifty Years Ago\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_0e3a8ad7950496fb0aa476243d6c4b60",
+      "label": {
+        "en": [
+          "\"The Labouring Woman,\" and \"Polly Won't You Try Me Oh!\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_4e643d0964d2e78b0e121696f369e09d",
+      "label": {
+        "en": [
+          "\"The Lady's Conversion to Catholicity\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_ebd07e87219935543e8e47fedb1d7ca3",
+      "label": {
+        "en": [
+          "\"A New Song Called the Lady's New Fashions or the Girls' Dress Caps\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_2afc9477b17cf9d56c73965a9ab949f3",
+      "label": {
+        "en": [
+          "\"The Lady's Petycoat\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_ba26ba9648e117d6e864fee3eb86de91",
+      "label": {
+        "en": [
+          "\"A Much Admired Song Entitled Lannigan's Ball\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_375f0684060fbb42330e903cdab8ccdf",
+      "label": {
+        "en": [
+          "\"Lark in the Morning,\" and \"Fanny Gray\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_20abee28f00eb61eb73302511f25cc3a",
+      "label": {
+        "en": [
+          "\"Lass of Glenshea,\" and \"Betsey of Dundee\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_aa0f33011b4b9717a73eb991155dfb4a",
+      "label": {
+        "en": [
+          "\"A New Song on the Last Dublin Election. Composed by Joseph Saddler\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_b219d252f5b287844bbb6c900c0abf0c",
+      "label": {
+        "en": [
+          "\"Lines Written on the Late Melancholy Death of T.F. Meagher\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_0bb5769bf83cb5838d5656518871e7a3",
+      "label": {
+        "en": [
+          "\"The Lamentation of Laurence and Margret Shields who was Executed on the 27th Day of May in Tullamore Gaol for the Murder of Patrick Dunne\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_e27dbe3c33065f6777cb8179f4eb0038",
+      "label": {
+        "en": [
+          "\"Lines Written on the Liberation of Barrett\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_d2d1dce0a3c878f7619df8b9956f5227",
+      "label": {
+        "en": [
+          "\"A New Song on the Liberation of Robert Kelly\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_8d1e50bce23d7eb159632b0d2d2d6c21",
+      "label": {
+        "en": [
+          "\"The Lish Young Buy-A-Broom,\" and \"The Bonnie Lassie's Answer\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_4f7e4007a1e96b033ba7e140a9e7dff8",
+      "label": {
+        "en": [
+          "\"The Loss of One Hero on the Plains of Waterloo\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_1972f34592b43e51c0199c474956e4fe",
+      "label": {
+        "en": [
+          "\"Love your Own Land\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_7c7af05eee1895ddcb36aba36cb5c4b8",
+      "label": {
+        "en": [
+          "\"A Much Admired Song Called the Lovely Maid of Williams Town\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_33856a9e24c50cfb6eb277bd123f0f82",
+      "label": {
+        "en": [
+          "\"A Much Admired Song Called the Lovers of Derry\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_5e797a112e17862fd38cadf6859008e6",
+      "label": {
+        "en": [
+          "\"A New Song Called the Loyal Lasses of Castlerea\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_5c55b256436897c60ed1af4dd45989fa",
+      "label": {
+        "en": [
+          "\"The Loyal Lovers\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_7f1ba78c7508cc90137e8d5b50910a2e",
+      "label": {
+        "en": [
+          "\"A New Song on Lucky Elopement\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_c8fb86141b9330ab844903c6509ce499",
+      "label": {
+        "en": [
+          "\"McKenna's Dream\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_c7e99be1c43bf78e1af24cdd36e1ac76",
+      "label": {
+        "en": [
+          "\"A New Song Called the Maid of Ballymoat\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_3a6c634b98f25ba4238a78eb343bac49",
+      "label": {
+        "en": [
+          "\"The Maid of BonClody\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_69abb52bff2efa901905bf51097b969c",
+      "label": {
+        "en": [
+          "\"The Maid of Lismore\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_d64b8846ea79b6f046bb6ef6b7418ced",
+      "label": {
+        "en": [
+          "\"Maid of Slievenamon\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_4960ae441691cfdab9697c590db6b3bd",
+      "label": {
+        "en": [
+          "\"Maid of Sweet Gurteen,\" and \"Answer to Betsy of Ballintown Brae\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_962d88e4db488e8f6e1f80c45367e7d6",
+      "label": {
+        "en": [
+          "\"A New Song Called the Malisia Man\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_f43e781cefa2b03d5b92191b978e6d20",
+      "label": {
+        "en": [
+          "\"[On board] Of The Man-of-war,\" and \"Hurrah for the Road\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_13edf902e91cf69298bf09f590531fe9",
+      "label": {
+        "en": [
+          "\"A New Song Called The Mantle So Green\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_3421b2c8c44b29ae0c0356ce1b8362de",
+      "label": {
+        "en": [
+          "\"The Mantle So Green\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_735a4d20e997fbd799a416ac4d065843",
+      "label": {
+        "en": [
+          "\"The Mantle So Green,\" and \"The Open Sea's My Home\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_e492c72e127e95824d9a22425f4ab828",
+      "label": {
+        "en": [
+          "\"My Bark is Bounding Near,\" \"Maiden, I'll Never Deceive Thee,\" \"Pirate Crew,\" \"Standard Bearer,\" \"Marble Halls,\" and \"Love Not\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_1f01c513fbfbe49ec736e12a4f033f77",
+      "label": {
+        "en": [
+          "\"Mary Jane, Parody on Old Log Cabin down the Lane,\" \"Out in the Moonlight,\" and \"The Hat My Father Wore!\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_10ffe1f4fb5b426399c9ab97d2b3aa09",
+      "label": {
+        "en": [
+          "\"Mary Melvin\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_18e1397ec814f198a26af62820c12556",
+      "label": {
+        "en": [
+          "\"Meeting of Tara\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_0cb2ab4d2a52ac34259e2ee98cb6c09c",
+      "label": {
+        "en": [
+          "\"Merry Ploughboy,\" and \"Old Soldier's Daughter\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_65a02c3cfeec1c647379d0c5c782bcda",
+      "label": {
+        "en": [
+          "\"The Minute-Gun at Sea,\" \"The Keel Row,\" and \"Harry Bluff\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_f4079112cfad41120ba14e89060959a8",
+      "label": {
+        "en": [
+          "\"Mitchell's Address\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_d60d590c75a5f0d6c46893492ff175fd",
+      "label": {
+        "en": [
+          "Cronan, Jeramiah, \"Lines Written on the Most Dreadful Fire that Broke out in Chicago in America\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_b9e9f534c1fdfb0bb25196d6b3c40a26",
+      "label": {
+        "en": [
+          "\"A New Song Called Molly My Darling Don't Leave Me\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_0cb426c8496d26bd1acfa57625c1693b",
+      "label": {
+        "en": [
+          "\"My Mother is a True Born Irishman,\" and \"Travelling Tinker\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_e79c3a37a03ff8b7cf43a2c0e1841864",
+      "label": {
+        "en": [
+          "\"Mother, Mother, Let me Kiss Thee,\" and \"After Dark\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_c734bfc7cbe2294ed7ae7dec3ffc8f81",
+      "label": {
+        "en": [
+          "\"A New Song in Praise of Mr. Tait and the Harbour Commissioners\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_0f66db6a22243d884fb0c6a1eb2ac15f",
+      "label": {
+        "en": [
+          "\"Mrs. O'Donovan Rosia's Lament for her Husband\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_b955f4552a84c2a0e4c7fb0f528cdd8e",
+      "label": {
+        "en": [
+          "\"Murderous Outrage and Attack on the Tenant Farmers at Douvilla in the County of Cavan\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_c7811f435d023e14309433be98c2f6f3",
+      "label": {
+        "en": [
+          "\"Murphy the Blighted Potatoes\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_ff7b7f88ab317d75b7802c6c34b45d99",
+      "label": {
+        "en": [
+          "\"Murphy is Coming\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_3707aea41f1e5c349dfe6914d1a66e50",
+      "label": {
+        "en": [
+          "\"O'Reilly from the Co. Cavan or the Phoenix of Erin's Green Isle\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_f1cfc1877f29a22ea7fdff3f774e215c",
+      "label": {
+        "en": [
+          "\"The Old Bedstead,\" \"The Noble 24th,\" and \"Home Rule for Ireland\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_5eab3ec5b1318ecd52249d75e8eca814",
+      "label": {
+        "en": [
+          "\"Old Dog Tray,\" and \"Good-bye, Sweetheart! Good-bye\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_1f418a63ba783c75627f93c1f9e9c61a",
+      "label": {
+        "en": [
+          "\"The Old Oak Tree\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_afc074a42907f6b1ff61bca36b9c56bf",
+      "label": {
+        "en": [
+          "\"Oleon's Ashes\" and \"Come Dwell with Me\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_7a4727b2774aa41a1490616243563f86",
+      "label": {
+        "en": [
+          "\"One Suit Between Two\" and \"The Scarlet Flower\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_849c7178b8e1cf8ac61da1ab50146279",
+      "label": {
+        "en": [
+          "\"The Organ Grinder\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_f86583fb0516f7319cb10e4d26c099c2",
+      "label": {
+        "en": [
+          "Purnel, William, \"Lines Written on our Patriotic Priest Father Thos. O'Mally\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_c64e27219c1139840b05fb1bdb1f1c00",
+      "label": {
+        "en": [
+          "\"Over the Garden Wall\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_db8a8bbdcced9e8c48976be0de01caab",
+      "label": {
+        "en": [
+          "\"Oyster Girl,\" \"If I Had A Thousand A Year,\" and \"Ellen the Fair\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_c7bcc18907f64def9ab2e91e38e56f69",
+      "label": {
+        "en": [
+          "\"Oyster Shell Bonnet and Dandy Chignauns\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_f2a5b67c5349b54017a51b7335f32326",
+      "label": {
+        "en": [
+          "\"The Paddington Coachman\" and \"Mary May\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_d028aded3cbe12f21a246942935bb3ab",
+      "label": {
+        "en": [
+          "\"Parody on Paddle Your Own Canoe\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_a7e1e532128dc36b551b485ea4002043",
+      "label": {
+        "en": [
+          "\"New Version of Paddle Your Own Canoe by a Sailor in the City of Waterford\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_2968628fa1721bf89b0f429748c45e5c",
+      "label": {
+        "en": [
+          "\"A New Song Called the Papist Ass\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_3d4cf95f66d7981442097a5914bcbc02",
+      "label": {
+        "en": [
+          "O'Brien, M. \"A New Song Entitled Parnell's Progress through America\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_6ece49dba9802b2ee9ee708521524e92",
+      "label": {
+        "en": [
+          "\"Parson and Quaker,\" \"Though Fortune Darkly Over Me Frowns,\" and \"Silly Young Maid\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_eb8f0f7444d9d9e63a44f12a8855f9b3",
+      "label": {
+        "en": [
+          "\"The Methodist Parson, or, Preaching for Bacon\" and \"When My Old Hat Was New\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_13b30b0109c8d7e92ab9df4c47581f87",
+      "label": {
+        "en": [
+          "\"Patrick Brady\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_34b66830b45a6bfa42ab87f0826fc315",
+      "label": {
+        "en": [
+          "\"Patrick O'Neill\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_f24962fd4aea456ea05bd160d47dc75e",
+      "label": {
+        "en": [
+          "\"Patrick Sheehan\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_70dfb530bbcd741585970f4ed860c16a",
+      "label": {
+        "en": [
+          "\"The Original Peeler and the Goat\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_36d83b148d09bc7d75c722bce6f4b70a",
+      "label": {
+        "en": [
+          "\"A Perfect Cure\" and \"When Bucks A-hunting Go!\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_7932e699f807b206406cac05e7fda8a3",
+      "label": {
+        "en": [
+          "\"The Phillipstown Murder and the Conviction of Laurence and Margret Shields\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_f806cb6f51f2f8aa55c1d7a909cd0aad",
+      "label": {
+        "en": [
+          "\"Pleasant Looking Wife\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_df6809f4216a9d513d9e6d96ccdbdd95",
+      "label": {
+        "en": [
+          "\"The Poor Little Sweep\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_dd7b0fbab47afa505b9f04ae987ab646",
+      "label": {
+        "en": [
+          "\"Poor Tom\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_15b3d1fdfe4bf286090da8aac29a2b71",
+      "label": {
+        "en": [
+          "\"A New Song Called the Poor Wanderer's Sighs and Grief on Parting His Native Land\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_4936ed7bba6cb8aef17bf18576ad08d3",
+      "label": {
+        "en": [
+          "\"A Pound or a Penny\" and \"Is That Mother Bending Over Me. Tune-Mother's Warning\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_1b6ca280307e0d0c251852762bc3006b",
+      "label": {
+        "en": [
+          "\"The Praises of Limerick\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_2eea1db4caacae95ad80eacebbbc59d8",
+      "label": {
+        "en": [
+          "\"A New Song Called the Pride of Ardagh Air the Lass of Gowry\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_848f20a8f97b7465304bdb286a779a22",
+      "label": {
+        "en": [
+          "\"A New Song Called the Queen of Love\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_cdcbfd5458cc7ccedbd6d42b8591df4a",
+      "label": {
+        "en": [
+          "\"A New Song Called the Rake of Rathkeal\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_73fa61288595fc7f9338c53d06323ba0",
+      "label": {
+        "en": [
+          "\"The Rattling Boys of Paddy's Land\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_9b4700743147e910104956e7915e9b72",
+      "label": {
+        "en": [
+          "\"A New Song Called the Red Haired Man's Wife\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_016de99082151174fdd0050a01d8bb18",
+      "label": {
+        "en": [
+          "\"Lamentation of Rilley and Mary Campbell,\" and \"Sailor Boy's Farewell to His Mother\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_2e171516367ab2a8a74d324903b13bf5",
+      "label": {
+        "en": [
+          "\"Reily from the Co. Kerry\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_ae8b9846cf6e24bc0f9266ff2c9f9a6c",
+      "label": {
+        "en": [
+          "\"A New Song on the Release of the Fenian Prisoners\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_605a9b9f7822878886fdee6d6d8b41d8",
+      "label": {
+        "en": [
+          "\"A New Song on the Release of the Political Prisoners\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_254562eba4aa638e39fc6af7afb24639",
+      "label": {
+        "en": [
+          "\"Rev. Father Tom, O'Neill\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_e03f8227cd5bad8b91e9ffd88f799815",
+      "label": {
+        "en": [
+          "\"The Riches of Ireland\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_e7407a317cd0557155df623226217580",
+      "label": {
+        "en": [
+          "\"The Riggs and Sprees of Playhouse Square and Wapping\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_9b647cef12972c41eaa6b2d4d2480f28",
+      "label": {
+        "en": [
+          "\"Rights of Man\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_ef7561ccacdae8ba75d3fbd939d3f010",
+      "label": {
+        "en": [
+          "\"The River Roe\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_830dda25633cee0f81770570c17c5d32",
+      "label": {
+        "en": [
+          "\"The Robber Outwitted\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_2328fbee05af9f658c0c3006d2f801e9",
+      "label": {
+        "en": [
+          "\"A New Song on the Royal Visit\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_51fbb317bbcf8155c57c61ae3e35a9e7",
+      "label": {
+        "en": [
+          "\"A Dialogue Between a Schoolmaster and Laborer\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_9334a6f879d9f04d2fd028c3987d1c31",
+      "label": {
+        "en": [
+          "\"Most Tragic Lines Written on the Seduction and Lamentable Death of Anny Gray\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_c07bf6b24e89d2ceac33426fc48d9a81",
+      "label": {
+        "en": [
+          "\"A New Song Called the Sewing Machine\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_f95943fc284e9c21cb64502366c08e20",
+      "label": {
+        "en": [
+          "\"The Shamrock Green\" and \"Blow the Candle Out\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_45330195c143377b53460eae9cbb5a51",
+      "label": {
+        "en": [
+          "\"Shelling Green Peas\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_a8826383d4cdbba14c9f62ba0dcb996f",
+      "label": {
+        "en": [
+          "\"A Sight for a Father\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_c36e7541f16cd337b56532806930647a",
+      "label": {
+        "en": [
+          "\"The Single Young Man Lodger\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_7cf95db2a69df7298d3fdc26877bc1cb",
+      "label": {
+        "en": [
+          "\"For Sixteen Months I Courted Her\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_691657f609ee26ce639b1a74adce41b0",
+      "label": {
+        "en": [
+          "\"The Skipper and Boy\" and \"Sodger Laddie\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_b3d598c0973d41dd8ae3a9ae6a6f675b",
+      "label": {
+        "en": [
+          "\"The Sorrowful Lamentation of Andrew Carr who was Executed on the 28 of July at Richmond Jail For the Murder of Margret Murphy\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_972795b1a8f501ca6c35b462261b61d2",
+      "label": {
+        "en": [
+          "\"A Sorrowful Lamentation on the Execution of Patrick Power who Suffered at the Front of Wexford Jail on the 4th of April for the Unnatural Murder of his Father\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_f59a959d9a1c6811806e1ceb3448befc",
+      "label": {
+        "en": [
+          "\"A Sorrowful Lamentation on the Hollywood Tragedy where Two Sisters Have Been Brutally Murdered\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_e96aa623360b506aecc5b9f72d2bc785",
+      "label": {
+        "en": [
+          "\"Speak of a Man as We Find Him\" and \"Bloom of Erin\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_939d0f8b7be838fbc71f743c9c03d3b1",
+      "label": {
+        "en": [
+          "\"A New Song on the Sporting Races of Cavan\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_04e5c3623805da55e7096d92f32c9ee2",
+      "label": {
+        "en": [
+          "\"A New Song on the Sporting Races of Kanturk\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_b4999776e60735d259b9adacf8647029",
+      "label": {
+        "en": [
+          "\"Spotted Cow\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_d23366c758bcbeb15137686ceee4f153",
+      "label": {
+        "en": [
+          "\"The Star of Slane\" and \"General Burke's Dream\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_10a11f6ff7c4247c90a469d5fd4efa8e",
+      "label": {
+        "en": [
+          "\"The Strike\" and \"Tramp! Tramp, Tramp\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_47ac9d106a661ada2c915cd86f399a78",
+      "label": {
+        "en": [
+          "\"Surrender of Napoleon and France Determined\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_fab35f22c58b23e968bdc663318a458e",
+      "label": {
+        "en": [
+          "\"The Sweet Silver Light, Bonny Moon\" and \"Beautiful Bells\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_a1ef3507b6a6811369eb1dfb7e4c78f1",
+      "label": {
+        "en": [
+          "\"Tara's Old Hall\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_bcbb1519697115b5c4034416fc3a4442",
+      "label": {
+        "en": [
+          "\"A New Song on the Taking Down of the Irish Census\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_8fd6082d663e59df74a1fdf406e3d1c1",
+      "label": {
+        "en": [
+          "\"Terence's Farewell\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_52b250fd3cfd8fc570351714c5f00253",
+      "label": {
+        "en": [
+          "\"Terence's Farewell\" and \"Irish Boy\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_bc45a7033e46c0a54dde46b657bcb68e",
+      "label": {
+        "en": [
+          "\"There are Kind Hearts Everywhere\" and \"Just to Show There's No Ill-Feeling\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_6fdf1b7398328060ec02cee0c852a144",
+      "label": {
+        "en": [
+          "\"There was a Man Named O'Sullivan Lived Near Kildare\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_140d866278c91f0005fd25cf892bc66f",
+      "label": {
+        "en": [
+          "\"Things I Do Like to See\" and \"The Cachuca\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_df089ecef24c90fc9b1052b0edbaede2",
+      "label": {
+        "en": [
+          "\"A New Song Called the Three Huntsmen's Tragedy\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_fbff3dfeae5e71d881fe8e17e29705ae",
+      "label": {
+        "en": [
+          "\"A New and Much Admired Song called the Three Lovers' Trip to Carrickmagat By Michael Daily\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_99a2ac911d995f7158aedd6e07d4fb67",
+      "label": {
+        "en": [
+          "\"A Much Admired Song Called Tie My Toes to the Bed\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_93c9213c0cde035335ddf1b37ed04ba5",
+      "label": {
+        "en": [
+          "\"A New Song on the Tipperary Ass\" (Copy 1)"
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_46e3629bea4e2678f125d0758d4236af",
+      "label": {
+        "en": [
+          "\"A New Song on the Tipperary Ass\" (Copy 2)"
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_9a55485bbd831305c5f75cbcd6353ad8",
+      "label": {
+        "en": [
+          "\"Tipperary Man's Courtship\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_843018209e1a4cb98521abea055f2f82",
+      "label": {
+        "en": [
+          "\"Tramp! Tramp!! Tramp!!!\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_46c693be0fc70a34fad8cda3a1f2d950",
+      "label": {
+        "en": [
+          "\"The True-Lover's Trip over the Mountain\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_f22a104daa4fc5336d7107016ef623d3",
+      "label": {
+        "en": [
+          "\"A True History of Bernard Reilly, a Returned Convict who was Transported in the Year 1824\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_f434c5f15c053dab876413e53a8e6236",
+      "label": {
+        "en": [
+          "\"A New Song on Unconquered Tipperary\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_42a22617a09ae37e1ea4e801df692a8d",
+      "label": {
+        "en": [
+          "\"Up in a Balloon\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_1ce33ec4c49657d09c8450f0b4b600e2",
+      "label": {
+        "en": [
+          "\"We Are Coming Sister Mary\" and \"My Bonny Lad Is Young But He's Growing\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_82bcddc053eedab56f99c150d249a15c",
+      "label": {
+        "en": [
+          "\"We Miss Thee at Home,\" \"Bonny Eloise,\" and \"The Dear Little Shamrock\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_dd0a5021d2f038883fe594b8ddf2616e",
+      "label": {
+        "en": [
+          "\"A New Song Called the Wedding Afternoon\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_00864f2a3ed781e0cce1982925888231",
+      "label": {
+        "en": [
+          "\"Wedding of Balyporeen\" and \"The Stage Struck Hero\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_8cc3c9abf940056a167ae000f9fa323e",
+      "label": {
+        "en": [
+          "\"On the Wexford Man of '98\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_daf5f576dbf736f23bcf5f49bd13e85b",
+      "label": {
+        "en": [
+          "\"What Can the Matter Be\" and \"Steam's Up Darkies\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_bf23246194e5c2305f73cf5361875c47",
+      "label": {
+        "en": [
+          "\"Where are the Friends of my Youth?,\" \"Rock Me to Sleep, Mother,\" \"What Can a Porr Maiden Do?,\" and \"The Old Oaken Bucket\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_9e2d34fde3499bf338713540e23ebd01",
+      "label": {
+        "en": [
+          "\"William and Eliza; Or, Lough Eene Shor\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_25e752519f486314dd09a4ad7c37da45",
+      "label": {
+        "en": [
+          "\"New Song Called William and Jane on the Banks of Clyde\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_4577313d2dfefefb1468e4d0e36e557f",
+      "label": {
+        "en": [
+          "\"A New Song on William O'Brien and the 'Mysterious Rats'\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_98c62f16175a62e2ad6c398801483191",
+      "label": {
+        "en": [
+          "\"A New Song Called Willy Leonard\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_0ce08a3d862ab168167431ec67d52fd5",
+      "label": {
+        "en": [
+          "\"Willy Reilly and his Dear Colleen Bawn\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_31c7445013ad1ac1664ecdfda15e9e3a",
+      "label": {
+        "en": [
+          "\"The Window\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_c8805b54dbf59fbb6c0d1680e012c0b8",
+      "label": {
+        "en": [
+          "\"A New Song Called Wire In and Get Your Tea Pot\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_e0ea96c93c4e87819ef2c9e53f3d9d78",
+      "label": {
+        "en": [
+          "\"A New Song Called the Wonders of the World\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_f86dc673fa853368f867afdd1f499709",
+      "label": {
+        "en": [
+          "\"Work, Boys, Work,\" and \"The Irish Excavator\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_9054421522d8df4e466d4d443896eb8b",
+      "label": {
+        "en": [
+          "\"Wrongs of Ireland\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_570b802cf3bfd1936e3042fb902ad476",
+      "label": {
+        "en": [
+          "\"You Never Can Tell\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_994774c49f239bd9549c4c163f6df724",
+      "label": {
+        "en": [
+          "\"An Admired Song Called Youghal Harbour\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_c02dfae2356543c1517fde1f92d04a0f",
+      "label": {
+        "en": [
+          "\"Young Henry of the Raging Main\" and \"Erin is my Home\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_46578425191b3a159627217fe7ca10bd",
+      "label": {
+        "en": [
+          "\"A New Song Called the Young Lady's Lamentation for the Loss of Her True Love\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_5cef0779e7553093090ac450cb3767dc",
+      "label": {
+        "en": [
+          "\"A New Song Called the Young Man in Search of his Sister\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_ce8e13fa490eceeb410e34113d247061",
+      "label": {
+        "en": [
+          "\"A New Song Called the Young Squire or the Counselor Outwitted\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_08d472adf3529ab015c9841be3fbac68",
+      "label": {
+        "en": [
+          "\"Young Volunteer! on his March to Battle\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_8ad655242488a44491124d1cc028c5c0",
+      "label": {
+        "en": [
+          "\"Young Woman's Wants,\" and \"Reading Made Easy\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_0e2c51362a5e2db374f233acb1127cd5",
+      "label": {
+        "en": [
+          "\"A New Song on the Afghan War\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_f7baefd701a2c8333204a090faabe887",
+      "label": {
+        "en": [
+          "\"A New Song on the Curragh Murder\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_3fb4c152cea800c5c00b94c0514cf061",
+      "label": {
+        "en": [
+          "\"A New Song on the Erecting of O'Connell's Monument For 1882\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_109cb7fdd59d3df2911b2c3068e29711",
+      "label": {
+        "en": [
+          "\"Lamentable Lines on the Execution of the Maamtrasna Murderers\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_874527b7023f8f2642bda26c3352c2ee",
+      "label": {
+        "en": [
+          "\"Our Latest Song - The Gems of the Land League. Air- The Gems of Old Ireland\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_4c86eb9e1726bdbcd8d1e75b3b1381ca",
+      "label": {
+        "en": [
+          "\"A New Song on the Happy Return of Moody and Sankey\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_3d321bdca11f6842e88353ec26a4af0f",
+      "label": {
+        "en": [
+          "\"Lamentable Lines on Joe. Brady and Dan. Curley\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_00fc8ba37623ae0fad3883ecbd12ecd9",
+      "label": {
+        "en": [
+          "\"Joseph Brady's Last Advice to the People of Ireland\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_9ed7b6190a59a7c14f4907934fbef07a",
+      "label": {
+        "en": [
+          "\"McKenna's Dream\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_08f859c344a1545e52ad9d26f63dc1ea",
+      "label": {
+        "en": [
+          "\"A New Song on the Massacre of 20,000 Roman Catholics in Syria\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_e0e27f124b4f256d312591740ef23bd9",
+      "label": {
+        "en": [
+          "\"Lines on the Death of Miss Fanny Parnell. Air-Exile of Erin\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_f9e6410706331fa05286ff38297ad8d3",
+      "label": {
+        "en": [
+          "\"Release of M. L. Davitt, (Founder of the Land League)\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_51f8e80a62c95f019d1fe406e652550b",
+      "label": {
+        "en": [
+          "\"Lines on the Phoenix Park Tragedy\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_c60b04dfb9e514b2f37b29359f052292",
+      "label": {
+        "en": [
+          "\"Poor Pat Must Emigrate. Air-'Apple Praters'\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_2b155af38627b612f2a0dff09006ca3d",
+      "label": {
+        "en": [
+          "\"Sights and Scenes of Dublin\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_383258bdd1a0c9580ff5e0a6b633057e",
+      "label": {
+        "en": [
+          "\"The Star of Erin's Isle\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Manifest",
+      "id": "iiif-manifest.test.edu/manifest/aspace_d5b8426fe4f787bbaea0ee7b6e22332f",
+      "label": {
+        "en": [
+          "\"The Surprising Tree of Knowledge\""
+        ]
+      },
+      "thumbnail": [],
+      "items": [],
+      "viewingDirection": "left-to-right"
+    },
+    {
+      "type": "Canvas",
+      "id": "iiif-manifest.test.edu/canvas/collections%2Fead_xml%2Fimages%2FBPP_1001%2FBPP_1001-001.tif",
+      "label": {
+        "en": [
+          "collections/ead_xml/images/BPP_1001/BPP_1001-001.tif"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://image-iiif-testlib.libraries.nd.edu/iiif/2/collections%2Fead_xml%2Fimages%2FBPP_1001%2FBPP_1001-001/full/250,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "id": "https://image-iiif-testlib.libraries.nd.edu/iiif/2/collections%2Fead_xml%2Fimages%2FBPP_1001%2FBPP_1001-001",
+              "type": "ImageService2",
+              "profile": "http://iiif.io/api/image/2/level2.json"
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "id": "iiif-manifest.test.edu/annotation_page/collections%2Fead_xml%2Fimages%2FBPP_1001%2FBPP_1001-001.tif",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "iiif-manifest.test.edu/annotation/collections%2Fead_xml%2Fimages%2FBPP_1001%2FBPP_1001-001.tif",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "iiif-manifest.test.edu/canvas/collections%2Fead_xml%2Fimages%2FBPP_1001%2FBPP_1001-001.tif",
+              "body": {
+                "id": "https://image-iiif-testlib.libraries.nd.edu/iiif/2/collections%2Fead_xml%2Fimages%2FBPP_1001%2FBPP_1001-001/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "service": [
+                  {
+                    "id": "https://image-iiif-testlib.libraries.nd.edu/iiif/2/collections%2Fead_xml%2Fimages%2FBPP_1001%2FBPP_1001-001",
+                    "type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "viewingDirection": "left-to-right",
+      "height": 2000,
+      "width": 2000
+    }
+  ],
+  "viewingDirection": "left-to-right",
+  "@context": [
+    "http://www.w3.org/ns/anno.jsonld",
+    "https://presentation-iiif.library.nd.edu/extensions/partiallyDigitized",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "provider": [
+    {
+      "id": "https://rarebooks.library.nd.edu/using",
+      "type": "Agent",
+      "label": {
+        "en": [
+          "Rare Books and Special Collections, Hesburgh Libraries, University of Notre Dame"
+        ]
+      },
+      "homepage": [
+        {
+          "id": "https://rarebooks.library.nd.edu/",
+          "type": "Text",
+          "label": {
+            "en": [
+              "Rare Books and Special Collections, Hesburgh Libraries, University of Notre Dame"
+            ]
+          },
+          "format": "text/html"
+        }
+      ],
+      "logo": [
+        {
+          "id": "https://rarebooks.library.nd.edu/images/hesburgh_mark.png",
+          "type": "Image",
+          "format": "image/png",
+          "height": 100,
+          "width": 120
+        }
+      ]
+    }
+  ],
+  "rights": "Copyright status for collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.",
+  "summary": {
+    "en": [
+      "Collection consists of 559 broadsides, most measuring 28 x 11 1/2 cm. Broadsides were printed and sold in streets and at fairs and markets from the early days of printing, often by ballad singers. Many of the broadsides were printed in Dublin by P. Brereton, probably between 1860 and 1876."
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Date"
+        ]
+      },
+      "value": {
+        "en": [
+          "1790-1890"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Material Type"
+        ]
+      },
+      "value": {
+        "en": [
+          "Mixed Materials"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Identifier"
+        ]
+      },
+      "value": {
+        "en": [
+          "BPP 1001"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Subject"
+        ]
+      },
+      "value": {
+        "en": [
+          "Songs, Irish",
+          "Ballads, Irish"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Link to finding aid"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://archivesspace.library.nd.edu/repositories/3/resources/1644"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Genre/Physical Characteristic"
+        ]
+      },
+      "value": {
+        "en": [
+          "Broadsides (notices)"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Language"
+        ]
+      },
+      "value": {
+        "en": [
+          "English"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Dimensions"
+        ]
+      },
+      "value": {
+        "en": [
+          "2.7 Cubic Feet"
+        ]
+      }
+    }
+  ]
+}
