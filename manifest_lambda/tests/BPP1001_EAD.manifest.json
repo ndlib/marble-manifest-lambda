@@ -6,6 +6,7 @@
       "Irish Broadside Ballads"
     ]
   },
+  "viewingDirection": "left-to-right",
   "thumbnail": [
     {
       "id": "https://image-iiif-testlib.libraries.nd.edu/iiif/2/collections%2Fead_xml%2Fimages%2FBPP_1001%2FBPP_1001-001/full/250,/0/default.jpg",
@@ -28,8 +29,6 @@
           "\"The Aquital of Robert Kelly\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -40,8 +39,6 @@
           "\"The Admiral,\" \"I'm a Gent,\" and \"By the Sad Sea Waves\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -52,8 +49,6 @@
           "\"The Adventures of Jack O'Donohoe\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -64,8 +59,6 @@
           "\"The Adventures of Roger O'Hare\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -76,8 +69,6 @@
           "\"A New Song on the American Beef and Austalian Mutton\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -88,8 +79,6 @@
           "\"A New Song on the Amesty Meeting in Tipperary Written by a Friend to the Cause\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -100,8 +89,6 @@
           "\"A New Song Called Annie Lisle\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -112,8 +99,6 @@
           "\"The Anniversary of the Death Of The Irish Patriots W.P. Allen Larkin, Michael O'Brien. Monday, November the 23, God Save Ireland By D. Sullivan\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -124,8 +109,6 @@
           "\"Answer to the Irish Emigrant,\" and \"Long Long Ago\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -136,8 +119,6 @@
           "\"The Artificial Flower Maker,\" and \"Plains of Waterloo\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -148,8 +129,6 @@
           "\"A New Song on the Attempt of the Life of the Very Rev. Father Ryan\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -160,8 +139,6 @@
           "\"Song from the Backwoods\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -172,8 +149,6 @@
           "\"The Banks of Doon,\" and \"The Bill Sticker\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -184,8 +159,6 @@
           "\"Banks of the Dee\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -196,8 +169,6 @@
           "\"A Much Admired Love Song Called the Banks of the Nile\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -208,8 +179,6 @@
           "\"Lines Written on the Barley Corn\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -220,8 +189,6 @@
           "\"Bill Jones,\" and \"I'm King of the Forest Glade\" (1 of 2)"
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -232,8 +199,6 @@
           "\"Bill Jones,\" and \"I'm King of the Forest Glade\" (2 of 2)"
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -244,8 +209,6 @@
           "\"Billy Byrne of Ballymanus\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -256,8 +219,6 @@
           "\"Billy O'Rorke\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -268,8 +229,6 @@
           "\"Billy Pattison\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -280,8 +239,6 @@
           "\"A New Song Billy Pitt and The Union\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -292,8 +249,6 @@
           "\"The Bird Alone,\" and \"The Emigrant's Farewell\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -304,8 +259,6 @@
           "\"A New Song on the Birth and Suffering of Our Lord and Saviour Jesus Christ\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -316,8 +269,6 @@
           "\"The Blackbird of Avondale; Or, the Arrest of Parnell\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -328,8 +279,6 @@
           "\"Blow the Candle Out\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -340,8 +289,6 @@
           "\"The Blind Boy,\" and \"Come Home Father\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -352,8 +299,6 @@
           "\"A New Song Called The Bold Rake\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -364,8 +309,6 @@
           "\"Bonny Moor Hen\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -376,8 +319,6 @@
           "\"The Boys of Ballinamore\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -388,8 +329,6 @@
           "\"The Braes O'Gleniffer,\" and \"Henry and Nancy, Or, The Lovers' Separation\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -400,8 +339,6 @@
           "\"Brennan on the Moor\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -412,8 +349,6 @@
           "\"Bundle and Go,\" and \"Donnely and Oliver\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -424,8 +359,6 @@
           "\"Lamentable Lines on the Burning of the 'Cospatrick'\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -436,8 +369,6 @@
           "\"Can of Spring Water\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -448,8 +379,6 @@
           "\"Can Your Mother Pay Her Rent?\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -460,8 +389,6 @@
           "\"Calcutta House of Correction,\" and \"The Boy in Blue\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -472,8 +399,6 @@
           "\"Campbell's Farewell to Ireland\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -484,8 +409,6 @@
           "\"A Much Admired Song Called Carroline of Edinborough Town\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -496,8 +419,6 @@
           "\"A New Song in Praise of The Catholic Church of Kantur\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -508,8 +429,6 @@
           "\"Champagne Charlie\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -520,8 +439,6 @@
           "\"The Child's Dream,\" and \"Fortunate Factory Girl\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -532,8 +449,6 @@
           "\"A New Song Called the Chimney Sweeper's Wedding\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -544,8 +459,6 @@
           "\"Chow Bent Wedding,\" and \"Single Young Man Lodger\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -556,8 +469,6 @@
           "\"The Church Bill and Downfall of Bribery\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -568,8 +479,6 @@
           "\"A New Song Called the Coast-guard on the Isle of France\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -580,8 +489,6 @@
           "\"A New Song Called Coburn's Challenge To Heenan\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -592,8 +499,6 @@
           "\"Colleen Dhas Crutha Na Mho\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -604,8 +509,6 @@
           "\"The Collier Lads, Who Labor Underground\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -616,8 +519,6 @@
           "\"Colonel Shea of the Irish Brigade\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -628,8 +529,6 @@
           "\"Come Home to the Children and Me\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -640,8 +539,6 @@
           "\"Condemned Men for the Phoenix Park Murders\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -652,8 +549,6 @@
           "\"The Constant Farmer's Son\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -664,8 +559,6 @@
           "\"The Constant Lovers,\" and \"Be Careful in Choosing A Wife\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -676,8 +569,6 @@
           "\"Country Hirings,\" and \"Will You Love Me Then as Now\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -688,8 +579,6 @@
           "\"A New Song on the Beauties of the County Wicklow\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -700,8 +589,6 @@
           "\"The Cow Eat the Piper,\" and \"Young William of the Royal Wagon Train\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -712,8 +599,6 @@
           "\"Crafty London Apprentice Or, Bow Bells,\" and \"Saucy Sailor Boy\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -724,8 +609,6 @@
           "\"The Cruel Father, or, The affectionate Lover,\" and \"The Boughleen Dhoun\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -736,8 +619,6 @@
           "\"In the Days When I Was Hard Up,\" and \"Up with the Standard of England\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -748,8 +629,6 @@
           "\"A New Song Called the Dear and Darling Boy\" (1 of 2)"
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -760,8 +639,6 @@
           "\"A New Song Called the Dear and Darling Boy\" (2 of 2)"
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -772,8 +649,6 @@
           "\"Lamentable Lines, on the Death of Joseph McMahon who was Shot in Dorset-Street, on the 28th March '82\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -784,8 +659,6 @@
           "\"A Divine Poem Written on Saint Francis Founder of the Order of the Cord\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -796,8 +669,6 @@
           "\"An Elegy on the Death of the Much Lamented Doctor D. M. O'Brien\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -808,8 +679,6 @@
           "\"An Elegy on the Death of the Much Lamented Very Rev. Bishop McCabe. Air 'Exile of Erin'\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -820,8 +689,6 @@
           "\"An Elegy on the Much Lamented Death of the Very Reverend Dr. Spratt. By Job Sadler\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -832,8 +699,6 @@
           "\"Deeds of Napolean,\" \"She Died for Love, and He For Glory,\" and \"Moon is on the Waters\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -844,8 +709,6 @@
           "\"The Disappointed Wife,\" and \"Gilderoy\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -856,8 +719,6 @@
           "\"Lines written on a Discussion, Between a Protestant Boy, and a Catholic Girl, near Dundalk, County Louth\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -868,8 +729,6 @@
           "\"The Doting Old Man,\" and \"My Father's Old Farm\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -880,8 +739,6 @@
           "\"The Doctor Outwitted by the Black\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -892,8 +749,6 @@
           "\"Don't Be Angry Mother,\" \"Massa's in the Cold, Cold Ground,\" and \"I am Not Angry\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -904,8 +759,6 @@
           "\"Donald's Return to Glencoe\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -916,8 +769,6 @@
           "\"Donnelly and Oliver\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -928,8 +779,6 @@
           "\"Donny-Brook Fair,\" and \"Lazy Society\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -940,8 +789,6 @@
           "\"Down Among the Dead Men,\" and \"The Englishman\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -952,8 +799,6 @@
           "\"The Downfall of Garibaldi\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -964,8 +809,6 @@
           "\"A Dream of General T.F. Burkes\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -976,8 +819,6 @@
           "\"A Dream of General T.F. Burkes\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -988,8 +829,6 @@
           "\"The Drunkard Reclaimed,\" and \"The Dying Child\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1000,8 +839,6 @@
           "\"The Drunkard's Catechism,\" \"The Drunkard's Looking Glass,\" and \"The Farewall to Folly\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1012,8 +849,6 @@
           "\"A New Song on the Drunken Act\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1024,8 +859,6 @@
           "\"Dublin Jack of All Trades\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1036,8 +869,6 @@
           "\"The Effects of Love,\" \"I'm Lonely Since My Mother Died,\" and \"London Agrah\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1048,8 +879,6 @@
           "\"A new Song on 18s. A-Week\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1060,8 +889,6 @@
           "\"A New Song Called the Emigrant's Farewell to Donegal\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1072,8 +899,6 @@
           "\"The Emigrant's Farewell to Ireland Air Burns Farewell\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1084,8 +909,6 @@
           "\"My Emmets No More,\" and \"Molly Bawn\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1096,8 +919,6 @@
           "\"The English Courtship\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1108,8 +929,6 @@
           "\"A New Song, Erin, To its Own Tune\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1120,8 +939,6 @@
           "\"Erin's Green Linnet\" (Copy 1)"
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1132,8 +949,6 @@
           "\"Erin's Green Linnet\" (Copy 2)"
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1144,8 +959,6 @@
           "\"Evicted Farmer's Farewell\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1156,8 +969,6 @@
           "\"Exile of Erin\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1168,8 +979,6 @@
           "\"A New Song Called The Exiles' Return\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1180,8 +989,6 @@
           "\"Lines on the Expected Testimonial of His Grace the Late Much Lamented Most Reverend Doctor O'Connor Bishop of Saldis By Joseph Sadler\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1192,8 +999,6 @@
           "\"A Song on the Expected Triumph of Sir Domnick Corrigan at the Coming Election Over the Tories\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1204,8 +1009,6 @@
           "\"Fairlop Fair,\" and \"Albion the Pride of the Sea\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1216,8 +1019,6 @@
           "\"The Farmer's Boy\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1228,8 +1029,6 @@
           "\"A New Song on the Farmer's Tenant-Right\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1240,8 +1039,6 @@
           "\"Lamentation on the Death of Father Carlon. Who was drowned at Bundoran, the 8th of July 1869\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1252,8 +1049,6 @@
           "\"The Felon's Return to his Native Land\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1264,8 +1059,6 @@
           "\"A Much Admired Love Song Called the Feenian Lovers\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1276,8 +1069,6 @@
           "\"Fighting on the Rhine\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1288,8 +1079,6 @@
           "\"The Fisherman's Daughter that Lives Over the Water,\" and \"Meet me at the Lane\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1300,8 +1089,6 @@
           "\"Fontenoy\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1312,8 +1099,6 @@
           "\"The Gallant Farmers' Farewell to Ireland\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1324,8 +1109,6 @@
           "\"The Game of Cards\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1336,8 +1119,6 @@
           "\"Garryowen\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1348,8 +1129,6 @@
           "\"A New Song Called The Gay Old Hag\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1360,8 +1139,6 @@
           "\"Hymn on the General Judgment Day\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1372,8 +1149,6 @@
           "\"A New Song on the General Taxation of Our Days\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1384,8 +1159,6 @@
           "\"Gentle Jenny Gray,\" and \"The Fashions of this Town\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1396,8 +1169,6 @@
           "\"A New Song Called the Girl I Left Behind Me\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1408,8 +1179,6 @@
           "\"The Girls of the Shire,\" and \"The Oyster Girl\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1420,8 +1189,6 @@
           "\"The Glorious Meeting of Dublin Held in Cabra with an Account of the Bands and Banner Peace and Order of that Day For the Liberation of the Prisoner\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1432,8 +1199,6 @@
           "\"Glorious Sons of France\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1444,8 +1209,6 @@
           "\"The Glorious Victory of John Morrissy,\" and \"Young and Single Sailor\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1456,8 +1219,6 @@
           "\"The Glorious Victory of Morrisey over the Russian Boy\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1468,8 +1229,6 @@
           "\"The Glorious Victory of Richard Dowse MP for Derry City\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1480,8 +1239,6 @@
           "\"A New Song in Praise of Gort-Town by Michael Shanahan\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1492,8 +1249,6 @@
           "\"Gosport Beach,\" and \"Jolly Young Waterman\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1504,8 +1259,6 @@
           "\"The Grand Conversation On Napolean Arose\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1516,8 +1269,6 @@
           "\"The Grand Conversation On Napolean Arose,\" and \"What's Old English Come To\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1528,8 +1279,6 @@
           "\"A New Song on the Grand Procession of Father Lavell on his Removal from Partry to Cong on the 16 of October, 1869\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1540,8 +1289,6 @@
           "\"Grand Victory of Paddy Ryan, over Joe Goss, in America (For the Heavy Championship and 400, in Gold)"
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1552,8 +1299,6 @@
           "\"My Grandmother's Chair\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1564,8 +1309,6 @@
           "\"Great Fight Between Bendigo and Paddock,\" and \"Remember the Glories of Brien the Brave\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1576,8 +1319,6 @@
           "\"Lines on the Great Miracle of Our Holy Father the Pope\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1588,8 +1329,6 @@
           "\"A New Song Called Grogan's Grove\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1600,8 +1339,6 @@
           "\"Hagerty's Ball\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1612,8 +1349,6 @@
           "\"A New Song Called the Hiring Day\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1624,8 +1359,6 @@
           "\"A New Song on the Hiring Fairs of Ulster\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1636,8 +1369,6 @@
           "\"A New Song on the Hiring of the Servants\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1648,8 +1379,6 @@
           "\"The Holy Missioners Farewell to Thomastown\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1660,8 +1389,6 @@
           "\"The Home Rule Man,\" and \"Though Poor I'm a Gentleman Still\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1672,8 +1399,6 @@
           "\"Homeward Bound,\" and \"Sally in our Alley\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1684,8 +1409,6 @@
           "\"Honest Working Man,\" and \"Come, Landlord, Fill a Flowing Bowl\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1696,8 +1419,6 @@
           "\"I Vowed I Never Would Leave Her\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1708,8 +1429,6 @@
           "\"I Wish I Was Lying Alone\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1720,8 +1439,6 @@
           "\"I've Got a Soft Place in my Head,\" and \"A New Song One Thing and the Other\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1732,8 +1449,6 @@
           "\"A New Song on the Insanity and the Doings of The Poor Judge\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1744,8 +1459,6 @@
           "\"The Irish Brigade,\" and \"The Fenian Men\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1756,8 +1469,6 @@
           "\"The Irish Girls My Darling\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1768,8 +1479,6 @@
           "\"A New Song on the Irish Harvesters' Triumph over the English\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1780,8 +1489,6 @@
           "\"The Irish Jaunting Car\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1792,8 +1499,6 @@
           "\"The Irish Rake\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1804,8 +1509,6 @@
           "\"The Irish Tenant Farmer's Lament from Eviction from his Native Home\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1816,8 +1519,6 @@
           "\"Isabella, the Barbar's Daughter,\" and \"The Exile's Return\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1828,8 +1529,6 @@
           "\"A New Song Called Jack, You Remember the Nuts\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1840,8 +1539,6 @@
           "\"The Jacket Green\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1852,8 +1549,6 @@
           "\"A New Song Called Jig Light Sue\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1864,8 +1559,6 @@
           "\"John O'Dwyer-a-Glana\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1876,8 +1569,6 @@
           "\"The Adventures of John Manks and His Pockmarked Cat\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1888,8 +1579,6 @@
           "\"A New Song called John Morrissy Again in the Field? Who he is to fight on the 1st of November, 1864\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1900,8 +1589,6 @@
           "\"A New Song on the Judgment Delivered in Galway\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1912,8 +1599,6 @@
           "\"Just Before the Battle Mother\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1924,8 +1609,6 @@
           "\"Kentish Fire\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1936,8 +1619,6 @@
           "\"The Kerryman's Rambles. To the County of Tipperary\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1948,8 +1629,6 @@
           "\"Kiss Me, Mother, Before I Die,\" and \"I'm One of the Olden Time; or, Fifty Years Ago\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1960,8 +1639,6 @@
           "\"The Labouring Woman,\" and \"Polly Won't You Try Me Oh!\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1972,8 +1649,6 @@
           "\"The Lady's Conversion to Catholicity\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1984,8 +1659,6 @@
           "\"A New Song Called the Lady's New Fashions or the Girls' Dress Caps\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -1996,8 +1669,6 @@
           "\"The Lady's Petycoat\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2008,8 +1679,6 @@
           "\"A Much Admired Song Entitled Lannigan's Ball\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2020,8 +1689,6 @@
           "\"Lark in the Morning,\" and \"Fanny Gray\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2032,8 +1699,6 @@
           "\"Lass of Glenshea,\" and \"Betsey of Dundee\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2044,8 +1709,6 @@
           "\"A New Song on the Last Dublin Election. Composed by Joseph Saddler\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2056,8 +1719,6 @@
           "\"Lines Written on the Late Melancholy Death of T.F. Meagher\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2068,8 +1729,6 @@
           "\"The Lamentation of Laurence and Margret Shields who was Executed on the 27th Day of May in Tullamore Gaol for the Murder of Patrick Dunne\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2080,8 +1739,6 @@
           "\"Lines Written on the Liberation of Barrett\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2092,8 +1749,6 @@
           "\"A New Song on the Liberation of Robert Kelly\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2104,8 +1759,6 @@
           "\"The Lish Young Buy-A-Broom,\" and \"The Bonnie Lassie's Answer\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2116,8 +1769,6 @@
           "\"The Loss of One Hero on the Plains of Waterloo\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2128,8 +1779,6 @@
           "\"Love your Own Land\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2140,8 +1789,6 @@
           "\"A Much Admired Song Called the Lovely Maid of Williams Town\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2152,8 +1799,6 @@
           "\"A Much Admired Song Called the Lovers of Derry\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2164,8 +1809,6 @@
           "\"A New Song Called the Loyal Lasses of Castlerea\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2176,8 +1819,6 @@
           "\"The Loyal Lovers\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2188,8 +1829,6 @@
           "\"A New Song on Lucky Elopement\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2200,8 +1839,6 @@
           "\"McKenna's Dream\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2212,8 +1849,6 @@
           "\"A New Song Called the Maid of Ballymoat\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2224,8 +1859,6 @@
           "\"The Maid of BonClody\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2236,8 +1869,6 @@
           "\"The Maid of Lismore\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2248,8 +1879,6 @@
           "\"Maid of Slievenamon\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2260,8 +1889,6 @@
           "\"Maid of Sweet Gurteen,\" and \"Answer to Betsy of Ballintown Brae\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2272,8 +1899,6 @@
           "\"A New Song Called the Malisia Man\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2284,8 +1909,6 @@
           "\"[On board] Of The Man-of-war,\" and \"Hurrah for the Road\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2296,8 +1919,6 @@
           "\"A New Song Called The Mantle So Green\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2308,8 +1929,6 @@
           "\"The Mantle So Green\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2320,8 +1939,6 @@
           "\"The Mantle So Green,\" and \"The Open Sea's My Home\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2332,8 +1949,6 @@
           "\"My Bark is Bounding Near,\" \"Maiden, I'll Never Deceive Thee,\" \"Pirate Crew,\" \"Standard Bearer,\" \"Marble Halls,\" and \"Love Not\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2344,8 +1959,6 @@
           "\"Mary Jane, Parody on Old Log Cabin down the Lane,\" \"Out in the Moonlight,\" and \"The Hat My Father Wore!\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2356,8 +1969,6 @@
           "\"Mary Melvin\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2368,8 +1979,6 @@
           "\"Meeting of Tara\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2380,8 +1989,6 @@
           "\"Merry Ploughboy,\" and \"Old Soldier's Daughter\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2392,8 +1999,6 @@
           "\"The Minute-Gun at Sea,\" \"The Keel Row,\" and \"Harry Bluff\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2404,8 +2009,6 @@
           "\"Mitchell's Address\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2416,8 +2019,6 @@
           "Cronan, Jeramiah, \"Lines Written on the Most Dreadful Fire that Broke out in Chicago in America\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2428,8 +2029,6 @@
           "\"A New Song Called Molly My Darling Don't Leave Me\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2440,8 +2039,6 @@
           "\"My Mother is a True Born Irishman,\" and \"Travelling Tinker\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2452,8 +2049,6 @@
           "\"Mother, Mother, Let me Kiss Thee,\" and \"After Dark\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2464,8 +2059,6 @@
           "\"A New Song in Praise of Mr. Tait and the Harbour Commissioners\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2476,8 +2069,6 @@
           "\"Mrs. O'Donovan Rosia's Lament for her Husband\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2488,8 +2079,6 @@
           "\"Murderous Outrage and Attack on the Tenant Farmers at Douvilla in the County of Cavan\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2500,8 +2089,6 @@
           "\"Murphy the Blighted Potatoes\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2512,8 +2099,6 @@
           "\"Murphy is Coming\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2524,8 +2109,6 @@
           "\"O'Reilly from the Co. Cavan or the Phoenix of Erin's Green Isle\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2536,8 +2119,6 @@
           "\"The Old Bedstead,\" \"The Noble 24th,\" and \"Home Rule for Ireland\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2548,8 +2129,6 @@
           "\"Old Dog Tray,\" and \"Good-bye, Sweetheart! Good-bye\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2560,8 +2139,6 @@
           "\"The Old Oak Tree\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2572,8 +2149,6 @@
           "\"Oleon's Ashes\" and \"Come Dwell with Me\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2584,8 +2159,6 @@
           "\"One Suit Between Two\" and \"The Scarlet Flower\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2596,8 +2169,6 @@
           "\"The Organ Grinder\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2608,8 +2179,6 @@
           "Purnel, William, \"Lines Written on our Patriotic Priest Father Thos. O'Mally\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2620,8 +2189,6 @@
           "\"Over the Garden Wall\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2632,8 +2199,6 @@
           "\"Oyster Girl,\" \"If I Had A Thousand A Year,\" and \"Ellen the Fair\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2644,8 +2209,6 @@
           "\"Oyster Shell Bonnet and Dandy Chignauns\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2656,8 +2219,6 @@
           "\"The Paddington Coachman\" and \"Mary May\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2668,8 +2229,6 @@
           "\"Parody on Paddle Your Own Canoe\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2680,8 +2239,6 @@
           "\"New Version of Paddle Your Own Canoe by a Sailor in the City of Waterford\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2692,8 +2249,6 @@
           "\"A New Song Called the Papist Ass\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2704,8 +2259,6 @@
           "O'Brien, M. \"A New Song Entitled Parnell's Progress through America\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2716,8 +2269,6 @@
           "\"Parson and Quaker,\" \"Though Fortune Darkly Over Me Frowns,\" and \"Silly Young Maid\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2728,8 +2279,6 @@
           "\"The Methodist Parson, or, Preaching for Bacon\" and \"When My Old Hat Was New\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2740,8 +2289,6 @@
           "\"Patrick Brady\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2752,8 +2299,6 @@
           "\"Patrick O'Neill\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2764,8 +2309,6 @@
           "\"Patrick Sheehan\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2776,8 +2319,6 @@
           "\"The Original Peeler and the Goat\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2788,8 +2329,6 @@
           "\"A Perfect Cure\" and \"When Bucks A-hunting Go!\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2800,8 +2339,6 @@
           "\"The Phillipstown Murder and the Conviction of Laurence and Margret Shields\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2812,8 +2349,6 @@
           "\"Pleasant Looking Wife\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2824,8 +2359,6 @@
           "\"The Poor Little Sweep\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2836,8 +2369,6 @@
           "\"Poor Tom\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2848,8 +2379,6 @@
           "\"A New Song Called the Poor Wanderer's Sighs and Grief on Parting His Native Land\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2860,8 +2389,6 @@
           "\"A Pound or a Penny\" and \"Is That Mother Bending Over Me. Tune-Mother's Warning\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2872,8 +2399,6 @@
           "\"The Praises of Limerick\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2884,8 +2409,6 @@
           "\"A New Song Called the Pride of Ardagh Air the Lass of Gowry\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2896,8 +2419,6 @@
           "\"A New Song Called the Queen of Love\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2908,8 +2429,6 @@
           "\"A New Song Called the Rake of Rathkeal\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2920,8 +2439,6 @@
           "\"The Rattling Boys of Paddy's Land\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2932,8 +2449,6 @@
           "\"A New Song Called the Red Haired Man's Wife\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2944,8 +2459,6 @@
           "\"Lamentation of Rilley and Mary Campbell,\" and \"Sailor Boy's Farewell to His Mother\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2956,8 +2469,6 @@
           "\"Reily from the Co. Kerry\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2968,8 +2479,6 @@
           "\"A New Song on the Release of the Fenian Prisoners\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2980,8 +2489,6 @@
           "\"A New Song on the Release of the Political Prisoners\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -2992,8 +2499,6 @@
           "\"Rev. Father Tom, O'Neill\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3004,8 +2509,6 @@
           "\"The Riches of Ireland\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3016,8 +2519,6 @@
           "\"The Riggs and Sprees of Playhouse Square and Wapping\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3028,8 +2529,6 @@
           "\"Rights of Man\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3040,8 +2539,6 @@
           "\"The River Roe\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3052,8 +2549,6 @@
           "\"The Robber Outwitted\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3064,8 +2559,6 @@
           "\"A New Song on the Royal Visit\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3076,8 +2569,6 @@
           "\"A Dialogue Between a Schoolmaster and Laborer\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3088,8 +2579,6 @@
           "\"Most Tragic Lines Written on the Seduction and Lamentable Death of Anny Gray\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3100,8 +2589,6 @@
           "\"A New Song Called the Sewing Machine\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3112,8 +2599,6 @@
           "\"The Shamrock Green\" and \"Blow the Candle Out\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3124,8 +2609,6 @@
           "\"Shelling Green Peas\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3136,8 +2619,6 @@
           "\"A Sight for a Father\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3148,8 +2629,6 @@
           "\"The Single Young Man Lodger\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3160,8 +2639,6 @@
           "\"For Sixteen Months I Courted Her\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3172,8 +2649,6 @@
           "\"The Skipper and Boy\" and \"Sodger Laddie\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3184,8 +2659,6 @@
           "\"The Sorrowful Lamentation of Andrew Carr who was Executed on the 28 of July at Richmond Jail For the Murder of Margret Murphy\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3196,8 +2669,6 @@
           "\"A Sorrowful Lamentation on the Execution of Patrick Power who Suffered at the Front of Wexford Jail on the 4th of April for the Unnatural Murder of his Father\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3208,8 +2679,6 @@
           "\"A Sorrowful Lamentation on the Hollywood Tragedy where Two Sisters Have Been Brutally Murdered\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3220,8 +2689,6 @@
           "\"Speak of a Man as We Find Him\" and \"Bloom of Erin\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3232,8 +2699,6 @@
           "\"A New Song on the Sporting Races of Cavan\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3244,8 +2709,6 @@
           "\"A New Song on the Sporting Races of Kanturk\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3256,8 +2719,6 @@
           "\"Spotted Cow\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3268,8 +2729,6 @@
           "\"The Star of Slane\" and \"General Burke's Dream\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3280,8 +2739,6 @@
           "\"The Strike\" and \"Tramp! Tramp, Tramp\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3292,8 +2749,6 @@
           "\"Surrender of Napoleon and France Determined\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3304,8 +2759,6 @@
           "\"The Sweet Silver Light, Bonny Moon\" and \"Beautiful Bells\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3316,8 +2769,6 @@
           "\"Tara's Old Hall\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3328,8 +2779,6 @@
           "\"A New Song on the Taking Down of the Irish Census\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3340,8 +2789,6 @@
           "\"Terence's Farewell\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3352,8 +2799,6 @@
           "\"Terence's Farewell\" and \"Irish Boy\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3364,8 +2809,6 @@
           "\"There are Kind Hearts Everywhere\" and \"Just to Show There's No Ill-Feeling\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3376,8 +2819,6 @@
           "\"There was a Man Named O'Sullivan Lived Near Kildare\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3388,8 +2829,6 @@
           "\"Things I Do Like to See\" and \"The Cachuca\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3400,8 +2839,6 @@
           "\"A New Song Called the Three Huntsmen's Tragedy\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3412,8 +2849,6 @@
           "\"A New and Much Admired Song called the Three Lovers' Trip to Carrickmagat By Michael Daily\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3424,8 +2859,6 @@
           "\"A Much Admired Song Called Tie My Toes to the Bed\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3436,8 +2869,6 @@
           "\"A New Song on the Tipperary Ass\" (Copy 1)"
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3448,8 +2879,6 @@
           "\"A New Song on the Tipperary Ass\" (Copy 2)"
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3460,8 +2889,6 @@
           "\"Tipperary Man's Courtship\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3472,8 +2899,6 @@
           "\"Tramp! Tramp!! Tramp!!!\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3484,8 +2909,6 @@
           "\"The True-Lover's Trip over the Mountain\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3496,8 +2919,6 @@
           "\"A True History of Bernard Reilly, a Returned Convict who was Transported in the Year 1824\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3508,8 +2929,6 @@
           "\"A New Song on Unconquered Tipperary\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3520,8 +2939,6 @@
           "\"Up in a Balloon\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3532,8 +2949,6 @@
           "\"We Are Coming Sister Mary\" and \"My Bonny Lad Is Young But He's Growing\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3544,8 +2959,6 @@
           "\"We Miss Thee at Home,\" \"Bonny Eloise,\" and \"The Dear Little Shamrock\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3556,8 +2969,6 @@
           "\"A New Song Called the Wedding Afternoon\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3568,8 +2979,6 @@
           "\"Wedding of Balyporeen\" and \"The Stage Struck Hero\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3580,8 +2989,6 @@
           "\"On the Wexford Man of '98\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3592,8 +2999,6 @@
           "\"What Can the Matter Be\" and \"Steam's Up Darkies\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3604,8 +3009,6 @@
           "\"Where are the Friends of my Youth?,\" \"Rock Me to Sleep, Mother,\" \"What Can a Porr Maiden Do?,\" and \"The Old Oaken Bucket\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3616,8 +3019,6 @@
           "\"William and Eliza; Or, Lough Eene Shor\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3628,8 +3029,6 @@
           "\"New Song Called William and Jane on the Banks of Clyde\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3640,8 +3039,6 @@
           "\"A New Song on William O'Brien and the 'Mysterious Rats'\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3652,8 +3049,6 @@
           "\"A New Song Called Willy Leonard\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3664,8 +3059,6 @@
           "\"Willy Reilly and his Dear Colleen Bawn\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3676,8 +3069,6 @@
           "\"The Window\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3688,8 +3079,6 @@
           "\"A New Song Called Wire In and Get Your Tea Pot\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3700,8 +3089,6 @@
           "\"A New Song Called the Wonders of the World\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3712,8 +3099,6 @@
           "\"Work, Boys, Work,\" and \"The Irish Excavator\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3724,8 +3109,6 @@
           "\"Wrongs of Ireland\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3736,8 +3119,6 @@
           "\"You Never Can Tell\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3748,8 +3129,6 @@
           "\"An Admired Song Called Youghal Harbour\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3760,8 +3139,6 @@
           "\"Young Henry of the Raging Main\" and \"Erin is my Home\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3772,8 +3149,6 @@
           "\"A New Song Called the Young Lady's Lamentation for the Loss of Her True Love\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3784,8 +3159,6 @@
           "\"A New Song Called the Young Man in Search of his Sister\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3796,8 +3169,6 @@
           "\"A New Song Called the Young Squire or the Counselor Outwitted\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3808,8 +3179,6 @@
           "\"Young Volunteer! on his March to Battle\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3820,8 +3189,6 @@
           "\"Young Woman's Wants,\" and \"Reading Made Easy\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3832,8 +3199,6 @@
           "\"A New Song on the Afghan War\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3844,8 +3209,6 @@
           "\"A New Song on the Curragh Murder\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3856,8 +3219,6 @@
           "\"A New Song on the Erecting of O'Connell's Monument For 1882\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3868,8 +3229,6 @@
           "\"Lamentable Lines on the Execution of the Maamtrasna Murderers\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3880,8 +3239,6 @@
           "\"Our Latest Song - The Gems of the Land League. Air- The Gems of Old Ireland\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3892,8 +3249,6 @@
           "\"A New Song on the Happy Return of Moody and Sankey\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3904,8 +3259,6 @@
           "\"Lamentable Lines on Joe. Brady and Dan. Curley\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3916,8 +3269,6 @@
           "\"Joseph Brady's Last Advice to the People of Ireland\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3928,8 +3279,6 @@
           "\"McKenna's Dream\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3940,8 +3289,6 @@
           "\"A New Song on the Massacre of 20,000 Roman Catholics in Syria\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3952,8 +3299,6 @@
           "\"Lines on the Death of Miss Fanny Parnell. Air-Exile of Erin\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3964,8 +3309,6 @@
           "\"Release of M. L. Davitt, (Founder of the Land League)\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3976,8 +3319,6 @@
           "\"Lines on the Phoenix Park Tragedy\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -3988,8 +3329,6 @@
           "\"Poor Pat Must Emigrate. Air-'Apple Praters'\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -4000,8 +3339,6 @@
           "\"Sights and Scenes of Dublin\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -4012,8 +3349,6 @@
           "\"The Star of Erin's Isle\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
     },
     {
@@ -4024,63 +3359,9 @@
           "\"The Surprising Tree of Knowledge\""
         ]
       },
-      "thumbnail": [],
-      "items": [],
       "viewingDirection": "left-to-right"
-    },
-    {
-      "type": "Canvas",
-      "id": "iiif-manifest.test.edu/canvas/collections%2Fead_xml%2Fimages%2FBPP_1001%2FBPP_1001-001.tif",
-      "label": {
-        "en": [
-          "collections/ead_xml/images/BPP_1001/BPP_1001-001.tif"
-        ]
-      },
-      "thumbnail": [
-        {
-          "id": "https://image-iiif-testlib.libraries.nd.edu/iiif/2/collections%2Fead_xml%2Fimages%2FBPP_1001%2FBPP_1001-001/full/250,/0/default.jpg",
-          "type": "Image",
-          "service": [
-            {
-              "id": "https://image-iiif-testlib.libraries.nd.edu/iiif/2/collections%2Fead_xml%2Fimages%2FBPP_1001%2FBPP_1001-001",
-              "type": "ImageService2",
-              "profile": "http://iiif.io/api/image/2/level2.json"
-            }
-          ]
-        }
-      ],
-      "items": [
-        {
-          "id": "iiif-manifest.test.edu/annotation_page/collections%2Fead_xml%2Fimages%2FBPP_1001%2FBPP_1001-001.tif",
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "id": "iiif-manifest.test.edu/annotation/collections%2Fead_xml%2Fimages%2FBPP_1001%2FBPP_1001-001.tif",
-              "type": "Annotation",
-              "motivation": "painting",
-              "target": "iiif-manifest.test.edu/canvas/collections%2Fead_xml%2Fimages%2FBPP_1001%2FBPP_1001-001.tif",
-              "body": {
-                "id": "https://image-iiif-testlib.libraries.nd.edu/iiif/2/collections%2Fead_xml%2Fimages%2FBPP_1001%2FBPP_1001-001/full/full/0/default.jpg",
-                "type": "Image",
-                "format": "image/jpeg",
-                "service": [
-                  {
-                    "id": "https://image-iiif-testlib.libraries.nd.edu/iiif/2/collections%2Fead_xml%2Fimages%2FBPP_1001%2FBPP_1001-001",
-                    "type": "ImageService2",
-                    "profile": "http://iiif.io/api/image/2/level2.json"
-                  }
-                ]
-              }
-            }
-          ]
-        }
-      ],
-      "viewingDirection": "left-to-right",
-      "height": 2000,
-      "width": 2000
     }
   ],
-  "viewingDirection": "left-to-right",
   "@context": [
     "http://www.w3.org/ns/anno.jsonld",
     "https://presentation-iiif.library.nd.edu/extensions/partiallyDigitized",
@@ -4118,7 +3399,6 @@
       ]
     }
   ],
-  "rights": "Copyright status for collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.",
   "summary": {
     "en": [
       "Collection consists of 559 broadsides, most measuring 28 x 11 1/2 cm. Broadsides were printed and sold in streets and at fairs and markets from the early days of printing, often by ballad singers. Many of the broadsides were printed in Dublin by P. Brereton, probably between 1860 and 1876."
@@ -4171,6 +3451,18 @@
         "en": [
           "Songs, Irish",
           "Ballads, Irish"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Conditions Governing Use"
+        ]
+      },
+      "value": {
+        "en": [
+          "Copyright status for collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user."
         ]
       }
     },
