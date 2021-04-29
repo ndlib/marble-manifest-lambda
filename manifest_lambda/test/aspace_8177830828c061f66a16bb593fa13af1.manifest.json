@@ -6,6 +6,7 @@
       "\"The Aquital of Robert Kelly\""
     ]
   },
+  "viewingDirection": "left-to-right",
   "thumbnail": [
     {
       "id": "https://image-iiif.library.nd.edu/iiif/2/collections%2Fead_xml%2Fimages%2FBPP_1001%2FBPP_1001-001-F2/full/250,/0/default.jpg",
@@ -67,7 +68,6 @@
           ]
         }
       ],
-      "viewingDirection": "left-to-right",
       "height": 2000,
       "width": 2000
     },
@@ -118,16 +118,16 @@
           ]
         }
       ],
-      "viewingDirection": "left-to-right",
       "height": 2000,
       "width": 2000
     }
   ],
-  "viewingDirection": "left-to-right",
-  "partOf": {
-    "id": "iiif-manifest.test.edu/manifest/BPP1001_EAD",
-    "type": "Collection"
-  },
+  "partOf": [
+    {
+      "id": "iiif-manifest.test.edu/manifest/BPP1001_EAD",
+      "type": "Collection"
+    }
+  ],
   "provider": [
     {
       "id": "https://rarebooks.library.nd.edu/using",

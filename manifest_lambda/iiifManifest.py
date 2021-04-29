@@ -49,21 +49,24 @@ class iiifManifest():
 
         return []
 
-    def _build_mainfest(self):
+    def _build_mainfest(self):  # noqa: C901
         label_contents = self.standard_json.get('title')
         if not label_contents:  # file records do not have a title field
             label_contents = self.standard_json.get('id')
         self.manifest_hash = {
             'type': self.type,
             'id': self._manifest_id(self.standard_json.get('id')),
-            'label': _lang_wrapper(self.lang, label_contents),
-            'thumbnail': self.thumbnail(),
-            'items': self._items(),
-            'viewingDirection': 'left-to-right'
+            'label': _lang_wrapper(self.lang, label_contents)
         }
+        if self.type in ('Manifest', 'Collection'):
+            self.manifest_hash['viewingDirection'] = 'left-to-right'
+        if self.thumbnail():
+            self.manifest_hash['thumbnail'] = self.thumbnail()
+        if self._items():
+            self.manifest_hash['items'] = self._items()
         part_of = _return_part_of(self.type, self.standard_json.get('parentId'), self.standard_json.get('parent', {}).get('level'), self.iiif_base_url)
         if part_of:
-            self.manifest_hash["partOf"] = part_of
+            self.manifest_hash["partOf"] = [part_of]
         self.add_context()
         provider = _return_provider(self.standard_json.get('repository'), self.standard_json.get('level', 'file'))
         if provider:
@@ -71,9 +74,11 @@ class iiifManifest():
         required_statement = _return_required_statement(self.lang, self.standard_json.get('copyrightStatus'))
         if required_statement:
             self.manifest_hash['requiredStatement'] = required_statement
-        rights = _return_rights(self.standard_json.get('copyrightStatement'))
-        if rights:
-            self.manifest_hash['rights'] = rights
+        # iiif manifest v3.0 requires that rights be a url for a creative commons right.  https://iiif.io/api/presentation/3.0/#rights
+        # I'll leave this here, since it worked previously, and we may want to investigate this further.
+        # rights = _return_rights(self.standard_json.get('copyrightStatement'))
+        # if rights:
+        #     self.manifest_hash['rights'] = rights
         summary = _return_summary(self.lang, self.standard_json.get('description'))
         if summary:
             self.manifest_hash['summary'] = summary
@@ -102,9 +107,10 @@ class iiifManifest():
             for item_data in self.standard_json.get("children", {}).get("items", []):
                 if not _item_has_pdf(item_data):
                     ret.append(iiifManifest(self.iiif_base_url, item_data, self.mapping_template).manifest())
-            for file_data in self.standard_json.get("files", {}).get("items", []):
-                if not _item_has_pdf(file_data):
-                    ret.append(iiifManifest(self.iiif_base_url, file_data, self.mapping_template).manifest())
+            if self.type != "Collection":  # A collection must only contain manifests as items
+                for file_data in self.standard_json.get("files", {}).get("items", []):
+                    if not _item_has_pdf(file_data):
+                        ret.append(iiifManifest(self.iiif_base_url, file_data, self.mapping_template).manifest())
 
         return ret
 
@@ -341,7 +347,7 @@ def _metadata_keys_that_have_top_level_values() -> list:
         'collectioninformation',
         'repository',
         'copyrightStatus',
-        'copyrightStatement',
+        # 'copyrightStatement',
         'usage',
         'license',
         'thumbnail',

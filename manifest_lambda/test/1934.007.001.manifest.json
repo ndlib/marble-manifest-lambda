@@ -6,6 +6,7 @@
       "Coronation of the Virgin"
     ]
   },
+  "viewingDirection": "left-to-right",
   "thumbnail": [
     {
       "id": "https://image-iiif-testlib.libraries.nd.edu/iiif/2/1934.007.001%2F1934_007_001-v0003/full/250,/0/default.jpg",
@@ -67,7 +68,6 @@
           ]
         }
       ],
-      "viewingDirection": "left-to-right",
       "height": 2000,
       "width": 2000
     },
@@ -118,7 +118,6 @@
           ]
         }
       ],
-      "viewingDirection": "left-to-right",
       "height": 2000,
       "width": 2000
     },
@@ -169,12 +168,10 @@
           ]
         }
       ],
-      "viewingDirection": "left-to-right",
       "height": 2000,
       "width": 2000
     }
   ],
-  "viewingDirection": "left-to-right",
   "@context": [
     "http://www.w3.org/ns/anno.jsonld",
     "https://presentation-iiif.library.nd.edu/extensions/partiallyDigitized",
