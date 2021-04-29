@@ -32,7 +32,7 @@ class Test(unittest.TestCase):
             'collectioninformation',
             'repository',
             'copyrightStatus',
-            'copyrightStatement',
+            # 'copyrightStatement',
             'usage',
             'license',
             'thumbnail',
