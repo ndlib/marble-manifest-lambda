@@ -2,7 +2,7 @@ import unittest
 import json
 import os
 from pathlib import Path
-from handler import get_manifest, _get_graphql_api_url_key_path, _get_graphql_api_key_key_path, _get_iiif_api_base_url, \
+from manifest_lambda.handler import get_manifest, _get_graphql_api_url_key_path, _get_graphql_api_key_key_path, _get_iiif_api_base_url, \
     _get_resource, _get_id
 
 
@@ -49,11 +49,11 @@ class Test(unittest.TestCase):
         current_path = str(Path(__file__).parent.absolute())
         for one_id in self.ids:
             # print("id = ", one_id)
-            standard_json_file_name = os.path.join(current_path, 'test', one_id + '.standard.json')
+            standard_json_file_name = os.path.join(current_path, '..', one_id + '.standard.json')
             with open(standard_json_file_name, 'r') as input_source:
                 standard_json = json.load(input_source)
             manifest_json = get_manifest(one_id, standard_json, self.iiif_base_url)
-            manifest_json_file_name = os.path.join(current_path, 'test', one_id + '.manifest.json')
+            manifest_json_file_name = os.path.join(current_path, '..', one_id + '.manifest.json')
             # with open(manifest_json_file_name, 'w') as output_file:
             #     json.dump(manifest_json, output_file, indent=2)
             with open(manifest_json_file_name, 'r') as input_source:

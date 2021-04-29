@@ -2,7 +2,7 @@ import unittest
 import json
 import os
 from pathlib import Path
-from MetadataMappings import MetadataMappings
+from manifest_lambda.MetadataMappings import MetadataMappings
 
 
 current_path = str(Path(__file__).parent.absolute())
@@ -13,7 +13,7 @@ class Test(unittest.TestCase):
         """ test_load_source_system_mapping_file """
         site_name = 'marble'
         for source_system in ['aleph', 'archivesspace', 'curate', 'embark']:
-            file_name = os.path.join(current_path, 'sites', site_name, source_system + '.json')
+            file_name = os.path.join(current_path, '../../sites', site_name, source_system + '.json')
             with open(file_name, 'r') as input_source:
                 expected_results = json.load(input_source)
             metadata_mappings_class = MetadataMappings(source_system)

@@ -11,7 +11,7 @@ current_path = str(Path(__file__).parent.absolute())
 class Test(unittest.TestCase):
     def setUp(self):
         self.example_standard_json = {}
-        file_name = os.path.join(current_path, 'test', '1934.007.001.standard.json')
+        file_name = os.path.join(current_path, '..', '1934.007.001.standard.json')
         with open(file_name, 'r') as input_source:
             self.example_standard_json = json.load(input_source)
         self.iiif_base_url = 'https://my.base.url'

@@ -2,10 +2,10 @@ import unittest
 import json
 import os
 from pathlib import Path
-from iiifManifest import iiifManifest, _metadata_keys_that_have_top_level_values, _search_for_default_image, _annotation_page_id, \
+from manifest_lambda.iiifManifest import iiifManifest, _metadata_keys_that_have_top_level_values, _search_for_default_image, _annotation_page_id, \
     _hesb_proivider, _archives_proivider, _rbsc_proivider, _snite_proivider, _lang_wrapper, _convert_label_value, _return_provider, \
     _return_part_of, _return_required_statement, _return_rights, _return_summary
-from MetadataMappings import MetadataMappings
+from manifest_lambda.MetadataMappings import MetadataMappings
 
 
 current_path = str(Path(__file__).parent.absolute())
@@ -14,7 +14,7 @@ current_path = str(Path(__file__).parent.absolute())
 class Test(unittest.TestCase):
     def setUp(self):
         self.standard_json = {}
-        file_name = os.path.join(current_path, 'test', '1934.007.001.standard.json')
+        file_name = os.path.join(current_path, '..', '1934.007.001.standard.json')
         with open(file_name, 'r') as input_source:
             self.standard_json = json.load(input_source)
         self.iiif_base_url = 'https://my.base.url'

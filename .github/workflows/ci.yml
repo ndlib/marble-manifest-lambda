@@ -24,4 +24,4 @@ jobs:
       with:
         python-version: ${{ matrix.python-version }}
     - run: pip install -r dev-requirements.txt
-    - run: ./run-all-tests.sh
+    - run: python run_all_tests.py
