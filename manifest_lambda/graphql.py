@@ -81,7 +81,24 @@ def build_manifest_query(id):
                     mimeType
                 }
             }
+            images {
+                items {
+                    id
+                    mediaResourceId
+                    mediaServer
+                    mimeType
+                }
             }
+            media {
+                items {
+                    id
+                    mediaResourceId
+                    mediaServer
+                    mimeType
+                }
+            }
+
+        }
     }
     '''
     return query

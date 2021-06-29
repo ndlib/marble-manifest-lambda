@@ -46,8 +46,8 @@ def run(event, context):
         print("resource =", resource)
         print("id =", id)
 
-    # with open('manifest.json', 'w') as output_file:
-    #     json.dump(manifest_json, output_file, indent=2)
+    with open('manifest.json', 'w') as output_file:
+        json.dump(manifest_json, output_file, indent=2)
 
     return build_http_results(manifest_json)
 
@@ -115,7 +115,7 @@ def _get_ssm_parameter(name: str) -> str:
 # export GRAPHQL_API_URL_KEY_PATH=/all/stacks/marbleb-prod-maintain-metadata/graphql-api-url
 # export GRAPHQL_API_KEY_KEY_PATH=/all/stacks/marbleb-prod-maintain-metadata/graphql-api-key
 # export IIIF_API_BASE_URL=presentation-iiif.library.nd.edu
-# aws-vault exec libnd-power-user-2
+# aws-vault exec libnd-power-user
 # python -c 'from handler import *; test()'
 
 def test():
@@ -127,10 +127,12 @@ def test():
     # event['id'] = 'MSNEa8006_EAD'
     # event['id'] = '1934.007.001'
     # event['id'] = 'aspace_8177830828c061f66a16bb593fa13af1'
+    # event['pathParameters']['id'] = 'pv63fx74g23'
+    event['pathParameters']['id'] = 'aspace_8177830828c061f66a16bb593fa13af1'
 
-    event['resource'] = '/canvas/{id}'
-    event['resource'] = '/annotation_page/{id}'
-    event['resource'] = '/annotation/{id}'
-    event['pathParameters'] = {"id": "1934.007.001%2F1934_007_001-v0002.tif"}
+    # event['resource'] = '/canvas/{id}'
+    # event['resource'] = '/annotation_page/{id}'
+    # event['resource'] = '/annotation/{id}'
+    # event['pathParameters'] = {"id": "1934.007.001%2F1934_007_001-v0002.tif"}
 
-    print(run(event, {}))
+    run(event, {})
