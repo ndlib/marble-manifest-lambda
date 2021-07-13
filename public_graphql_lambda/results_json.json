@@ -1,0 +1,14 @@
+{
+  "items": [
+    {
+      "portfolioUserId": "dwolfe2",
+      "portfolioCollectionId": "B",
+      "description": "port b public",
+      "featuredCollection": true,
+      "highlightedCollection": true,
+      "layout": "default",
+      "imageUri": null,
+      "privacy": "public"
+    }
+  ]
+}
