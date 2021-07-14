@@ -9,3 +9,8 @@ mkdir dependencies
 pip install -r requirements.txt -t ./dependencies
 popd
 
+pushd public_graphql_lambda
+rm -rf ./dependencies
+mkdir dependencies
+pip install -r requirements.txt -t ./dependencies
+popd
