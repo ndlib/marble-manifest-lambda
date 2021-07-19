@@ -8,13 +8,13 @@ def is_media(media_json) -> bool:
 
 
 def is_audio(media_json: dict) -> bool:
-    if media_json.get('mimeType').startswith('audio/') and media_json.get('mediaServer', '') and media_json.get('mediaResourceId', ''):
+    if media_json.get('mimeType', '').startswith('audio/') and media_json.get('mediaServer', '') and media_json.get('mediaResourceId', ''):
         return True
     return False
 
 
 def is_video(media_json: dict) -> bool:
-    if media_json.get('mimeType').startswith('video/') and media_json.get('mediaServer', '') and media_json.get('mediaResourceId', ''):
+    if media_json.get('mimeType', '').startswith('video/') and media_json.get('mediaServer', '') and media_json.get('mediaResourceId', ''):
         return True
     return False
 
@@ -30,7 +30,7 @@ def media_canvas(iiif_base_url: str, media_json: dict) -> dict:
     return {
         'id': _canvas_id(iiif_base_url, media_json.get('id', '')),
         'type': 'Canvas',
-        'items': [_annotation_page(iiif_base_url, media_json.get('id', ''))]
+        'items': [_annotation_page(iiif_base_url, media_json, media_type)]
     }
 
 
@@ -38,7 +38,7 @@ def _annotation_page(iiif_base_url: str, media_json: dict, media_type: str) -> d
     return {
         'id': _annotation_page_id(iiif_base_url, media_json.get('id', '')),
         'type': 'AnnotationPage',
-        'items': [_annotation(iiif_base_url, media_json)]
+        'items': [_annotation(iiif_base_url, media_json, media_type)]
     }
 
 

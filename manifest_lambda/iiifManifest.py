@@ -42,8 +42,8 @@ class iiifManifest():
         return ret
 
     def thumbnail(self):
-        if self.standard_json.get('defaultFile', False):
-            return [iiifImage(self.standard_json.get('defaultFile'), self.iiif_base_url).thumbnail()]
+        if self.standard_json.get('defaultImage', False):
+            return [iiifImage(self.standard_json.get('defaultImage'), self.iiif_base_url).thumbnail()]
         if self.type == 'Canvas':
             return [iiifImage(self.standard_json, self.iiif_base_url).thumbnail()]
         file_json = _search_for_default_image(self.standard_json)
@@ -162,7 +162,7 @@ class iiifManifest():
             pdfs = []
             for item_data in self.standard_json.get("children", {}).get("items", []):
                 if _item_has_pdf(item_data):
-                    fileUrl = re.sub(r"^(s3:\/\/[a-zA-z_-]*?\/)", "https://rbsc.library.nd.edu/", item_data.get("filePath"))
+                    fileUrl = re.sub(r"^(s3:\/\/[a-zA-z_-]*?\/)", "https://rbsc.library.nd.edu/", item_data.get("filePath"), '')
                     pdfs.append({
                         "id": fileUrl,
                         "type": "Text",
