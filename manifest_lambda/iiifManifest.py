@@ -1,6 +1,9 @@
 import os
 import re
 from iiifImage import iiifImage
+from get_iiif_manifest_provider import return_provider
+from get_iiif_manifest_pdf_rendering_section import return_pdf_rendering
+from iiifMedia import is_media, media_canvas
 
 
 class iiifManifest():
@@ -39,8 +42,8 @@ class iiifManifest():
         return ret
 
     def thumbnail(self):
-        if self.standard_json.get('defaultFile', False):
-            return [iiifImage(self.standard_json.get('defaultFile'), self.iiif_base_url).thumbnail()]
+        if self.standard_json.get('defaultImage', False):
+            return [iiifImage(self.standard_json.get('defaultImage'), self.iiif_base_url).thumbnail()]
         if self.type == 'Canvas':
             return [iiifImage(self.standard_json, self.iiif_base_url).thumbnail()]
         file_json = _search_for_default_image(self.standard_json)
@@ -62,13 +65,16 @@ class iiifManifest():
             self.manifest_hash['viewingDirection'] = 'left-to-right'
         if self.thumbnail():
             self.manifest_hash['thumbnail'] = self.thumbnail()
+        pdf_rendering = return_pdf_rendering(self.standard_json)
+        if pdf_rendering:
+            self.manifest_hash["rendering"] = pdf_rendering
         if self._items():
             self.manifest_hash['items'] = self._items()
         part_of = _return_part_of(self.type, self.standard_json.get('parentId'), self.standard_json.get('parent', {}).get('level'), self.iiif_base_url)
         if part_of:
             self.manifest_hash["partOf"] = [part_of]
         self.add_context()
-        provider = _return_provider(self.standard_json.get('repository'), self.standard_json.get('level', 'file'))
+        provider = return_provider(self.standard_json.get('repository'), self.standard_json.get('level', 'file'))
         if provider:
             self.manifest_hash['provider'] = [provider]
         required_statement = _return_required_statement(self.lang, self.standard_json.get('copyrightStatus'))
@@ -95,20 +101,28 @@ class iiifManifest():
     def _items(self):
         ret = []
         if self.type == 'Canvas':
-            image = iiifImage(self.standard_json, self.iiif_base_url)
-            ret.append({
-                'id': _annotation_page_id(self.iiif_base_url, self.standard_json.get('id')),
-                'type': 'AnnotationPage',
-                'items': [
-                    image.annotation(self._manifest_id(self.standard_json.get('id')))
-                ]
-            })
+            if is_media(self.standard_json):
+                media_canvas_results = media_canvas(self.iiif_base_url, self.standard_json)
+                if media_canvas_results:
+                    ret.append(media_canvas_results)
+            else:
+                image = iiifImage(self.standard_json, self.iiif_base_url)
+                ret.append({
+                    'id': _annotation_page_id(self.iiif_base_url, self.standard_json.get('id')),
+                    'type': 'AnnotationPage',
+                    'items': [
+                        image.annotation(self._manifest_id(self.standard_json.get('id')))
+                    ]
+                })
         else:
             for item_data in self.standard_json.get("children", {}).get("items", []):
                 if not _item_has_pdf(item_data):
                     ret.append(iiifManifest(self.iiif_base_url, item_data, self.mapping_template).manifest())
             if self.type != "Collection":  # A collection must only contain manifests as items
-                for file_data in self.standard_json.get("files", {}).get("items", []):
+                for file_data in self.standard_json.get("images", {}).get("items", []):
+                    if not _item_has_pdf(file_data):
+                        ret.append(iiifManifest(self.iiif_base_url, file_data, self.mapping_template).manifest())
+                for file_data in self.standard_json.get("media", {}).get("items", []):
                     if not _item_has_pdf(file_data):
                         ret.append(iiifManifest(self.iiif_base_url, file_data, self.mapping_template).manifest())
 
@@ -148,7 +162,7 @@ class iiifManifest():
             pdfs = []
             for item_data in self.standard_json.get("children", {}).get("items", []):
                 if _item_has_pdf(item_data):
-                    fileUrl = re.sub(r"^(s3:\/\/[a-zA-z_-]*?\/)", "https://rbsc.library.nd.edu/", item_data.get("filePath"))
+                    fileUrl = re.sub(r"^(s3:\/\/[a-zA-z_-]*?\/)", "https://rbsc.library.nd.edu/", item_data.get("filePath"), '')
                     pdfs.append({
                         "id": fileUrl,
                         "type": "Text",
@@ -195,23 +209,6 @@ def _return_part_of(manifest_type: str, parent_id: str, parent_level: str, iiif_
     return part_of
 
 
-def _return_provider(repository: str, level: str) -> dict:
-    if not repository or not level or level == 'file':
-        return
-    repository = repository.lower()
-    if (repository == 'museum'):
-        return _snite_proivider()
-    elif (repository == 'unda'):
-        return _archives_proivider()
-    elif (repository == 'rare' or repository == 'curate'):
-        return _rbsc_proivider()
-    elif (repository == 'hesb'):
-        return _hesb_proivider()
-    else:
-        raise Exception("bad provider " + repository.lower())
-        return
-
-
 def _convert_label_value(lang: str, label: str, value) -> dict:
     if (label and value):
         return {
@@ -229,112 +226,12 @@ def _lang_wrapper(lang: str, line) -> dict:
     return {lang: line}
 
 
-def _snite_proivider() -> dict:
-    return {
-        "id": "https://sniteartmuseum.nd.edu/about-us/contact-us/",
-        "type": "Agent",
-        "label": {"en": ["Snite Museum of Art"]},
-        "homepage": [
-            {
-                "id": "https://sniteartmuseum.nd.edu",
-                "type": "Text",
-                "label": {"en": ["Snite Museum of Art"]},
-                "format": "text/html"
-            }
-        ],
-        "logo": [
-            {
-                "id": "https://sniteartmuseum.nd.edu/stylesheets/images/snite_logo@2x.png",
-                "type": "Image",
-                "format": "image/png",
-                "height": 100,
-                "width": 120
-            }
-        ]
-    }
-
-
-def _rbsc_proivider() -> dict:
-    return {
-        "id": "https://rarebooks.library.nd.edu/using",
-        "type": "Agent",
-        "label": {"en": ["Rare Books and Special Collections, Hesburgh Libraries, University of Notre Dame"]},
-        "homepage": [
-            {
-                "id": "https://rarebooks.library.nd.edu/",
-                "type": "Text",
-                "label": {"en": ["Rare Books and Special Collections, Hesburgh Libraries, University of Notre Dame"]},
-                "format": "text/html"
-            }
-        ],
-        "logo": [
-            {
-                "id": "https://rarebooks.library.nd.edu/images/hesburgh_mark.png",
-                "type": "Image",
-                "format": "image/png",
-                "height": 100,
-                "width": 120
-            }
-        ]
-    }
-
-
-def _archives_proivider() -> dict:
-    return {
-        "id": "http://archives.nd.edu/about/",
-        "type": "Agent",
-        "label": {"en": ["University of Notre Dame Archives, Hesburgh Libraries, University of Notre Dame"]},
-        "homepage": [
-            {
-                "id": "http://archives.nd.edu/",
-                "type": "Text",
-                "label": {"en": ["University of Notre Dame Archives"]},
-                "format": "text/html"
-            }
-        ],
-        "logo": [
-            {
-                "id": "https://rarebooks.library.nd.edu/images/hesburgh_mark.png",
-                "type": "Image",
-                "format": "image/png",
-                "height": 100,
-                "width": 120
-            }
-        ]
-    }
-
-
-def _hesb_proivider() -> dict:
-    return {
-        "id": "https://library.nd.edu",
-        "type": "Agent",
-        "label": {"en": ["General Collection, Hesburgh Libraries"]},
-        "homepage": [
-            {
-                "id": "https://library.nd.edu/",
-                "type": "Text",
-                "label": {"en": ["General Collection, Hesburgh Libraries"]},
-                "format": "text/html"
-            }
-        ],
-        "logo": [
-            {
-                "id": "https://library.nd.edu/static/media/library.logo.43a05388.png",
-                "type": "Image",
-                "format": "image/png",
-                "height": 100,
-                "width": 120
-            }
-        ]
-    }
-
-
 def _annotation_page_id(iiif_base_url: str, item_id: str) -> str:
     return os.path.join(iiif_base_url, 'annotation_page', item_id.replace("/", "%2F"))
 
 
 def _search_for_default_image(standard_json) -> dict:
-    for file_json in standard_json.get('files', {}).get('items', []):
+    for file_json in standard_json.get('images', {}).get('items', []):
         return file_json
 
 

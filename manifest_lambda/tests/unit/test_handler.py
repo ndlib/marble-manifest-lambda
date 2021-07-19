@@ -48,11 +48,13 @@ class Test(unittest.TestCase):
     def test_manifest(self):
         current_path = str(Path(__file__).parent.absolute())
         for one_id in self.ids:
-            # print("id = ", one_id)
             standard_json_file_name = os.path.join(current_path, '..', one_id + '.standard.json')
             with open(standard_json_file_name, 'r') as input_source:
                 standard_json = json.load(input_source)
             manifest_json = get_manifest(one_id, standard_json, self.iiif_base_url)
+            # actual_manifest_json_file_name = os.path.join(current_path, '..', one_id + '.actual.manifest.json')
+            # with open(actual_manifest_json_file_name, 'w') as output_file:
+            #     json.dump(manifest_json, output_file, indent=2)
             manifest_json_file_name = os.path.join(current_path, '..', one_id + '.manifest.json')
             # with open(manifest_json_file_name, 'w') as output_file:
             #     json.dump(manifest_json, output_file, indent=2)

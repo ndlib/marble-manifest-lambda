@@ -36,11 +36,6 @@ def build_manifest_query(id):
             }
             dedication
             defaultFilePath
-            defaultFile {
-                id
-                mediaResourceId
-                mediaServer
-            }
             description
             dimensions
             format
@@ -73,7 +68,7 @@ def build_manifest_query(id):
                     description
                 }
             }
-            files {
+            images {
                 items {
                     id
                     mediaResourceId
@@ -81,15 +76,24 @@ def build_manifest_query(id):
                     mimeType
                 }
             }
+            media {
+                items {
+                    id
+                    mediaResourceId
+                    mediaServer
+                    mimeType
+                }
             }
+
+        }
     }
     '''
     return query
 
 
-def build_file_query(id):
+def build_image_query(id):
     query = '''query MyQuery {
-        getFile(id: "''' + id + '''"){
+        getImage(id: "''' + id.replace('%2F', '/') + '''"){
             id
             mediaResourceId
             mediaServer

@@ -3,10 +3,10 @@ import json
 import os
 from pathlib import Path
 from manifest_lambda.iiifManifest import iiifManifest, _metadata_keys_that_have_top_level_values, _search_for_default_image, _annotation_page_id, \
-    _hesb_proivider, _archives_proivider, _rbsc_proivider, _snite_proivider, _lang_wrapper, _convert_label_value, _return_provider, \
+    _lang_wrapper, _convert_label_value, \
     _return_part_of, _return_required_statement, _return_rights, _return_summary
 from manifest_lambda.MetadataMappings import MetadataMappings
-
+from manifest_lambda.get_iiif_manifest_provider import _hesb_proivider, _archives_proivider, _rbsc_proivider, _snite_proivider, return_provider
 
 current_path = str(Path(__file__).parent.absolute())
 
@@ -94,7 +94,7 @@ class Test(unittest.TestCase):
 
     def test_return_provider(self):
         """ test_return_provider """
-        results = _return_provider(self.standard_json.get('repository'), self.standard_json.get('level', 'file'))
+        results = return_provider(self.standard_json.get('repository'), self.standard_json.get('level', 'file'))
         actual_id = results.get('id')
         expected_id = 'https://sniteartmuseum.nd.edu/about-us/contact-us/'
         self.assertEqual(actual_id, expected_id)

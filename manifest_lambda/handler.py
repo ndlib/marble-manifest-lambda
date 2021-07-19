@@ -6,7 +6,7 @@ from iiifManifest import iiifManifest
 from MetadataMappings import MetadataMappings
 import sentry_sdk
 from sentry_sdk.integrations.aws_lambda import AwsLambdaIntegration
-from graphql import query_appsync, build_manifest_query, build_file_query
+from graphql import query_appsync, build_manifest_query, build_image_query
 import json
 
 
@@ -29,15 +29,20 @@ def run(event, context):
         try:
             if resource == 'manifest':
                 standard_json = query_appsync(graphql_url, graphql_key, build_manifest_query(id)).get('data', {}).get('getItem')
+                if standard_json.get('id') is None:
+                    standard_json = {}
                 manifest_json = get_manifest(id, standard_json, iiif_base_url)
             elif resource in ('canvas', 'annotation_page', 'annotation'):  # This assumes the canvas is named with the full file id, including extension
-                standard_json = query_appsync(graphql_url, graphql_key, build_file_query(id)).get('data', {}).get('getFile')
+                standard_json = query_appsync(graphql_url, graphql_key, build_image_query(id)).get('data', {}).get('getImage')
+                if standard_json.get('id') is None:
+                    standard_json = {}
                 manifest_json = get_manifest(id, standard_json, iiif_base_url)
                 if resource in ('annotation_page', 'annotation'):  # This assumes one annotation_page per canvas
                     manifest_json = manifest_json.get('items')[0]
                     if resource in ('annotation'):  # This assumes one annotation per annoation_page
                         manifest_json = manifest_json.get('items')[0]
         except Exception as err:
+            sentry_sdk.capture_exception(err)
             print("error on {}".format(id))
             print("Error: {}".format(err))
             manifest_json = {}
@@ -115,22 +120,24 @@ def _get_ssm_parameter(name: str) -> str:
 # export GRAPHQL_API_URL_KEY_PATH=/all/stacks/marbleb-prod-maintain-metadata/graphql-api-url
 # export GRAPHQL_API_KEY_KEY_PATH=/all/stacks/marbleb-prod-maintain-metadata/graphql-api-key
 # export IIIF_API_BASE_URL=presentation-iiif.library.nd.edu
-# aws-vault exec libnd-power-user-2
+# aws-vault exec libnd-power-user
 # python -c 'from handler import *; test()'
 
 def test():
-    # import pprint
-    # pp = pprint.PrettyPrinter(indent=4)
     event = {}
     event['resource'] = '/manifest/{id}'
     event['pathParameters'] = {"id": "BPP1001_EAD"}
     # event['id'] = 'MSNEa8006_EAD'
     # event['id'] = '1934.007.001'
     # event['id'] = 'aspace_8177830828c061f66a16bb593fa13af1'
+    # event['pathParameters']['id'] = 'pv63fx74g23'
+    event['pathParameters']['id'] = 'aspace_8177830828c061f66a16bb593fa13af1'
+    event['pathParameters']['id'] = '005065260'
+    # event['pathParameters']['id'] = '1934.007.001'
 
-    event['resource'] = '/canvas/{id}'
-    event['resource'] = '/annotation_page/{id}'
-    event['resource'] = '/annotation/{id}'
-    event['pathParameters'] = {"id": "1934.007.001%2F1934_007_001-v0002.tif"}
+    # event['resource'] = '/canvas/{id}'
+    # event['resource'] = '/annotation_page/{id}'
+    # event['resource'] = '/annotation/{id}'
+    # event['pathParameters'] = {"id": "1934.007.001%2F1934_007_001-v0002.tif"}
 
-    print(run(event, {}))
+    run(event, {})

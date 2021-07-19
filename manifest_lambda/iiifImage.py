@@ -25,7 +25,7 @@ class iiifImage():
             return False
         if self.standard_json.get('defaultFilePath', '').endswith('.pdf'):
             return False
-        if self.standard_json.get('defaultFile', {}).get('id', '').endswith('.pdf'):
+        if self.standard_json.get('defaultImage', {}).get('id', '').endswith('.pdf'):
             return False
         return True
 
