@@ -10,6 +10,8 @@ from manifest_lambda.get_iiif_manifest_provider import _hesb_proivider, _archive
 
 current_path = str(Path(__file__).parent.absolute())
 
+media_extensions_list = ['.mp3', '.mp4', '.pdf', '.wav']
+
 
 class Test(unittest.TestCase):
     def setUp(self):
@@ -19,7 +21,7 @@ class Test(unittest.TestCase):
             self.standard_json = json.load(input_source)
         self.iiif_base_url = 'https://my.base.url'
         self.mapping_template = MetadataMappings(self.standard_json.get('sourceSystem', 'aleph')).standard_json_mapping
-        self.iiif_manifest_class = iiifManifest(self.iiif_base_url, self.standard_json, self.mapping_template)
+        self.iiif_manifest_class = iiifManifest(self.iiif_base_url, self.standard_json, self.mapping_template, media_extensions_list)
 
     def test_metadata_keys_that_have_top_level_values(self):
         """ test_metadata_keys_that_have_top_level_values """

@@ -7,6 +7,8 @@ from iiifImage import iiifImage
 
 current_path = str(Path(__file__).parent.absolute())
 
+media_extensions_list = ['.mp3', '.mp4', '.pdf', '.wav']
+
 
 class Test(unittest.TestCase):
     def setUp(self):
@@ -23,7 +25,7 @@ class Test(unittest.TestCase):
             "mediaResourceId": "1934.007.001%2F1934_007_001-v0003",
             "mediaServer": "https://image-iiif-testlib.libraries.nd.edu/iiif/2"
         }
-        iiif_image_class = iiifImage(sample_files_json, self.iiif_base_url)
+        iiif_image_class = iiifImage(sample_files_json, self.iiif_base_url, media_extensions_list)
         self.assertTrue(iiif_image_class.is_image())
 
     def test_is_image_pdf(self):
@@ -33,7 +35,7 @@ class Test(unittest.TestCase):
             "mediaResourceId": "1934.007.001%2F1934_007_001-v0003",
             "mediaServer": "https://image-iiif-testlib.libraries.nd.edu/iiif/2"
         }
-        iiif_image_class = iiifImage(sample_files_json, self.iiif_base_url)
+        iiif_image_class = iiifImage(sample_files_json, self.iiif_base_url, media_extensions_list)
         self.assertFalse(iiif_image_class.is_image())
 
     def test_is_image_mimeType(self):
@@ -44,7 +46,7 @@ class Test(unittest.TestCase):
             "mediaServer": "https://image-iiif-testlib.libraries.nd.edu/iiif/2",
             "mimeType": "application/pdf"
         }
-        iiif_image_class = iiifImage(sample_files_json, self.iiif_base_url)
+        iiif_image_class = iiifImage(sample_files_json, self.iiif_base_url, media_extensions_list)
         self.assertFalse(iiif_image_class.is_image())
 
     def test_other_things(self):
@@ -54,7 +56,7 @@ class Test(unittest.TestCase):
             "mediaResourceId": "1934.007.001%2F1934_007_001-v0003",
             "mediaServer": "https://image-iiif-testlib.libraries.nd.edu/iiif/2"
         }
-        iiif_image_class = iiifImage(sample_files_json, self.iiif_base_url)
+        iiif_image_class = iiifImage(sample_files_json, self.iiif_base_url, media_extensions_list)
         actual_thumbnail_results = iiif_image_class.thumbnail()
         expected_thumbnail_results = {
             'id': 'https://image-iiif-testlib.libraries.nd.edu/iiif/2/1934.007.001%2F1934_007_001-v0003/full/250,/0/default.jpg',
