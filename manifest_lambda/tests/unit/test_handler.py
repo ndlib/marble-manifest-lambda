@@ -5,6 +5,8 @@ from pathlib import Path
 from manifest_lambda.handler import get_manifest, _get_graphql_api_url_key_path, _get_graphql_api_key_key_path, _get_iiif_api_base_url, \
     _get_resource, _get_id
 
+media_extensions_list = ['.mp3', '.mp4', '.pdf', '.wav']
+
 
 class Test(unittest.TestCase):
     def setUp(self):
@@ -51,7 +53,7 @@ class Test(unittest.TestCase):
             standard_json_file_name = os.path.join(current_path, '..', one_id + '.standard.json')
             with open(standard_json_file_name, 'r') as input_source:
                 standard_json = json.load(input_source)
-            manifest_json = get_manifest(one_id, standard_json, self.iiif_base_url)
+            manifest_json = get_manifest(one_id, standard_json, self.iiif_base_url, media_extensions_list)
             # actual_manifest_json_file_name = os.path.join(current_path, '..', one_id + '.actual.manifest.json')
             # with open(actual_manifest_json_file_name, 'w') as output_file:
             #     json.dump(manifest_json, output_file, indent=2)

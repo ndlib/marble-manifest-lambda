@@ -6,7 +6,7 @@ from iiifManifest import iiifManifest
 from MetadataMappings import MetadataMappings
 import sentry_sdk
 from sentry_sdk.integrations.aws_lambda import AwsLambdaIntegration
-from graphql import query_appsync, build_manifest_query, build_image_query
+from graphql import query_appsync, build_manifest_query, build_image_query, build_media_query
 import json
 
 
@@ -17,13 +17,14 @@ if 'SENTRY_DSN' in os.environ:
     )
 
 
-def run(event, context):
+def run(event, context):  # noqa: C901
     graphql_url = _get_ssm_parameter(_get_graphql_api_url_key_path())
     graphql_key = _get_ssm_parameter(_get_graphql_api_key_key_path())
     iiif_base_url = _get_iiif_api_base_url()
     resource = _get_resource(event)
     id = _get_id(event)
     manifest_json = {}
+    media_extensions_list = ['.mp3', '.mp4', '.pdf', '.wav']
 
     if graphql_url and graphql_key and iiif_base_url and resource and id:
         try:
@@ -31,16 +32,9 @@ def run(event, context):
                 standard_json = query_appsync(graphql_url, graphql_key, build_manifest_query(id)).get('data', {}).get('getItem')
                 if standard_json.get('id') is None:
                     standard_json = {}
-                manifest_json = get_manifest(id, standard_json, iiif_base_url)
+                manifest_json = get_manifest(id, standard_json, iiif_base_url, media_extensions_list)
             elif resource in ('canvas', 'annotation_page', 'annotation'):  # This assumes the canvas is named with the full file id, including extension
-                standard_json = query_appsync(graphql_url, graphql_key, build_image_query(id)).get('data', {}).get('getImage')
-                if standard_json.get('id') is None:
-                    standard_json = {}
-                manifest_json = get_manifest(id, standard_json, iiif_base_url)
-                if resource in ('annotation_page', 'annotation'):  # This assumes one annotation_page per canvas
-                    manifest_json = manifest_json.get('items')[0]
-                    if resource in ('annotation'):  # This assumes one annotation per annoation_page
-                        manifest_json = manifest_json.get('items')[0]
+                manifest_json = get_canvas(resource, id, graphql_url, graphql_key, iiif_base_url, media_extensions_list)
         except Exception as err:
             sentry_sdk.capture_exception(err)
             print("error on {}".format(id))
@@ -55,6 +49,31 @@ def run(event, context):
     #     json.dump(manifest_json, output_file, indent=2)
 
     return build_http_results(manifest_json)
+
+
+def get_canvas(resource: str, id: str, graphql_url: str, graphql_key: str, iiif_base_url: str, media_extensions_list: list) -> dict:
+    manifest_json = {}
+    try:
+        _file_name, file_extension = os.path.splitext(id)
+        if file_extension.lower() in ('.mp3', '.mp4', '.pdf', '.wav'):
+            standard_json = query_appsync(graphql_url, graphql_key, build_media_query(id)).get('data', {}).get('getMedia')
+        else:
+            standard_json = query_appsync(graphql_url, graphql_key, build_image_query(id)).get('data', {}).get('getImage')
+        if not standard_json:
+            return {}
+        if standard_json.get('id') is None:
+            return {}
+        manifest_json = get_manifest(id, standard_json, iiif_base_url, media_extensions_list)
+        if resource in ('annotation_page', 'annotation'):  # This returns the first annotation_page per canvas
+            manifest_json = manifest_json.get('items')[0]
+            if resource in ('annotation'):  # This returns the first annotation per annoation_page
+                manifest_json = manifest_json.get('items')[0]
+    except Exception as err:
+        sentry_sdk.capture_exception(err)
+        print("error on {}".format(id))
+        print("Error: {}".format(err))
+        manifest_json = {}
+    return manifest_json
 
 
 def _get_graphql_api_url_key_path() -> str:
@@ -88,11 +107,11 @@ def build_http_results(manifest_json: dict) -> dict:
     }
 
 
-def get_manifest(id: str, standard_json: dict, iiif_base_url: str):
+def get_manifest(id: str, standard_json: dict, iiif_base_url: str, media_extensions_list: str) -> dict:
     manifest = {}
     if standard_json and iiif_base_url:
         mapping_template = MetadataMappings(standard_json.get('sourceSystem', 'aleph')).standard_json_mapping
-        iiif = iiifManifest(iiif_base_url, standard_json, mapping_template)
+        iiif = iiifManifest(iiif_base_url, standard_json, mapping_template, media_extensions_list)
         manifest = iiif.manifest()
     return manifest
 
@@ -138,6 +157,6 @@ def test():
     # event['resource'] = '/canvas/{id}'
     # event['resource'] = '/annotation_page/{id}'
     # event['resource'] = '/annotation/{id}'
-    # event['pathParameters'] = {"id": "1934.007.001%2F1934_007_001-v0002.tif"}
+    # event['pathParameters'] = {"id": "public-access%2Fmedia%2FAleph%2FBOO_005065260%2FBOO_00506526001-0001.wav"}
 
     run(event, {})
