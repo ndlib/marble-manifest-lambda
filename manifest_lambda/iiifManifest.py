@@ -7,10 +7,11 @@ from iiifMedia import is_media, media_canvas
 
 
 class iiifManifest():
-    def __init__(self, iiif_base_url: str, standard_json: dict, mapping_template: dict):
+    def __init__(self, iiif_base_url: str, standard_json: dict, mapping_template: dict, media_extensions_list: list):
         self.iiif_base_url = iiif_base_url
         self.mapping_template = mapping_template
         self.standard_json = standard_json
+        self.media_extensions_list = media_extensions_list
         self.lang = 'en'
         self.type = self._schema_to_manifest_type()
         self.manifest_hash = {}
@@ -41,16 +42,15 @@ class iiifManifest():
 
         return ret
 
-    def thumbnail(self):
+    def thumbnail(self) -> dict:
         if self.standard_json.get('defaultImage', False):
-            return [iiifImage(self.standard_json.get('defaultImage'), self.iiif_base_url).thumbnail()]
+            return iiifImage(self.standard_json.get('defaultImage'), self.iiif_base_url, self.media_extensions_list).thumbnail()
         if self.type == 'Canvas':
-            return [iiifImage(self.standard_json, self.iiif_base_url).thumbnail()]
+            return iiifImage(self.standard_json, self.iiif_base_url, self.media_extensions_list).thumbnail()
         file_json = _search_for_default_image(self.standard_json)
         if file_json:
-            return [iiifImage(file_json, self.iiif_base_url).thumbnail()]
-
-        return []
+            return iiifImage(file_json, self.iiif_base_url, self.media_extensions_list).thumbnail()
+        return {}
 
     def _build_mainfest(self):  # noqa: C901
         label_contents = self.standard_json.get('title')
@@ -63,8 +63,9 @@ class iiifManifest():
         }
         if self.type in ('Manifest', 'Collection'):
             self.manifest_hash['viewingDirection'] = 'left-to-right'
-        if self.thumbnail():
-            self.manifest_hash['thumbnail'] = self.thumbnail()
+        thumbnail = self.thumbnail()
+        if thumbnail:
+            self.manifest_hash['thumbnail'] = [thumbnail]
         pdf_rendering = return_pdf_rendering(self.standard_json)
         if pdf_rendering:
             self.manifest_hash["rendering"] = pdf_rendering
@@ -98,7 +99,7 @@ class iiifManifest():
         if len(metadata) > 0:
             self.manifest_hash['metadata'] = metadata
 
-    def _items(self):
+    def _items(self):  # noqa: C901
         ret = []
         if self.type == 'Canvas':
             if is_media(self.standard_json):
@@ -106,7 +107,7 @@ class iiifManifest():
                 if media_canvas_results:
                     ret.append(media_canvas_results)
             else:
-                image = iiifImage(self.standard_json, self.iiif_base_url)
+                image = iiifImage(self.standard_json, self.iiif_base_url, self.media_extensions_list)
                 ret.append({
                     'id': _annotation_page_id(self.iiif_base_url, self.standard_json.get('id')),
                     'type': 'AnnotationPage',
@@ -117,14 +118,14 @@ class iiifManifest():
         else:
             for item_data in self.standard_json.get("children", {}).get("items", []):
                 if not _item_has_pdf(item_data):
-                    ret.append(iiifManifest(self.iiif_base_url, item_data, self.mapping_template).manifest())
+                    ret.append(iiifManifest(self.iiif_base_url, item_data, self.mapping_template, self.media_extensions_list).manifest())
             if self.type != "Collection":  # A collection must only contain manifests as items
                 for file_data in self.standard_json.get("images", {}).get("items", []):
                     if not _item_has_pdf(file_data):
-                        ret.append(iiifManifest(self.iiif_base_url, file_data, self.mapping_template).manifest())
+                        ret.append(iiifManifest(self.iiif_base_url, file_data, self.mapping_template, self.media_extensions_list).manifest())
                 for file_data in self.standard_json.get("media", {}).get("items", []):
                     if not _item_has_pdf(file_data):
-                        ret.append(iiifManifest(self.iiif_base_url, file_data, self.mapping_template).manifest())
+                        ret.append(iiifManifest(self.iiif_base_url, file_data, self.mapping_template, self.media_extensions_list).manifest())
 
         return ret
 
