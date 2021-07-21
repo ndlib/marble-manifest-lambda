@@ -3,7 +3,7 @@ import re
 from iiifImage import iiifImage
 from get_iiif_manifest_provider import return_provider
 from get_iiif_manifest_pdf_rendering_section import return_pdf_rendering
-from iiifMedia import is_media, media_canvas
+from iiifMedia import is_media, media_annotation_page, is_audio
 
 
 class iiifManifest():
@@ -89,7 +89,7 @@ class iiifManifest():
         summary = _return_summary(self.lang, self.standard_json.get('description'))
         if summary:
             self.manifest_hash['summary'] = summary
-        if self.type == 'Canvas':  # Unconditionally add height and width to Canvas for Mirador to work (we don't have height or width in standard json yet)
+        if self.type == 'Canvas' and not is_audio(self.standard_json):  # Add height and width to Canvas for Mirador to work except for Audio
             self.manifest_hash['height'] = self.standard_json.get('height', 2000)
             self.manifest_hash['width'] = self.standard_json.get('width', 2000)
 
@@ -103,9 +103,10 @@ class iiifManifest():
         ret = []
         if self.type == 'Canvas':
             if is_media(self.standard_json):
-                media_canvas_results = media_canvas(self.iiif_base_url, self.standard_json)
-                if media_canvas_results:
-                    ret.append(media_canvas_results)
+                # media_canvas_results = media_canvas(self.iiif_base_url, self.standard_json)
+                media_annotation_page_results = media_annotation_page(self.iiif_base_url, self.standard_json)
+                if media_annotation_page_results:
+                    ret.append(media_annotation_page_results)
             else:
                 image = iiifImage(self.standard_json, self.iiif_base_url, self.media_extensions_list)
                 ret.append({

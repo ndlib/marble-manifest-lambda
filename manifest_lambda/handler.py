@@ -45,8 +45,9 @@ def run(event, context):  # noqa: C901
         print("resource =", resource)
         print("id =", id)
 
-    # with open('manifest.json', 'w') as output_file:
-    #     json.dump(manifest_json, output_file, indent=2)
+    if event.get('local', False) and event.get('saveManifestLocally', False):
+        with open('manifest.json', 'w') as output_file:
+            json.dump(manifest_json, output_file, indent=2)
 
     return build_http_results(manifest_json)
 
@@ -144,6 +145,8 @@ def _get_ssm_parameter(name: str) -> str:
 
 def test():
     event = {}
+    event['local'] = True
+    event['saveManifestLocally'] = True
     event['resource'] = '/manifest/{id}'
     event['pathParameters'] = {"id": "BPP1001_EAD"}
     # event['id'] = 'MSNEa8006_EAD'
