@@ -3,7 +3,7 @@ import re
 from iiifImage import iiifImage
 from get_iiif_manifest_provider import return_provider
 from get_iiif_manifest_pdf_rendering_section import return_pdf_rendering
-from iiifMedia import is_media, media_annotation_page, is_audio
+from iiifMedia import is_media, media_annotation_page, is_audio, is_video
 
 
 class iiifManifest():
@@ -13,6 +13,7 @@ class iiifManifest():
         self.standard_json = standard_json
         self.media_extensions_list = media_extensions_list
         self.lang = 'en'
+        self.default_duration = 60.0
         self.type = self._schema_to_manifest_type()
         self.manifest_hash = {}
         self._build_mainfest()
@@ -92,6 +93,8 @@ class iiifManifest():
         if self.type == 'Canvas' and not is_audio(self.standard_json):  # Add height and width to Canvas for Mirador to work except for Audio
             self.manifest_hash['height'] = self.standard_json.get('height', 2000)
             self.manifest_hash['width'] = self.standard_json.get('width', 2000)
+        if self.type == 'Canvas' and (is_audio(self.standard_json) or is_video(self.standard_json)):  # Add duration to Canvas for Audio and Video
+            self.manifest_hash['duration'] = self.standard_json.get('duration', self.default_duration)
 
         self.add_pdf()
 
@@ -104,7 +107,7 @@ class iiifManifest():
         if self.type == 'Canvas':
             if is_media(self.standard_json):
                 # media_canvas_results = media_canvas(self.iiif_base_url, self.standard_json)
-                media_annotation_page_results = media_annotation_page(self.iiif_base_url, self.standard_json)
+                media_annotation_page_results = media_annotation_page(self.iiif_base_url, self.standard_json, self.default_duration)
                 if media_annotation_page_results:
                     ret.append(media_annotation_page_results)
             else:

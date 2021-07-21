@@ -19,31 +19,31 @@ def is_video(media_json: dict) -> bool:
     return False
 
 
-def media_annotation_page(iiif_base_url: str, media_json: dict) -> dict:
+def media_annotation_page(iiif_base_url: str, media_json: dict, default_duration: float) -> dict:
     return {
         'id': _annotation_page_id(iiif_base_url, media_json.get('id', '')),
         'type': 'AnnotationPage',
-        'items': [_annotation(iiif_base_url, media_json)]
+        'items': [_annotation(iiif_base_url, media_json, default_duration)]
     }
 
 
-def _annotation(iiif_base_url: str, media_json: dict,) -> dict:
+def _annotation(iiif_base_url: str, media_json: dict, default_duration: float) -> dict:
     return {
         'id': _annotation_id(iiif_base_url, media_json.get('id', '')),
         'type': 'Annotation',
         'motivation': 'painting',
         'target': _annotation_page_id(iiif_base_url, media_json.get('id', '')),
-        'body': _media(media_json)
+        'body': _media(media_json, default_duration)
     }
 
 
-def _media(media_json: dict) -> dict:
+def _media(media_json: dict, default_duration: float) -> dict:
     media_type = "Sound"
     if is_audio(media_json):
         media_type = 'Sound'
     elif is_video(media_json):
         media_type = "Video"
-    duration = media_json.get('duration', None)  # Presumably, we may be able to pull this from somewhere, or at least assume some default value.   Both Sound and Video appear to require "duration", even though the spec says it's optional.
+    duration = media_json.get('duration', default_duration)
     results = {
         'id': _media_url_id(media_json),
         'type': media_type,
@@ -51,6 +51,9 @@ def _media(media_json: dict) -> dict:
     }
     if duration:
         results['duration'] = duration
+    if media_type == 'Video':
+        results['height'] = media_json.get('height', 2000)
+        results['width'] = media_json.get('width', 2000)
     return results
 
 

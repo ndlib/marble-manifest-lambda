@@ -155,7 +155,7 @@ def test():
     # event['pathParameters']['id'] = 'pv63fx74g23'
     event['pathParameters']['id'] = 'aspace_8177830828c061f66a16bb593fa13af1'
     event['pathParameters']['id'] = '005065260'
-    # event['pathParameters']['id'] = '1934.007.001'
+    event['pathParameters']['id'] = '1934.007.001'
 
     # event['resource'] = '/canvas/{id}'
     # event['resource'] = '/annotation_page/{id}'
