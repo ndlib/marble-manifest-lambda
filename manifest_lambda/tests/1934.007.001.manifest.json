@@ -26,7 +26,7 @@
       "id": "iiif-manifest.test.edu/canvas/1934.007.001%2F1934_007_001-v0003.tif",
       "label": {
         "en": [
-          "1934.007.001/1934_007_001-v0003.tif"
+          "1934_007_001-v0003.tif"
         ]
       },
       "thumbnail": [
@@ -76,7 +76,7 @@
       "id": "iiif-manifest.test.edu/canvas/1934.007.001%2F1934_007_001-v0001.tif",
       "label": {
         "en": [
-          "1934.007.001/1934_007_001-v0001.tif"
+          "1934_007_001-v0001.tif"
         ]
       },
       "thumbnail": [
@@ -126,7 +126,7 @@
       "id": "iiif-manifest.test.edu/canvas/1934.007.001%2F1934_007_001-v0002.tif",
       "label": {
         "en": [
-          "1934.007.001/1934_007_001-v0002.tif"
+          "1934_007_001-v0002.tif"
         ]
       },
       "thumbnail": [

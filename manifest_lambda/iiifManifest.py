@@ -57,6 +57,10 @@ class iiifManifest():
         label_contents = self.standard_json.get('title')
         if not label_contents:  # file records do not have a title field
             label_contents = self.standard_json.get('id')
+            try:
+                label_contents = os.path.basename(label_contents)  # if the id is a filepath, extract just the filename
+            except Exception:
+                pass
         self.manifest_hash = {
             'type': self.type,
             'id': self._manifest_id(self.standard_json.get('id')),
