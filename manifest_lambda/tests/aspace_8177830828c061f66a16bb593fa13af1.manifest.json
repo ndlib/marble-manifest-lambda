@@ -26,7 +26,7 @@
       "id": "iiif-manifest.test.edu/canvas/collections%2Fead_xml%2Fimages%2FBPP_1001%2FBPP_1001-001-F2.tif",
       "label": {
         "en": [
-          "collections/ead_xml/images/BPP_1001/BPP_1001-001-F2.tif"
+          "BPP_1001-001-F2.tif"
         ]
       },
       "thumbnail": [
@@ -76,7 +76,7 @@
       "id": "iiif-manifest.test.edu/canvas/collections%2Fead_xml%2Fimages%2FBPP_1001%2FBPP_1001-001.tif",
       "label": {
         "en": [
-          "collections/ead_xml/images/BPP_1001/BPP_1001-001.tif"
+          "BPP_1001-001.tif"
         ]
       },
       "thumbnail": [
