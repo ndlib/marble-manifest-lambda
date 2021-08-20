@@ -16,24 +16,19 @@ if 'SENTRY_DSN' in os.environ:
 
 
 def run(event, context):
-
     status_code = 200  # default to Success
     results_json = {}
 
     graphql_url = _get_ssm_parameter(_get_graphql_api_url_key_path())
     graphql_key = _get_ssm_parameter(_get_graphql_api_key_key_path())
 
-    resource = _get_resource(event)
-    if resource not in ['query']:
-        status_code = 405  # Method not found
     id = _get_id(event)
-    if id not in ['listPublicPortfolioCollections', 'listHighlightedPortfolioCollections', 'listPublicFeaturedPortfolioCollections', 'getExposedPortfolioCollection']:
+    if id not in ['listPublicPortfolioCollections', 'listHighlightedPortfolioCollections', 'listPublicFeaturedPortfolioCollections', 'getPortfolioCollection', 'getPortfolioUser']:
         status_code = 405  # Method not found
     query = event.get('body')
-    if graphql_url and graphql_key and resource and id and query:
+    if graphql_url and graphql_key and id and query:
         try:
-            results = query_appsync(graphql_url, graphql_key, query)
-            results_json = results.get('data', {}).get(id)
+            results_json = query_appsync(graphql_url, graphql_key, query)
         except Exception as err:
             print("error on {}".format(id))
             print("Error: {}".format(err))
@@ -41,7 +36,6 @@ def run(event, context):
     else:
         print("unable to call AppSync, we're missing key information.")
         print("graphql_url =", graphql_url)
-        print("resource =", resource)
         print("id =", id)
         if not graphql_key:
             print("missing graphql_key")
@@ -49,6 +43,7 @@ def run(event, context):
     # if results_json:
     #     with open('results_json.json', 'w') as output_file:
     #         json.dump(results_json, output_file, indent=2)
+    print("got to res", results_json)
 
     return build_http_results(results_json, status_code)
 
@@ -95,15 +90,11 @@ def _get_ssm_parameter(name: str) -> str:
 
 
 def query_appsync(graphql_api_url: str, graphql_api_key: str, query: str):
-    if not query.startswith('query'):
-        query = 'query MyQuery {' + str(query) + '}'
-    data = json.dumps({"query": query})
-
     r = request.Request(
         headers={"x-api-key": graphql_api_key},
         url=graphql_api_url,
         method="POST",
-        data=data.encode("utf8")
+        data=query.encode("utf8")
     )
     try:
         response = request.urlopen(r).read()
