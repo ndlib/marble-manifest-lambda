@@ -128,3 +128,5 @@ dmypy.json
 .pyre/
 
 dependencies/
+
+*.actual.manifest.json
