@@ -43,6 +43,7 @@ def build_manifest_query(id):
                 mimeType
             }
             description
+            digitizationSource
             dimensions
             format
             id
