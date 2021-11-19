@@ -6,7 +6,7 @@ def return_provider(repository: str, level: str) -> dict:
         return _snite_proivider()
     elif (repository == 'unda'):
         return _archives_proivider()
-    elif (repository == 'rare' or repository == 'curate'):
+    elif (repository == 'rare' or repository == 'curate' or repository == 'archt'):
         return _rbsc_proivider()
     elif (repository == 'hesb'):
         return _hesb_proivider()
