@@ -81,6 +81,8 @@ def build_manifest_query(id):
                     mediaResourceId
                     mediaServer
                     mimeType
+                    width
+                    height
                 }
             }
             media {
@@ -105,6 +107,8 @@ def build_image_query(id):
             mediaResourceId
             mediaServer
             mimeType
+            width
+            height
         }
     }
     '''
