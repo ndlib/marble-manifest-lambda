@@ -162,5 +162,6 @@ def test():
     # event['resource'] = '/annotation_page/{id}'
     # event['resource'] = '/annotation/{id}'
     # event['pathParameters'] = {"id": "public-access%2Fmedia%2FAleph%2FBOO_005065260%2FBOO_00506526001-0001.wav"}
+    event['pathParameters']['id'] = '004789783'
 
     run(event, {})

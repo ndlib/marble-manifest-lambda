@@ -97,6 +97,10 @@ class iiifManifest():
         if self.type == 'Canvas' and not is_audio(self.standard_json):  # Add height and width to Canvas for Mirador to work except for Audio
             self.manifest_hash['height'] = self.standard_json.get('height', 2000)
             self.manifest_hash['width'] = self.standard_json.get('width', 2000)
+            if self.manifest_hash['height'] is None or int(self.manifest_hash['height']) < 1:
+                self.manifest_hash['height'] = 2000
+            if self.manifest_hash['width'] is None or int(self.manifest_hash['width']) < 1:
+                self.manifest_hash['width'] = 2000
         if self.type == 'Canvas' and (is_audio(self.standard_json) or is_video(self.standard_json)):  # Add duration to Canvas for Audio and Video
             self.manifest_hash['duration'] = self.standard_json.get('duration', self.default_duration)
 
