@@ -21,7 +21,7 @@ class iiifImage():
 
     def is_image(self):
         mime_type = self.standard_json.get('mimeType', '')
-        if mime_type is None or 'pdf' in mime_type or 'audio' in mime_type or 'video' in mime_type:
+        if mime_type in ['pdf', 'audio', 'video', None]:
             return False
         if self._does_path_have_media_extension(self.standard_json.get('id', '')):
             print("id has media extension")
