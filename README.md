@@ -1,3 +1,6 @@
+# MARBLE-related
+# Archived 2023-05-12 sm
+
 # Marble Manifest Lambda
 
 ## This creates a lambda that will create pieces of a iiif Manifest on-the-fly from metadata stored in AppSync
